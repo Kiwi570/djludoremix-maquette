@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#07070b">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -128,29 +128,37 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
   <ul class="index-liste conteneur" data-effet="index-occasions" data-visuel><li style="--i:0">Anniversaires</li><li style="--i:1">Mariages</li><li style="--i:2">Cousinades</li><li style="--i:3">Garden parties</li><li style="--i:4">Communions</li><li style="--i:5">Départs en retraite</li><li style="--i:6">Fêtes votives</li><li style="--i:7">Bals</li><li style="--i:8">Kermesses</li><li style="--i:9">Arbres de Noël</li><li style="--i:10">Bodegas</li><li style="--i:11">Soirées de camping</li><li style="--i:12">Séminaires</li><li style="--i:13">Soirées de gala</li><li style="--i:14">Inaugurations</li><li style="--i:15">Soirées de bar</li><li style="--i:16">Conventions</li><li style="--i:17">Présentations de produits</li></ul>
 </section>
-<section class="concept concept--bodega" id="bodega" data-teinte="#ffb43a">
-  <figure class="media concept-fond" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/soirees-bodega-1280.webp" srcset="/assets/images/grok/soirees-bodega-640.webp 640w, /assets/images/grok/soirees-bodega-1280.webp 1280w, /assets/images/grok/soirees-bodega-1920.webp 1920w" sizes="100vw" alt="Rue de fête du Sud la nuit, lumière rouge et or" width="1280" height="853" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
-  <div class="concept-texte conteneur">
-    <p class="surtitre">Concept maison</p>
-    <h2 class="concept-titre" data-anime="lettres">Total Bodega</h2>
-    <p data-anime>L&#39;ambiance des ferias : rythmes latins, cuivres et sons Bodega Feria, que Ludo a mixés en résident dès 2011.</p>
+<section class="concepts conteneur" id="concepts">
+  <div class="tete-section">
+    <h2 data-anime="lignes">Deux concepts maison</h2>
+    <p data-anime>Deux soirées à thème que Ludo a créées et qu&#39;il installe chez vous, de la musique à la lumière.</p>
   </div>
-</section>
-<section class="concept concept--kitsch" id="kitsch" data-teinte="#ff3fae">
-  <figure class="media concept-fond" data-grok style="--cadrage:50% 50%">
+  <div class="concepts-volets">
+    <article class="concept concept--bodega" id="bodega" data-teinte="#ffb43a" tabindex="-1">
+      <figure class="media concept-fond" data-grok style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/grok/soirees-kitsch-1280.webp" srcset="/assets/images/grok/soirees-kitsch-640.webp 640w, /assets/images/grok/soirees-kitsch-1280.webp 1280w, /assets/images/grok/soirees-kitsch-1920.webp 1920w" sizes="100vw" alt="Boule à facettes et reflets roses dans le brouillard" width="1280" height="853" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/soirees-bodega-1280.webp" srcset="/assets/images/grok/soirees-bodega-640.webp 640w, /assets/images/grok/soirees-bodega-1280.webp 1280w, /assets/images/grok/soirees-bodega-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" alt="Rue de fête du Sud la nuit, lumière rouge et or" width="1280" height="853" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
-  <canvas class="eclats" data-effet="eclats" aria-hidden="true"></canvas>
-  <div class="concept-texte conteneur">
-    <p class="surtitre">Concept maison</p>
-    <h2 class="concept-titre concept-titre--neon" data-anime="lettres">Kitsch Party</h2>
-    <p data-anime>La variété française des années 80 et 90, celle que toute la salle chante, sous la boule à facettes.</p>
+      <div class="concept-texte">
+        <p class="surtitre">Concept maison</p>
+        <h3 class="concept-titre" data-anime="lettres">Total Bodega</h3>
+        <p data-anime>L&#39;ambiance des ferias : rythmes latins, cuivres et sons Bodega Feria, que Ludo a mixés en résident dès 2011.</p>
+      </div>
+    </article>
+    <article class="concept concept--kitsch" id="kitsch" data-teinte="#ff3fae" tabindex="-1">
+      <figure class="media concept-fond" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/soirees-kitsch-1280.webp" srcset="/assets/images/grok/soirees-kitsch-640.webp 640w, /assets/images/grok/soirees-kitsch-1280.webp 1280w, /assets/images/grok/soirees-kitsch-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" alt="Boule à facettes et reflets roses dans le brouillard" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <canvas class="eclats" data-effet="eclats" aria-hidden="true"></canvas>
+      <div class="concept-texte">
+        <p class="surtitre">Concept maison</p>
+        <h3 class="concept-titre concept-titre--neon" data-anime="lettres">Kitsch Party</h3>
+        <p data-anime>La variété française des années 80 et 90, celle que toute la salle chante, sous la boule à facettes.</p>
+      </div>
+    </article>
   </div>
 </section>
 <section class="publics conteneur" id="publics">

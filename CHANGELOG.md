@@ -1,5 +1,8 @@
 # Journal des versions
 
+## v2.1 · 16 novembre 2026 · Soirées sans deux plein écran à la suite
+- Total Bodega et Kitsch Party ne sont plus deux images plein écran l'une après l'autre. Ils forment un diptyque « Deux concepts maison » : deux volets côte à côte, arrondis, et celui qu'on survole s'élargit. Sur téléphone, les volets s'empilent.
+
 ## v2 · 16 novembre 2026 · une signature par page
 - **Formules** :
   - l'ouverture devient un VU-mètre géant. Cinq colonnes de LED montent jusqu'au prix de chaque formule et vivent ensuite comme sur une table de mixage ;

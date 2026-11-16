@@ -2,7 +2,7 @@
   "nom": "DJ Ludo Remix",
   "adresse": "https://djludoremix-maquette.vercel.app",
   "siteActuel": "djludoremix.fr",
-  "version": 2,
+  "version": 3,
   "langues": ["fr"],
   "navigation": ["accueil", "soirees", "formules", "ludo", "contact"],
   "actionEntete": { "page": "contact", "ancre": "devis" },

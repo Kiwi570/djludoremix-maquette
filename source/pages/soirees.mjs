@@ -27,22 +27,29 @@ export default (c) => html`
   <ul class="index-liste conteneur" data-effet="index-occasions" data-visuel>${OCCASIONS.map((o, i) => html`<li style="--i:${i}">${o}</li>`)}</ul>
 </section>
 
-<section class="concept concept--bodega" id="bodega" data-teinte="#ffb43a">
-  ${c.media({ nom: 'grok/soirees-bodega', alt: c.s('soirees.bodega.alt'), classe: 'concept-fond', sizes: '100vw', attrs: 'data-fx="parallaxe"' })}
-  <div class="concept-texte conteneur">
-    <p class="surtitre">${c.t('soirees.bodega.sur')}</p>
-    <h2 class="concept-titre" data-anime="lettres">${c.t('soirees.bodega.titre')}</h2>
-    <p data-anime>${c.t('soirees.bodega.texte')}</p>
+<section class="concepts conteneur" id="concepts">
+  <div class="tete-section">
+    <h2 data-anime="lignes">${c.t('soirees.concepts.titre')}</h2>
+    <p data-anime>${c.t('soirees.concepts.texte')}</p>
   </div>
-</section>
-
-<section class="concept concept--kitsch" id="kitsch" data-teinte="#ff3fae">
-  ${c.media({ nom: 'grok/soirees-kitsch', alt: c.s('soirees.kitsch.alt'), classe: 'concept-fond', sizes: '100vw' })}
-  <canvas class="eclats" data-effet="eclats" aria-hidden="true"></canvas>
-  <div class="concept-texte conteneur">
-    <p class="surtitre">${c.t('soirees.kitsch.sur')}</p>
-    <h2 class="concept-titre concept-titre--neon" data-anime="lettres">${c.t('soirees.kitsch.titre')}</h2>
-    <p data-anime>${c.t('soirees.kitsch.texte')}</p>
+  <div class="concepts-volets">
+    <article class="concept concept--bodega" id="bodega" data-teinte="#ffb43a" tabindex="-1">
+      ${c.media({ nom: 'grok/soirees-bodega', alt: c.s('soirees.bodega.alt'), classe: 'concept-fond', sizes: '(max-width: 760px) 100vw, 60vw' })}
+      <div class="concept-texte">
+        <p class="surtitre">${c.t('soirees.bodega.sur')}</p>
+        <h3 class="concept-titre" data-anime="lettres">${c.t('soirees.bodega.titre')}</h3>
+        <p data-anime>${c.t('soirees.bodega.texte')}</p>
+      </div>
+    </article>
+    <article class="concept concept--kitsch" id="kitsch" data-teinte="#ff3fae" tabindex="-1">
+      ${c.media({ nom: 'grok/soirees-kitsch', alt: c.s('soirees.kitsch.alt'), classe: 'concept-fond', sizes: '(max-width: 760px) 100vw, 60vw' })}
+      <canvas class="eclats" data-effet="eclats" aria-hidden="true"></canvas>
+      <div class="concept-texte">
+        <p class="surtitre">${c.t('soirees.kitsch.sur')}</p>
+        <h3 class="concept-titre concept-titre--neon" data-anime="lettres">${c.t('soirees.kitsch.titre')}</h3>
+        <p data-anime>${c.t('soirees.kitsch.texte')}</p>
+      </div>
+    </article>
   </div>
 </section>
 

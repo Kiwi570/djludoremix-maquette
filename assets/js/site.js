@@ -2,8 +2,8 @@
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets posée par attributs.
    Effets du plan (data-effet) : faisceau, laser-titre, lumiere-change, pupitre-apercu, pupitre, rayon-50km,
    date-laser, eclats, index-occasions, gel-portrait, fil. */
-import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=2';
-import { init as initEtapes } from './modules/formulaire-par-etapes.js?v=2';
+import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=3';
+import { init as initEtapes } from './modules/formulaire-par-etapes.js?v=3';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;

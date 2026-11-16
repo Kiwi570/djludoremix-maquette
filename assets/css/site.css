@@ -1168,3 +1168,29 @@ h1 .hero-ligne + .hero-ligne { margin-top: 0; }
 @media (max-width: 760px) { .fil { right: 2px; width: 14px; } .fil-lyre { width: 14px; height: 18px; transform: translate3d(0, calc(var(--fil, 0) * (100cqh - 18px)), 0); } .fil-lyre::after { width: 36px; height: 50px; opacity: .4; } .fil-lentille { left: 2px; width: 10px; height: 4px; } .fil-pont { left: 6px; } }
 .mention-ia { background: rgba(7, 7, 11, .72); padding: 2px 8px; border-radius: 3px; color: #e8e2ec; }
 @media (max-width: 760px) { .scene .fader label { font-size: 13px !important; } }
+
+/* v2.1 · Soirées : les deux concepts en diptyque, plus deux images plein écran à la suite */
+.concepts { padding-block: clamp(64px, 9vw, 130px); }
+.concepts-volets { display: flex; gap: clamp(10px, 1.4vw, 18px); height: min(78svh, 760px); }
+.concepts .concept { position: relative; flex: 1; min-height: 0; min-width: 0; display: flex; align-items: flex-end; border-radius: 18px; overflow: hidden; isolation: isolate; transition: flex-grow .7s var(--courbe); box-shadow: 0 0 0 1px rgba(243, 238, 230, .1); }
+.concepts .concept:hover, .concepts .concept:focus-within { flex-grow: 1.55; }
+.concepts .concept-fond { position: absolute; inset: 0; z-index: -2; border-radius: 0; }
+.concepts .concept-fond img { transition: transform 1.2s var(--courbe); }
+.concepts .concept:hover .concept-fond img { transform: scale(1.05); }
+.concepts .concept::before { content: ""; position: absolute; inset: 0; z-index: -1; }
+.concepts .concept--bodega::before { background: linear-gradient(0deg, rgba(20, 6, 2, .95) 8%, rgba(20, 6, 2, .55) 45%, rgba(20, 6, 2, .1)); }
+.concepts .concept--kitsch::before { background: linear-gradient(0deg, rgba(18, 2, 22, .95) 8%, rgba(18, 2, 22, .55) 45%, rgba(18, 2, 22, .12)); }
+.concepts .concept-texte { width: 100%; padding: clamp(20px, 3vw, 44px); display: block; text-align: left; align-items: initial; }
+.concepts .concept--kitsch .surtitre { justify-content: flex-start; }
+.concepts .concept-titre { font-size: clamp(2.8rem, 5.4vw, 6rem); line-height: 1; margin: 0 0 12px; }
+.concepts .concept-texte > p:not(.surtitre) { max-width: 26em; margin: 0; font-size: clamp(1rem, 1.1vw, 1.15rem); }
+.concepts .eclats { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+.concepts .mention-ia { z-index: 2; }
+@media (max-width: 760px) {
+  .concepts-volets { flex-direction: column; height: auto; }
+  .concepts .concept { min-height: 62svh; }
+  .concepts .concept:hover, .concepts .concept:focus-within { flex-grow: 1; }
+  .concepts .concept-titre { font-size: clamp(2.6rem, 13vw, 3.6rem); }
+}
+@media (max-height: 600px) and (min-width: 761px) { .concepts-volets { height: calc(100svh - var(--entete-h) - 40px); } .concepts .concept-texte > p:not(.surtitre) { display: none; } }
+.concepts .concept-fond .mention-ia { top: 12px; right: 12px; bottom: auto; left: auto; }

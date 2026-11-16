@@ -167,6 +167,32 @@
         ]
       },
       "notes": "v2 : ouvertures et signatures propres à Formules (VU-mètre, salle épinglée), Ludo (lettres, frise sous la lyre, pile d'avis), Contact (numéro au laser, affiche), Soirées (boule 3D, place de village). Regard neuf v2 et test visiteur v2 : points corrigés."
+    },
+    {
+      "version": 3,
+      "skill": "v10.12.1",
+      "perimetre": [
+        "soirees"
+      ],
+      "etapes": [
+        {
+          "etape": "correction : les deux concepts de Soirées en diptyque",
+          "budget": 15,
+          "debut": "2026-11-16T17:52:00+01:00",
+          "fin": "2026-11-16T18:02:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 1,
+      "audit": {
+        "niveau": "rapide ciblé (/, /soirees)",
+        "echecsPremierPassage": 4,
+        "relances": 2,
+        "corrections": [
+          "mention Illustration générée posée en haut des volets",
+          "titres des volets recouverts par la photo"
+        ]
+      }
     }
   ]
 }

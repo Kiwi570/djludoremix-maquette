@@ -1,16 +1,13 @@
 {
- "id": "20261116-154305-complet-partiel",
- "date": "2026-11-16T15:48:52.149Z",
- "niveau": "complet",
- "pages": "toutes",
- "etapes": [
-  "mesures",
-  "ecran"
- ],
- "version": "2",
+ "id": "20261116-165824-rapide-cible",
+ "date": "2026-11-16T17:06:29.903Z",
+ "niveau": "rapide",
+ "pages": "/,/soirees",
+ "etapes": "toutes",
+ "version": "3",
  "echecs": 0,
- "aRegarder": 0,
- "nonLances": 0,
+ "aRegarder": 3,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

@@ -1,6 +1,6 @@
 /* Passerelle entre les modules de la bibliothèque et le socle de la maquette : GSAP et ScrollTrigger
    sont déjà chargés par la page ; les modules reçoivent les mêmes instances (jamais une seconde copie). */
-import { boucle, rafraichir } from '../socle/index.js?v=2';
+import { boucle, rafraichir } from '../socle/index.js?v=3';
 const s = {
   get gsap() { return window.gsap || null; },
   get ScrollTrigger() { return window.ScrollTrigger || null; },
