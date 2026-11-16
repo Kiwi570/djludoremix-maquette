@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#07070b">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -108,8 +108,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <main id="contenu" tabindex="-1">
 <section class="ouv-soirees" id="debut">
   <figure class="media ouv-soirees-fond" data-grok data-fx="zoom" style="--cadrage:50% 50%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/soirees-ouverture-mobile-640.webp 640w, /assets/images/grok/soirees-ouverture-mobile-1080.webp 1080w" sizes="100vw">
-    <img src="/assets/images/grok/soirees-ouverture-1280.webp" srcset="/assets/images/grok/soirees-ouverture-640.webp 640w, /assets/images/grok/soirees-ouverture-1280.webp 1280w, /assets/images/grok/soirees-ouverture-1920.webp 1920w" sizes="100vw" alt="Piste de danse en contre-jour sous les faisceaux laser" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/soirees-place-mobile-640.webp 640w, /assets/images/grok/soirees-place-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/soirees-place-1280.webp" srcset="/assets/images/grok/soirees-place-640.webp 640w, /assets/images/grok/soirees-place-1280.webp 1280w, /assets/images/grok/soirees-place-1920.webp 1920w" sizes="100vw" alt="Place de village un soir de fête votive, scène sous un auvent rayé et faisceaux violets dans le brouillard" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
   <div class="ouv-soirees-texte conteneur">
@@ -118,7 +118,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="masque-ecran-tres-bas" data-anime="gsap">Des anniversaires aux fêtes votives, du bar du vendredi au séminaire : Ludo adapte la musique, la lumière et le micro à votre public.</p>
     <p class="hero-actions" data-anime="gsap"><a href="/contact#devis" class="bouton" data-libelle="Contact" data-action-principale>Demander un devis →</a><span class="hero-info" data-info-cle>Réponse sous 48 h</span></p>
   </div>
-  <span class="ouv-soirees-boule" data-iris-centre="disque" aria-hidden="true"></span>
+  <canvas class="boule-scene" data-effet="boule-3d" aria-hidden="true"></canvas>
+  <span class="ouv-soirees-boule boule-place" data-iris-centre="disque" aria-hidden="true"></span>
 </section>
 <section class="index-occasions" id="occasions">
   <div class="conteneur tete-section">
@@ -222,10 +223,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <p class="pied-logo">DJ Ludo <b>Remix</b></p>
+      <p class="pied-logo"><span class="logo-lentille" aria-hidden="true"></span>DJ Ludo <b>Remix</b></p>
       <p>Basé à Pont-Saint-Esprit (Gard)<br>Gard · Vaucluse · Drôme · Ardèche · Lozère</p>
       <p><a class="pied-tel" href="tel:+33761596117">07 61 59 61 17</a></p>
-      <img class="pied-logo-image" src="/assets/images/logo-480.webp" alt="Logo actuel de DJ Ludo Remix" width="480" height="93" loading="lazy">
     </div>
     <nav aria-label="Sommaire">
       <p><strong>Sommaire</strong></p>

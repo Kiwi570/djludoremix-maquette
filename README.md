@@ -30,7 +30,7 @@ Retiré ou remplacé faute d'information : aucun avis inventé, aucun chiffre d'
 - Photo de Ludo sous le pont de scène en plein air : **Christophe Restivo** (signature recadrée).
 - Autres photos : archives DJ Ludo Remix (site actuel).
 - Badges Zankyou : repris du site actuel.
-- Illustrations générées par IA (Grok), marquées « Illustration générée » : ouvertures de Soirées et de Formules, salle du pupitre, Total Bodega, Kitsch Party, gala d'entreprise, ambiance UV, page 404. **Garder cette mention sur le site final.**
+- Illustrations générées par IA (Grok), marquées « Illustration générée » : ouverture de Soirées (place de village), salle des fêtes du pupitre de Formules, Total Bodega, Kitsch Party, gala d'entreprise, ambiance UV, page 404. **Garder cette mention sur le site final.**
 
 ## À retirer à la mise en ligne définitive
 - `noindex` (balise robots dans `source/gabarits/commun.mjs` et en-tête X-Robots-Tag dans `vercel.json`).

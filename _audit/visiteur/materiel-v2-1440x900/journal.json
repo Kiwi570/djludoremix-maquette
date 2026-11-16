@@ -1,0 +1,99 @@
+{
+ "mission": "materiel-v2",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.2,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 6390,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Demander un devis",
+    "07 61 59 61 17",
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "400 €",
+    "100 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 2",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 4.7,
+   "adresse": "/",
+   "y": 1530,
+   "hauteurPage": 6390,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "Demander un devis",
+    "07 61 59 61 17",
+    "Demander ce devis →",
+    "1er prix 400 €",
+    "Association 500 €",
+    "De base 550 €",
+    "BlackLight 700 €",
+    "Unlimited 1 250 €",
+    "Voir les formules"
+   ],
+   "prixVus": [
+    "550 €",
+    "100 €",
+    "400 €",
+    "500 €",
+    "700 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "550 €",
+    "100 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-1.png"
+  }
+ ]
+}

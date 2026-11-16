@@ -102,6 +102,71 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Accueil : REFAIRE 3,22 / 3,22 / 3,11 / 3,33 / 3,56, puis AJUSTER 4,00 au 6e regard, tous les points faits. Idée finale : une seule photo à la fois, douche de poursuite, coupes au stroboscope, pupitre posé sur la photo. Regard neuf (16/11) : points rapides corrigés ; signatures et ouvertures de Formules, Ludo, Contact, boule à facettes et images Grok d'ouverture reportées en v2 (CHANGELOG)."
+    },
+    {
+      "version": 2,
+      "skill": "v10.12.1",
+      "perimetre": [
+        "formules",
+        "ludo",
+        "contact",
+        "soirees",
+        "accueil (liste des prix)"
+      ],
+      "etapes": [
+        {
+          "etape": "plan v2 et document Grok",
+          "budget": 10,
+          "debut": "2026-11-16T15:10:00+01:00",
+          "fin": "2026-11-16T15:20:00+01:00"
+        },
+        {
+          "etape": "construction v2 : ouvertures et signatures",
+          "budget": 75,
+          "debut": "2026-11-16T15:20:00+01:00",
+          "fin": "2026-11-16T15:45:00+01:00"
+        },
+        {
+          "etape": "audit v2, regard neuf, test visiteur et corrections",
+          "budget": 30,
+          "debut": "2026-11-16T15:45:00+01:00",
+          "fin": "2026-11-16T16:12:00+01:00"
+        },
+        {
+          "etape": "images Grok v2, audit standard et formats, livraison",
+          "budget": 20,
+          "debut": "2026-11-16T16:23:00+01:00",
+          "fin": "2026-11-16T17:05:00+01:00"
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "validation du plan v2",
+          "debut": "2026-11-16T15:18:00+01:00",
+          "fin": "2026-11-16T15:20:00+01:00"
+        },
+        {
+          "pour": "images Grok v2 (place de village, salle des fêtes)",
+          "debut": "2026-11-16T16:12:00+01:00",
+          "fin": "2026-11-16T16:23:00+01:00"
+        }
+      ],
+      "allersRetours": 0,
+      "audit": {
+        "niveau": "standard + formats",
+        "echecsPremierPassage": 23,
+        "relances": 5,
+        "corrections": [
+          "sections sans visuel (Contact, livre d'or)",
+          "contraste du numéro et de l'affiche",
+          "textes coupés de la frise (piste marquée data-galerie)",
+          "lettres LUDO : premier écran sans JavaScript",
+          "barre basse opaque",
+          "état Association du pupitre",
+          "détail et heure en plus du pupitre sur téléphone"
+        ]
+      },
+      "notes": "v2 : ouvertures et signatures propres à Formules (VU-mètre, salle épinglée), Ludo (lettres, frise sous la lyre, pile d'avis), Contact (numéro au laser, affiche), Soirées (boule 3D, place de village). Regard neuf v2 et test visiteur v2 : points corrigés."
     }
   ]
 }

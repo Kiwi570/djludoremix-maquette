@@ -97,9 +97,9 @@
     },
     "formules": {
       "sur": "Les formules au pupitre",
-      "titre": "Cinq formules, cinq vrais prix",
+      "titre": "Les 5 formules, tout compris, déplacement à 50 km :",
       "texte": "Tout compris : son, lumière, laser, brouillard, et le déplacement à 50 km de Pont-Saint-Esprit. Touchez une formule pour la régler au pupitre.",
-      "action": "Composer ma soirée au pupitre",
+      "action": "Voir les formules",
       "uv": "Le projecteur UV de la formule BlackLight fait briller tout ce qui est blanc.",
       "alt": "Lumière ultraviolette et lasers au-dessus d'une piste",
       "heure": "heure supplémentaire : 100 €"
@@ -139,7 +139,7 @@
     "texte": "Des anniversaires aux fêtes votives, du bar du vendredi au séminaire : Ludo adapte la musique, la lumière et le micro à votre public.",
     "action": "Demander un devis",
     "info": "Réponse sous 48 h",
-    "alt": "Piste de danse en contre-jour sous les faisceaux laser",
+    "alt": "Place de village un soir de fête votive, scène sous un auvent rayé et faisceaux violets dans le brouillard",
     "index": {
       "titre": "On fête quoi ?",
       "texte": "Les occasions que Ludo anime, d'après son site."
@@ -178,8 +178,10 @@
     "sur": "Formules",
     "titre1": "Composez",
     "titre2": "votre lumière",
-    "texte": "Cinq formules tout compris, de 20 h jusqu'à la fin de la nuit, avec la nouvelle sono de 3 000 W prévue pour 500 personnes. Montez les faders du pupitre : la salle s'allume et la formule qui vous va s'affiche avec son prix.",
+    "texte": "Cinq formules tout compris, de 20 h jusqu'à 1 h, 2 h, 3 h, 5 h ou sans heure de fin, avec la nouvelle sono de 3 000 W prévue pour 500 personnes. Montez les faders du pupitre : la salle s'allume et la formule qui vous va s'affiche avec son prix.",
     "info": "de 400 à 1 250 €",
+    "vu": "Les cinq formules et leur prix, en colonnes de lumière",
+    "vuLegende": "Plus la colonne monte, plus la formule est complète. Touchez une colonne pour la régler au pupitre.",
     "action": "Aller au pupitre",
     "alt": "Pupitre lumière dans une salle plongée dans le brouillard",
     "pupitre": {
@@ -195,7 +197,7 @@
       "inclus": "Compris : son, lumière, brouillard, installation 1 h avant, déplacement à 50 km.",
       "sup": "dont heures supplémentaires",
       "demander": "Demander ce devis",
-      "alt": "Salle des fêtes vide, pont lumière et brouillard",
+      "alt": "Salle des fêtes de village la nuit, murs de pierre, charpente en bois, deux lyres et le coin du DJ",
       "region": "Pupitre lumière : faders des lyres, des lasers, de l'UV, du disco et de l'heure de fin"
     },
     "tableau": {
@@ -266,6 +268,7 @@
       "recommencer": "Nouvelle demande",
       "donnees": "Vos coordonnées servent seulement à répondre à votre demande."
     },
+    "affiche": { "region": "Votre soirée, telle que vous la décrivez", "sur": "DJ Ludo Remix présente", "type": "Votre soirée", "date": "La date", "lieu": "Le lieu", "invites": "Les invités", "formule": "La formule", "tampon": "Reçu" },
     "reseaux": "Suivre Ludo"
   },
   "introuvable": {

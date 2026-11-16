@@ -1,13 +1,13 @@
 {
- "id": "20261116-135306-complet-cible-partiel",
- "date": "2026-11-16T13:55:08.849Z",
+ "id": "20261116-154305-complet-partiel",
+ "date": "2026-11-16T15:48:52.149Z",
  "niveau": "complet",
- "pages": "/,/contact",
+ "pages": "toutes",
  "etapes": [
-  "fichiers",
-  "mesures"
+  "mesures",
+  "ecran"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
  "aRegarder": 0,
  "nonLances": 0,

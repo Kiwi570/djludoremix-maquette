@@ -1,0 +1,601 @@
+{
+ "mission": "materiel-v2",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.1,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7074,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Menu",
+    "Demander un devis",
+    "07 61 59 61 17"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 2",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5.5,
+   "adresse": "/",
+   "y": 1434,
+   "hauteurPage": 7074,
+   "titres": [
+    "h2 UNE PISTE, TROIS PUBLICS"
+   ],
+   "actions": [
+    "1er prix 400 €",
+    "Association 500 €",
+    "De base 550 €",
+    "BlackLight 700 €",
+    "Unlimited 1 250 €",
+    "Voir les formules"
+   ],
+   "prixVus": [
+    "550 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "1 250 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "550 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "cliquer De base",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 7.7,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 767,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Menu",
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 7.7,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 767,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Menu",
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-3.png"
+  },
+  {
+   "k": 4,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 8.9,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 1484,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 5,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 8.9,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 1484,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-5.png"
+  },
+  {
+   "k": 6,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 10.1,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 2201,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 7,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 10.1,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 2201,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-7.png"
+  },
+  {
+   "k": 8,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 11.3,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 2918,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 9,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 11.3,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 2918,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-9.png"
+  },
+  {
+   "k": 10,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 12.5,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 3635,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 11,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 12.5,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 3635,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LE PUPITRE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-11.png"
+  },
+  {
+   "k": 12,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 13.6,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 4352,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LES CINQ FORMULES CÔTE À CÔTE",
+    "h3 1ER PRIX",
+    "h3 ASSOCIATION"
+   ],
+   "actions": [
+    "Choisir 1er prix",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "400 €",
+    "100 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 13,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 13.6,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 4352,
+   "hauteurPage": 9098,
+   "titres": [
+    "h2 LES CINQ FORMULES CÔTE À CÔTE",
+    "h3 1ER PRIX",
+    "h3 ASSOCIATION"
+   ],
+   "actions": [
+    "Choisir 1er prix",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "400 €",
+    "100 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-13.png"
+  },
+  {
+   "k": 14,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 14.8,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 5069,
+   "hauteurPage": 9098,
+   "titres": [
+    "h3 ASSOCIATION",
+    "h3 DE BASE"
+   ],
+   "actions": [
+    "Choisir Association",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "500 €",
+    "100 €",
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 15,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 14.8,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 5069,
+   "hauteurPage": 9098,
+   "titres": [
+    "h3 ASSOCIATION",
+    "h3 DE BASE"
+   ],
+   "actions": [
+    "Choisir Association",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "500 €",
+    "100 €",
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-15.png"
+  },
+  {
+   "k": 16,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 16,
+   "adresse": "/formules?formule=de-base#pupitre",
+   "y": 5786,
+   "hauteurPage": 9098,
+   "titres": [
+    "h3 BLACKLIGHT"
+   ],
+   "actions": [
+    "Choisir De base",
+    "Choisir BlackLight",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "100 €",
+    "700 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-16.png"
+  }
+ ]
+}

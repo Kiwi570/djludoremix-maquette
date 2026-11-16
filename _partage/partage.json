@@ -82,13 +82,13 @@
       "langue": "fr",
       "fichier": "assets/partage/formules-fr.jpg",
       "gabarit": "droite",
-      "image": "grok/formules-ouverture-1280.webp",
-      "poids": 58573,
+      "image": "grok/formules-salle-des-fetes-1280.webp",
+      "poids": 55847,
       "sujet": {
         "x": 600,
-        "y": 35,
+        "y": 115,
         "l": 600,
-        "h": 525
+        "h": 458
       },
       "textes": [
         {
@@ -117,12 +117,12 @@
       "langue": "fr",
       "fichier": "assets/partage/ludo-fr.jpg",
       "gabarit": "droite",
-      "image": "ludo-ouverture-784.webp",
-      "poids": 42556,
+      "image": "accueil-console-1280.webp",
+      "poids": 37214,
       "sujet": {
-        "x": 775,
+        "x": 600,
         "y": 0,
-        "l": 400,
+        "l": 600,
         "h": 630
       },
       "textes": [
@@ -143,12 +143,6 @@
           "y": 543,
           "l": 480,
           "h": 35
-        },
-        {
-          "x": 600,
-          "y": 0,
-          "l": 90,
-          "h": 630
         }
       ],
       "recouvrement": 0
@@ -158,13 +152,13 @@
       "langue": "fr",
       "fichier": "assets/partage/soirees-fr.jpg",
       "gabarit": "droite",
-      "image": "grok/soirees-ouverture-1280.webp",
-      "poids": 58781,
+      "image": "grok/soirees-place-1280.webp",
+      "poids": 87082,
       "sujet": {
         "x": 600,
-        "y": 0,
+        "y": 35,
         "l": 600,
-        "h": 630
+        "h": 560
       },
       "textes": [
         {

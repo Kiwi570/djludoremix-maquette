@@ -1,37 +1,44 @@
-/* Formules : ouverture compacte scindée (le prix en très grand, le pupitre en photo), puis le pupitre lumière :
-   on monte les faders, la salle s'allume et la formule se choisit avec son vrai prix (data-effet="pupitre"). */
+/* Formules : ouverture en VU-mètre géant (cinq colonnes de LED montent jusqu'au prix de chaque formule), puis la salle
+   en plein écran, épinglée : le défilement monte les faders de 1er prix à Unlimited, la main les reprend (data-effet="pupitre"). */
 import { html, brut } from '../../outils/gabarit.mjs';
 import { lumieresSalle, tablePupitre } from '../gabarits/pupitre.mjs';
 
-export const page = { cle: 'formules', fichier: 'formules', imagePartage: 'grok/formules-ouverture-1280.webp' };
+export const page = { cle: 'formules', fichier: 'formules', imagePartage: 'grok/formules-salle-des-fetes-1280.webp' };
 
+const SEGMENTS = 18;
 const euros = (n) => new Intl.NumberFormat('fr-FR').format(n).replace(/[  ]/g, ' ') + ' €';
 
 export default (c) => html`
-<section class="ouv-formules conteneur" id="debut">
-  <div class="ouv-formules-texte">
+<section class="ouv-vu" id="debut" data-effet="vu-metre">
+  <div class="ouv-vu-tete conteneur">
     <p class="surtitre" data-anime="gsap">${c.t('formules.sur')}</p>
     <h1 data-grille="typo"><span class="hero-ligne" data-anime="gsap">${c.t('formules.titre1')}</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="${c.s('formules.titre2')}">${c.t('formules.titre2')}</span></h1>
-    <p class="ouv-formules-prix" data-info-cle data-anime="gsap"><span data-prix>${c.t('formules.info')}</span></p>
-    <p class="masque-ecran-tres-bas" data-anime="gsap">${c.t('formules.texte')}</p>
-    <p data-anime="gsap"><a class="bouton" href="#pupitre" data-action-principale>${c.t('formules.action')} ↓</a></p>
+    <div class="ouv-vu-cote">
+      <p class="ouv-vu-prix" data-info-cle data-anime="gsap"><span data-prix>${c.t('formules.info')}</span></p>
+      <p class="masque-ecran-bas" data-anime="gsap">${c.t('formules.texte')}</p>
+      <p data-anime="gsap"><a class="bouton" href="#pupitre" data-action-principale>${c.t('formules.action')} ↓</a></p>
+    </div>
   </div>
-  ${c.media({ nom: 'grok/formules-ouverture', alt: c.s('formules.alt'), priorite: true, classe: 'ouv-formules-media', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-iris-centre data-fx="parallaxe"' })}
+  <p class="vu-legende conteneur">${c.t('formules.vuLegende')}</p>
+  <ol class="vumetre" data-visuel data-iris-centre aria-label="${c.s('formules.vu')}">
+    ${c.donnees.formules.map((f) => { const niveau = Math.round(SEGMENTS * f.prix / 1250); return html`<li class="vu-col" style="--niveau:${niveau}"><a class="vu-lien" href="?formule=${f.cle}#pupitre" data-vu="${f.cle}" data-niveau="${niveau}"><span class="vu-prix">${euros(f.prix)}</span><span class="vu-barre" aria-hidden="true">${Array.from({ length: SEGMENTS }, (_, k) => html`<i class="${k < niveau ? 'on' : ''}"></i>`)}</span><span class="vu-nom">${f.nom}</span><span class="vu-heure">${f.cle === 'unlimited' ? 'sans fin' : `${f.debut} – ${f.fin}`}</span></a></li>`; })}
+  </ol>
 </section>
 
-<section class="pupitre" id="pupitre" data-effet="pupitre" aria-label="${c.s('formules.pupitre.region')}">
-  <div class="conteneur tete-section">
-    <h2 data-anime="lignes">${c.t('formules.pupitre.titre')}</h2>
-    <p data-anime>${c.t('formules.pupitre.texte')}</p>
-  </div>
-  <div class="pupitre-grille conteneur">
-    <div class="pupitre-salle" data-visuel>
-      ${c.media({ nom: 'grok/formules-salle', alt: c.s('formules.pupitre.alt'), classe: 'pupitre-salle-photo', sizes: '(max-width: 760px) 100vw, 60vw' })}
+<section class="salle-scene" id="pupitre" data-effet="pupitre" data-defaut="premier-prix" data-scene data-grille="manipuler scene" aria-label="${c.s('formules.pupitre.region')}">
+  <div class="salle-scene-collant" data-collant>
+    <div class="pupitre-salle salle-scene-fond" data-visuel>
+      ${c.media({ nom: 'grok/formules-salle-des-fetes', alt: c.s('formules.pupitre.alt'), classe: 'pupitre-salle-photo', sizes: '100vw' })}
       ${lumieresSalle()}
     </div>
-    ${tablePupitre(c)}
+    <div class="salle-scene-texte conteneur">
+      <h2 class="laser-titre" data-effet="laser-titre" data-texte="${c.s('formules.pupitre.titre')}">${c.t('formules.pupitre.titre')}</h2>
+      <p class="masque-ecran-bas">${c.t('formules.pupitre.texte')}</p>
+      <ol class="salle-etapes" aria-hidden="true">${c.donnees.formules.map((f, i) => html`<li class="salle-etape${i === 0 ? ' est-active' : ''}" data-etape-formule="${f.cle}">${f.nom}</li>`)}</ol>
+    </div>
+    <div class="salle-scene-console conteneur">${tablePupitre(c)}</div>
   </div>
-  <script type="application/json" data-pupitre-donnees>${brut(JSON.stringify(c.donnees.formules).replace(/</g, '\u003c'))}</script>
+  <script type="application/json" data-pupitre-donnees>${brut(JSON.stringify(c.donnees.formules).replace(/</g, '\\u003c'))}</script>
 </section>
 
 <section class="tableau conteneur" id="tableau">

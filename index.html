@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#07070b">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -183,18 +183,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="hero-astuce" aria-hidden="true"><span class="astuce-souris">Promenez la lumière</span><span class="astuce-doigt">Glissez pour bouger la lumière</span></p>
   </div>
 </section>
-<section class="prix conteneur" id="formules" data-teinte="#a979ff">
-  <div class="tete-section">
-    <p class="surtitre">Les formules au pupitre</p>
-    <h2 data-anime="lignes">Cinq formules, cinq vrais prix</h2>
-    <p data-anime>Tout compris : son, lumière, laser, brouillard, et le déplacement à 50 km de Pont-Saint-Esprit. Touchez une formule pour la régler au pupitre.</p>
-  </div>
-  <ol class="prix-liste" data-anime="cascade" data-effet="prix-allumes" data-visuel>
-    <li><a href="/formules?formule=premier-prix#pupitre" data-libelle="Formules"><span class="prix-nom">1er prix</span><span class="prix-montant" data-prix>400 €</span><span class="prix-heure">20 h – 1 h · 4 jeux de lumière LED · 1 laser · Brouillard · 2 enceintes 715A</span></a></li><li><a href="/formules?formule=association#pupitre" data-libelle="Formules"><span class="prix-nom">Association</span><span class="prix-montant" data-prix>500 €</span><span class="prix-heure">20 h – 2 h · <b class="prix-ajout">2 jeux de lumière LED</b> · 1 laser · Brouillard · <b class="prix-ajout">2 enceintes</b> · <b class="prix-ajout">Platines Pioneer</b></span></a></li><li><a href="/formules?formule=de-base#pupitre" data-libelle="Formules"><span class="prix-nom">De base</span><span class="prix-montant" data-prix>550 €</span><span class="prix-heure">20 h – 3 h · <b class="prix-ajout">2 lyres LED</b> · 1 laser · Brouillard · <b class="prix-ajout">2 enceintes 715A</b></span></a></li><li><a href="/formules?formule=blacklight#pupitre" data-libelle="Formules"><span class="prix-nom">BlackLight</span><span class="prix-montant" data-prix>700 €</span><span class="prix-heure">20 h – 5 h · 2 lyres LED · 1 laser · Brouillard · <b class="prix-ajout">1 projecteur UV</b> · 2 enceintes 715A</span></a></li><li><a href="/formules?formule=unlimited#pupitre" data-libelle="Formules"><span class="prix-nom">Unlimited</span><span class="prix-montant" data-prix>1 250 €</span><span class="prix-heure">20 h – fin de soirée · 2 lyres LED · <b class="prix-ajout">2 lasers ILDA 1,5 W</b> · Brouillard · <b class="prix-ajout">Éclairage DISCO</b> · 2 enceintes 715A · <b class="prix-ajout">Platines Pioneer</b></span></a></li>
-  </ol>
-  <p class="prix-pied" data-anime><span>heure supplémentaire : 100 €</span> <a href="/formules#pupitre" class="lien-fleche" data-libelle="Formules">Composer ma soirée au pupitre</a></p>
-</section>
 <section class="soirees-apercu conteneur" id="soirees" data-teinte="#5b8cff">
+  <div class="prix-bande" id="formules">
+    <p class="prix-bande-titre">Les 5 formules, tout compris, déplacement à 50 km :</p>
+    <ul class="prix-bande-liste"><li><a href="/formules?formule=premier-prix#pupitre" data-libelle="Formules"><span>1er prix</span> <b data-prix>400 €</b> <small>jusqu&#39;à 1 h</small></a></li><li><a href="/formules?formule=association#pupitre" data-libelle="Formules"><span>Association</span> <b data-prix>500 €</b> <small>jusqu&#39;à 2 h</small></a></li><li><a href="/formules?formule=de-base#pupitre" data-libelle="Formules"><span>De base</span> <b data-prix>550 €</b> <small>jusqu&#39;à 3 h</small></a></li><li><a href="/formules?formule=blacklight#pupitre" data-libelle="Formules"><span>BlackLight</span> <b data-prix>700 €</b> <small>jusqu&#39;à 5 h</small></a></li><li><a href="/formules?formule=unlimited#pupitre" data-libelle="Formules"><span>Unlimited</span> <b data-prix>1 250 €</b> <small>sans heure de fin</small></a></li></ul>
+    <a href="/formules" class="lien-fleche" data-libelle="Formules">Voir les formules</a>
+  </div>
   <div class="tete-section">
     <p class="surtitre">Trois façons de faire la fête</p>
     <h2 data-anime="lignes">Une piste, trois publics</h2>
@@ -303,10 +297,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <p class="pied-logo">DJ Ludo <b>Remix</b></p>
+      <p class="pied-logo"><span class="logo-lentille" aria-hidden="true"></span>DJ Ludo <b>Remix</b></p>
       <p>Basé à Pont-Saint-Esprit (Gard)<br>Gard · Vaucluse · Drôme · Ardèche · Lozère</p>
       <p><a class="pied-tel" href="tel:+33761596117">07 61 59 61 17</a></p>
-      <img class="pied-logo-image" src="/assets/images/logo-480.webp" alt="Logo actuel de DJ Ludo Remix" width="480" height="93" loading="lazy">
     </div>
     <nav aria-label="Sommaire">
       <p><strong>Sommaire</strong></p>

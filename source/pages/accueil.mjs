@@ -42,19 +42,12 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="prix conteneur" id="formules" data-teinte="#a979ff">
-  <div class="tete-section">
-    <p class="surtitre">${c.t('accueil.formules.sur')}</p>
-    <h2 data-anime="lignes">${c.t('accueil.formules.titre')}</h2>
-    <p data-anime>${c.t('accueil.formules.texte')}</p>
-  </div>
-  <ol class="prix-liste" data-anime="cascade" data-effet="prix-allumes" data-visuel>
-    ${c.donnees.formules.map((f, i) => { const avant = i ? c.donnees.formules[i - 1].materiel : []; return html`<li><a href="${c.url('formules', 'pupitre', `formule=${f.cle}`)}" data-libelle="${c.libelle('formules')}"><span class="prix-nom">${f.nom}</span><span class="prix-montant" data-prix>${euros(f.prix)}</span><span class="prix-heure">${f.debut} – ${f.fin} · ${f.materiel.map((m, k) => html`${k ? ' · ' : ''}${i && !avant.includes(m) ? html`<b class="prix-ajout">${m}</b>` : m}`)}</span></a></li>`; })}
-  </ol>
-  <p class="prix-pied" data-anime><span>${c.t('accueil.formules.heure')}</span> ${c.lien('formules', { ancre: 'pupitre', classe: 'lien-fleche', texte: c.t('accueil.formules.action') })}</p>
-</section>
-
 <section class="soirees-apercu conteneur" id="soirees" data-teinte="#5b8cff">
+  <div class="prix-bande" id="formules">
+    <p class="prix-bande-titre">${c.t('accueil.formules.titre')}</p>
+    <ul class="prix-bande-liste">${c.donnees.formules.map((f) => html`<li><a href="${c.url('formules', 'pupitre', `formule=${f.cle}`)}" data-libelle="${c.libelle('formules')}"><span>${f.nom}</span> <b data-prix>${euros(f.prix)}</b> <small>${f.cle === 'unlimited' ? 'sans heure de fin' : `jusqu'à ${f.fin}`}</small></a></li>`)}</ul>
+    ${c.lien('formules', { classe: 'lien-fleche', texte: c.t('accueil.formules.action') })}
+  </div>
   <div class="tete-section">
     <p class="surtitre">${c.t('accueil.soirees.sur')}</p>
     <h2 data-anime="lignes">${c.t('accueil.soirees.titre')}</h2>

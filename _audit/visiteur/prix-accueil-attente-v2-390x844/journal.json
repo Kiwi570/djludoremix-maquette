@@ -1,0 +1,161 @@
+{
+ "mission": "prix-accueil-attente-v2",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.1,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7074,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Menu",
+    "Demander un devis",
+    "07 61 59 61 17"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 717,
+   "hauteurPage": 7074,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "Demander un devis",
+    "07 61 59 61 17"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "550 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5.5,
+   "adresse": "/",
+   "y": 1434,
+   "hauteurPage": 7074,
+   "titres": [
+    "h2 UNE PISTE, TROIS PUBLICS"
+   ],
+   "actions": [
+    "1er prix 400 €",
+    "Association 500 €",
+    "De base 550 €",
+    "BlackLight 700 €",
+    "Unlimited 1 250 €",
+    "Voir les formules"
+   ],
+   "prixVus": [
+    "550 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "1 250 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "550 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "attendre 3000",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 8.5,
+   "adresse": "/",
+   "y": 1434,
+   "hauteurPage": 7074,
+   "titres": [
+    "h2 UNE PISTE, TROIS PUBLICS"
+   ],
+   "actions": [
+    "1er prix 400 €",
+    "Association 500 €",
+    "De base 550 €",
+    "BlackLight 700 €",
+    "Unlimited 1 250 €",
+    "Voir les formules"
+   ],
+   "prixVus": [
+    "1 250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "1 250 €",
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-3.png"
+  }
+ ]
+}

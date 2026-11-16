@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#07070b">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -106,29 +106,36 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p><a class="bouton" href="tel:+33761596117">Appeler 07 61 59 61 17</a></p>
 </div>
 <main id="contenu" tabindex="-1">
-<section class="ouv-ludo conteneur" id="debut">
-  <figure class="media ouv-ludo-media" data-iris-centre data-effet="gel-portrait" style="--cadrage:50% 30%">
+<section class="ouv-lettres" id="debut" data-effet="lettres-ludo" data-scene>
+  <div class="ouv-lettres-collant" data-collant>
+    <figure class="media ouv-lettres-photo" data-iris-centre style="--cadrage:50% 22%">
   <picture>
-    <img src="/assets/images/ludo-ouverture-784.webp" srcset="/assets/images/ludo-ouverture-480.webp 480w, /assets/images/ludo-ouverture-640.webp 640w, /assets/images/ludo-ouverture-784.webp 784w" sizes="(max-width: 760px) 70vw, 36vw" alt="Ludo debout derrière sa table de mixage, lumière bleue" width="784" height="980" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/accueil-console-1280.webp" srcset="/assets/images/accueil-console-640.webp 640w, /assets/images/accueil-console-1280.webp 1280w, /assets/images/accueil-console-1920.webp 1920w" sizes="100vw" alt="Ludo debout derrière sa table de mixage, lumière bleue" width="1280" height="854" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
-  <div class="ouv-ludo-texte">
-    <p class="surtitre" data-anime="gsap">Ludo</p>
-    <h1 data-grille="typo"><span class="hero-ligne" data-anime="gsap">Derrière</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="les platines">les platines</span></h1>
-    <p class="masque-ecran-tres-bas" data-anime="gsap">Élevé à Béziers, Ludo s&#39;est fait un nom dans les nuits du Gard : House, Electro House, Hip-Hop, funk, new wave, et toute la chanson française qu&#39;on chante en chœur.</p>
-    <p class="hero-actions" data-anime="gsap"><a href="/contact#devis" class="bouton" data-libelle="Contact" data-action-principale>Lui confier ma soirée →</a><span class="hero-info" data-info-cle>Résident des Bodega Feria depuis 2011</span></p>
+    <div class="ouv-lettres-masque" aria-hidden="true" data-superpose data-audit-ignorer><span><b>Lu</b><b>do</b></span></div>
+    <div class="ouv-lettres-texte conteneur">
+      <p class="surtitre" data-anime="gsap">Ludo</p>
+      <h1 data-grille="typo"><span class="hero-ligne" data-anime="gsap">Derrière</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="les platines">les platines</span></h1>
+      <div class="ouv-lettres-cote">
+        <p class="masque-ecran-bas" data-anime="gsap">Élevé à Béziers, Ludo s&#39;est fait un nom dans les nuits du Gard : House, Electro House, Hip-Hop, funk, new wave, et toute la chanson française qu&#39;on chante en chœur.</p>
+        <p class="hero-actions" data-anime="gsap"><a href="/contact#devis" class="bouton" data-libelle="Contact" data-action-principale>Lui confier ma soirée →</a><span class="hero-info" data-info-cle>Résident des Bodega Feria depuis 2011</span></p>
+      </div>
+    </div>
   </div>
 </section>
-<section class="frise conteneur" id="parcours">
-  <div class="tete-section">
-    <h2 data-anime="lignes">Le parcours, au laser</h2>
-    <p data-anime>Les dates de sa biographie.</p>
-  </div>
-  <div class="frise-corps" data-visuel>
-    <svg class="frise-trait" viewBox="0 0 20 1000" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M10 0 V1000" pathLength="1" fill="none" stroke="#ff2d55" stroke-width="3"/></svg>
-    <ol class="frise-liste">
-      <li class="frise-item" data-anime><span class="frise-annee">Au début</span><h3>Une chambre, deux platines</h3><p>Ludo commence à mixer chez lui, puis sur des radios FM et des webradios, dans des bars, des pubs et des pool parties de la région.</p></li><li class="frise-item" data-anime><span class="frise-annee">Juin 2010</span><h3>Les Bodega Feria</h3><p>Il devient l&#39;un des DJ de l&#39;événementiel Bodega Feria. En novembre, un statut de semi-résident.</p></li><li class="frise-item" data-anime><span class="frise-annee">Mars 2011</span><h3>DJ résident</h3><p>Résident des événements organisés par les Bodega Feria.</p></li><li class="frise-item" data-anime><span class="frise-annee">2013</span><h3>Fêtes Comme Chez Vous</h3><p>DJ partenaire d&#39;une société événementielle à Saint-Ambroix, puis création de « Fêtes Comme Chez Vous » en septembre.</p></li><li class="frise-item" data-anime><span class="frise-annee">2015</span><h3>89 prestations</h3><p>89 prestations signées dans l&#39;année, dont 42 fêtes.</p></li><li class="frise-item" data-anime><span class="frise-annee">2019-2021</span><h3>Le bal du 14 juillet</h3><p>Plus de 7 heures de mix devant environ 500 personnes, confié par un client fidèle.</p></li>
-    </ol>
+<section class="frise2" id="parcours" data-effet="frise-faisceau" data-scene>
+  <div class="frise2-collant" data-collant>
+    <div class="frise2-tete conteneur">
+      <h2 data-anime="lignes">Le parcours, au laser</h2>
+      <p class="masque-ecran-bas" data-anime>Les dates de sa biographie.</p>
+    </div>
+    <div class="frise2-lyre" aria-hidden="true"><span class="frise2-corps"></span><span class="frise2-cone"></span></div>
+    <div class="frise2-fenetre" data-visuel>
+      <ol class="frise2-piste" data-galerie>
+        <li class="frise2-item"><span class="frise2-annee">Au début</span><h3>Une chambre, deux platines</h3><p>Ludo commence à mixer chez lui, puis sur des radios FM et des webradios, dans des bars, des pubs et des pool parties de la région.</p></li><li class="frise2-item"><span class="frise2-annee">Juin 2010</span><h3>Les Bodega Feria</h3><p>Il devient l&#39;un des DJ de l&#39;événementiel Bodega Feria. En novembre, un statut de semi-résident.</p></li><li class="frise2-item"><span class="frise2-annee">Mars 2011</span><h3>DJ résident</h3><p>Résident des événements organisés par les Bodega Feria.</p></li><li class="frise2-item"><span class="frise2-annee">2013</span><h3>Fêtes Comme Chez Vous</h3><p>DJ partenaire d&#39;une société événementielle à Saint-Ambroix, puis création de « Fêtes Comme Chez Vous » en septembre.</p></li><li class="frise2-item"><span class="frise2-annee">2015</span><h3>89 prestations</h3><p>89 prestations signées dans l&#39;année, dont 42 fêtes.</p></li><li class="frise2-item"><span class="frise2-annee">2019-2021</span><h3>Le bal du 14 juillet</h3><p>Plus de 7 heures de mix devant environ 500 personnes, confié par un client fidèle.</p></li>
+      </ol>
+    </div>
   </div>
 </section>
 <section class="photos" id="photos">
@@ -163,7 +170,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture>
 </figure><figure class="media photo " data-fx="vitesse" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/ludo-braise-960.webp" srcset="/assets/images/ludo-braise-480.webp 480w, /assets/images/ludo-braise-640.webp 640w, /assets/images/ludo-braise-960.webp 960w" sizes="(max-width: 760px) 45vw, 25vw" alt="Ludo derrière ses platines, lumière rouge sur la pierre" width="960" height="1280" loading="lazy" decoding="async">
+    <img src="/assets/images/ludo-ouverture-784.webp" srcset="/assets/images/ludo-ouverture-480.webp 480w, /assets/images/ludo-ouverture-640.webp 640w, /assets/images/ludo-ouverture-784.webp 784w" sizes="(max-width: 760px) 45vw, 25vw" alt="Ludo penché sur ses platines devant le mur de pierre" width="784" height="980" loading="lazy" decoding="async">
   </picture>
 </figure><figure class="media photo photo--haut" data-fx="vitesse" style="--cadrage:50% 50%">
   <picture>
@@ -177,20 +184,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h2 data-anime="lignes">Le livre d&#39;or</h2>
     <p data-anime>286 messages sur le site. Quelques extraits, mot pour mot.</p>
   </div>
-  <div class="livre-or-photos" data-anime="cascade">
-    <figure class="media livre-photo" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/salle-laser-2-800.webp" srcset="/assets/images/salle-laser-2-480.webp 480w, /assets/images/salle-laser-2-640.webp 640w, /assets/images/salle-laser-2-800.webp 800w" sizes="(max-width: 760px) 45vw, 16vw" alt="Faisceaux laser sur des danseurs" width="800" height="533" loading="lazy" decoding="async">
-  </picture>
-</figure>
-    <figure class="media livre-photo" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/salle-laser-1-800.webp" srcset="/assets/images/salle-laser-1-480.webp 480w, /assets/images/salle-laser-1-640.webp 640w, /assets/images/salle-laser-1-800.webp 800w" sizes="(max-width: 760px) 45vw, 16vw" alt="Lasers vert et rose au-dessus de la piste d&#39;une salle des fêtes" width="800" height="533" loading="lazy" decoding="async">
-  </picture>
-</figure>
-  </div>
-  <ul class="livre-or-liste" data-anime="cascade">
-    <li><blockquote><p>« Un show laser époustouflant »</p></blockquote><p class="livre-qui">Marc, Nîmes · soirée d&#39;entreprise · octobre 2026</p></li><li><blockquote><p>« Le show laser était absolument incroyable ! »</p></blockquote><p class="livre-qui">Sophie, Avignon · soirée · octobre 2026</p></li><li><blockquote><p>« Prestation exceptionnelle »</p></blockquote><p class="livre-qui">Mallaury · mariage · novembre 2026</p></li><li><blockquote><p>« Professionnalisme, écoute et bonne humeur »</p></blockquote><p class="livre-qui">Anne · fête · août 2026</p></li><li><blockquote><p>« Très à l&#39;écoute et réactif pendant les préparatifs »</p></blockquote><p class="livre-qui">Jean · fête · août 2026</p></li>
+  <ul class="livre-or-liste livre-pile" data-visuel>
+    <li style="--i:0"><blockquote><p>« Un show laser époustouflant »</p></blockquote><p class="livre-qui">Marc, Nîmes · soirée d&#39;entreprise · octobre 2026</p></li><li style="--i:1"><blockquote><p>« Le show laser était absolument incroyable ! »</p></blockquote><p class="livre-qui">Sophie, Avignon · soirée · octobre 2026</p></li><li style="--i:2"><blockquote><p>« Prestation exceptionnelle »</p></blockquote><p class="livre-qui">Mallaury · mariage · novembre 2026</p></li><li style="--i:3"><blockquote><p>« Professionnalisme, écoute et bonne humeur »</p></blockquote><p class="livre-qui">Anne · fête · août 2026</p></li><li style="--i:4"><blockquote><p>« Très à l&#39;écoute et réactif pendant les préparatifs »</p></blockquote><p class="livre-qui">Jean · fête · août 2026</p></li>
   </ul>
 </section>
 <section class="fin-page conteneur" id="fin">
@@ -209,10 +204,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <p class="pied-logo">DJ Ludo <b>Remix</b></p>
+      <p class="pied-logo"><span class="logo-lentille" aria-hidden="true"></span>DJ Ludo <b>Remix</b></p>
       <p>Basé à Pont-Saint-Esprit (Gard)<br>Gard · Vaucluse · Drôme · Ardèche · Lozère</p>
       <p><a class="pied-tel" href="tel:+33761596117">07 61 59 61 17</a></p>
-      <img class="pied-logo-image" src="/assets/images/logo-480.webp" alt="Logo actuel de DJ Ludo Remix" width="480" height="93" loading="lazy">
     </div>
     <nav aria-label="Sommaire">
       <p><strong>Sommaire</strong></p>

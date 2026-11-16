@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#07070b">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -106,30 +106,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p><a class="bouton" href="tel:+33761596117">Appeler 07 61 59 61 17</a></p>
 </div>
 <main id="contenu" tabindex="-1">
-<section class="ouv-formules conteneur" id="debut">
-  <div class="ouv-formules-texte">
+<section class="ouv-vu" id="debut" data-effet="vu-metre">
+  <div class="ouv-vu-tete conteneur">
     <p class="surtitre" data-anime="gsap">Formules</p>
     <h1 data-grille="typo"><span class="hero-ligne" data-anime="gsap">Composez</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="votre lumière">votre lumière</span></h1>
-    <p class="ouv-formules-prix" data-info-cle data-anime="gsap"><span data-prix>de 400 à 1 250 €</span></p>
-    <p class="masque-ecran-tres-bas" data-anime="gsap">Cinq formules tout compris, de 20 h jusqu&#39;à la fin de la nuit, avec la nouvelle sono de 3 000 W prévue pour 500 personnes. Montez les faders du pupitre : la salle s&#39;allume et la formule qui vous va s&#39;affiche avec son prix.</p>
-    <p data-anime="gsap"><a class="bouton" href="#pupitre" data-action-principale>Aller au pupitre ↓</a></p>
+    <div class="ouv-vu-cote">
+      <p class="ouv-vu-prix" data-info-cle data-anime="gsap"><span data-prix>de 400 à 1 250 €</span></p>
+      <p class="masque-ecran-bas" data-anime="gsap">Cinq formules tout compris, de 20 h jusqu&#39;à 1 h, 2 h, 3 h, 5 h ou sans heure de fin, avec la nouvelle sono de 3 000 W prévue pour 500 personnes. Montez les faders du pupitre : la salle s&#39;allume et la formule qui vous va s&#39;affiche avec son prix.</p>
+      <p data-anime="gsap"><a class="bouton" href="#pupitre" data-action-principale>Aller au pupitre ↓</a></p>
+    </div>
   </div>
-  <figure class="media ouv-formules-media" data-grok data-iris-centre data-fx="parallaxe" style="--cadrage:50% 50%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/formules-ouverture-mobile-640.webp 640w, /assets/images/grok/formules-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 50vw">
-    <img src="/assets/images/grok/formules-ouverture-1280.webp" srcset="/assets/images/grok/formules-ouverture-640.webp 640w, /assets/images/grok/formules-ouverture-1280.webp 1280w, /assets/images/grok/formules-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Pupitre lumière dans une salle plongée dans le brouillard" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
+  <p class="vu-legende conteneur">Plus la colonne monte, plus la formule est complète. Touchez une colonne pour la régler au pupitre.</p>
+  <ol class="vumetre" data-visuel data-iris-centre aria-label="Les cinq formules et leur prix, en colonnes de lumière">
+    <li class="vu-col" style="--niveau:6"><a class="vu-lien" href="?formule=premier-prix#pupitre" data-vu="premier-prix" data-niveau="6"><span class="vu-prix">400 €</span><span class="vu-barre" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span><span class="vu-nom">1er prix</span><span class="vu-heure">20 h – 1 h</span></a></li><li class="vu-col" style="--niveau:7"><a class="vu-lien" href="?formule=association#pupitre" data-vu="association" data-niveau="7"><span class="vu-prix">500 €</span><span class="vu-barre" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span><span class="vu-nom">Association</span><span class="vu-heure">20 h – 2 h</span></a></li><li class="vu-col" style="--niveau:8"><a class="vu-lien" href="?formule=de-base#pupitre" data-vu="de-base" data-niveau="8"><span class="vu-prix">550 €</span><span class="vu-barre" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span><span class="vu-nom">De base</span><span class="vu-heure">20 h – 3 h</span></a></li><li class="vu-col" style="--niveau:10"><a class="vu-lien" href="?formule=blacklight#pupitre" data-vu="blacklight" data-niveau="10"><span class="vu-prix">700 €</span><span class="vu-barre" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span><span class="vu-nom">BlackLight</span><span class="vu-heure">20 h – 5 h</span></a></li><li class="vu-col" style="--niveau:18"><a class="vu-lien" href="?formule=unlimited#pupitre" data-vu="unlimited" data-niveau="18"><span class="vu-prix">1 250 €</span><span class="vu-barre" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="vu-nom">Unlimited</span><span class="vu-heure">sans fin</span></a></li>
+  </ol>
 </section>
-<section class="pupitre" id="pupitre" data-effet="pupitre" aria-label="Pupitre lumière : faders des lyres, des lasers, de l&#39;UV, du disco et de l&#39;heure de fin">
-  <div class="conteneur tete-section">
-    <h2 data-anime="lignes">Le pupitre</h2>
-    <p data-anime>Montez ce que vous voulez voir dans votre salle.</p>
-  </div>
-  <div class="pupitre-grille conteneur">
-    <div class="pupitre-salle" data-visuel>
+<section class="salle-scene" id="pupitre" data-effet="pupitre" data-defaut="premier-prix" data-scene data-grille="manipuler scene" aria-label="Pupitre lumière : faders des lyres, des lasers, de l&#39;UV, du disco et de l&#39;heure de fin">
+  <div class="salle-scene-collant" data-collant>
+    <div class="pupitre-salle salle-scene-fond" data-visuel>
       <figure class="media pupitre-salle-photo" data-grok style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/formules-salle-1280.webp" srcset="/assets/images/grok/formules-salle-640.webp 640w, /assets/images/grok/formules-salle-1280.webp 1280w, /assets/images/grok/formules-salle-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" alt="Salle des fêtes vide, pont lumière et brouillard" width="1280" height="853" loading="lazy" decoding="async">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/formules-salle-des-fetes-mobile-640.webp 640w, /assets/images/grok/formules-salle-des-fetes-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/formules-salle-des-fetes-1280.webp" srcset="/assets/images/grok/formules-salle-des-fetes-640.webp 640w, /assets/images/grok/formules-salle-des-fetes-1280.webp 1280w, /assets/images/grok/formules-salle-des-fetes-1920.webp 1920w" sizes="100vw" alt="Salle des fêtes de village la nuit, murs de pierre, charpente en bois, deux lyres et le coin du DJ" width="1280" height="853" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
       <div class="salle-nuit" aria-hidden="true"></div>
@@ -139,7 +136,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="salle-couche salle-uv" aria-hidden="true"></div>
     <canvas class="salle-couche salle-disco" aria-hidden="true"></canvas>
     </div>
-    <form class="pupitre-table" data-pupitre>
+    <div class="salle-scene-texte conteneur">
+      <h2 class="laser-titre" data-effet="laser-titre" data-texte="Le pupitre">Le pupitre</h2>
+      <p class="masque-ecran-bas">Montez ce que vous voulez voir dans votre salle.</p>
+      <ol class="salle-etapes" aria-hidden="true"><li class="salle-etape est-active" data-etape-formule="premier-prix">1er prix</li><li class="salle-etape" data-etape-formule="association">Association</li><li class="salle-etape" data-etape-formule="de-base">De base</li><li class="salle-etape" data-etape-formule="blacklight">BlackLight</li><li class="salle-etape" data-etape-formule="unlimited">Unlimited</li></ol>
+    </div>
+    <div class="salle-scene-console conteneur"><form class="pupitre-table" data-pupitre>
   <div class="faders">
     <div class="fader">
   <label for="p-lyres">Lyres</label>
@@ -176,7 +178,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="pupitre-inclus masque-ecran-bas">Compris : son, lumière, brouillard, installation 1 h avant, déplacement à 50 km.</p>
     <a class="bouton" href="/contact?formule=premier-prix#devis" data-libelle="Contact" data-pupitre-lien>Demander ce devis →</a>
   </div>
-</form>
+</form></div>
   </div>
   <script type="application/json" data-pupitre-donnees>[{"cle":"premier-prix","nom":"1er prix","prix":400,"debut":"20 h","fin":"1 h","finH":25,"heureSup":100,"materiel":["4 jeux de lumière LED","1 laser","Brouillard","2 enceintes 715A"],"pour":"Le plus petit prix, jusqu'à 1 h","niveau":[4,0,1,0,0,0]},{"cle":"association","nom":"Association","prix":500,"debut":"20 h","fin":"2 h","finH":26,"heureSup":100,"materiel":["2 jeux de lumière LED","1 laser","Brouillard","2 enceintes","Platines Pioneer"],"pour":"Réservée aux associations, jusqu'à 2 h","niveau":[2,0,1,0,0,1],"association":true},{"cle":"de-base","nom":"De base","prix":550,"debut":"20 h","fin":"3 h","finH":27,"heureSup":100,"materiel":["2 lyres LED","1 laser","Brouillard","2 enceintes 715A"],"pour":"Deux lyres LED, jusqu'à 3 h","niveau":[0,2,1,0,0,0]},{"cle":"blacklight","nom":"BlackLight","prix":700,"debut":"20 h","fin":"5 h","finH":29,"heureSup":100,"materiel":["2 lyres LED","1 laser","Brouillard","1 projecteur UV","2 enceintes 715A"],"pour":"Avec la lumière UV, jusqu'à 5 h","niveau":[0,2,1,1,0,0]},{"cle":"unlimited","nom":"Unlimited","prix":1250,"debut":"20 h","fin":"fin de soirée","finH":32,"heureSup":null,"materiel":["2 lyres LED","2 lasers ILDA 1,5 W","Brouillard","Éclairage DISCO","2 enceintes 715A","Platines Pioneer"],"pour":"Deux lasers ILDA, sans heure de fin","niveau":[0,2,2,0,1,1]}]</script>
 </section>
@@ -242,10 +244,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <p class="pied-logo">DJ Ludo <b>Remix</b></p>
+      <p class="pied-logo"><span class="logo-lentille" aria-hidden="true"></span>DJ Ludo <b>Remix</b></p>
       <p>Basé à Pont-Saint-Esprit (Gard)<br>Gard · Vaucluse · Drôme · Ardèche · Lozère</p>
       <p><a class="pied-tel" href="tel:+33761596117">07 61 59 61 17</a></p>
-      <img class="pied-logo-image" src="/assets/images/logo-480.webp" alt="Logo actuel de DJ Ludo Remix" width="480" height="93" loading="lazy">
     </div>
     <nav aria-label="Sommaire">
       <p><strong>Sommaire</strong></p>

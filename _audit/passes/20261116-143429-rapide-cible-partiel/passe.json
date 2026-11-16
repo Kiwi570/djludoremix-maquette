@@ -1,0 +1,16 @@
+{
+ "id": "20261116-143429-rapide-cible-partiel",
+ "date": "2026-11-16T14:35:04.321Z",
+ "niveau": "rapide",
+ "pages": "/,/formules,/ludo",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 0,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

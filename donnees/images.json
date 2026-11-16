@@ -2390,5 +2390,171 @@
       "bar-casquette-784.webp": 54046
     },
     "media": "c.media({ nom: 'bar-casquette', alt: \"Ludo, casquette blanche, aux platines Numark à la tombée du jour\", cadrage: '39% 42%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/soirees-place": {
+    "nom": "grok/soirees-place",
+    "source": "recu/grok/soirees-place.jpg",
+    "role": "ouverture",
+    "alt": "Place de village un soir de fête, scène sous un auvent rayé et faisceaux violets dans le brouillard",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "9b14317b894554cf",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "43% 50%"
+    },
+    "cadrage": "71% 47%",
+    "sujet": {
+      "x": 37.5,
+      "y": 5.6,
+      "l": 59.4,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.67,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soirees-place-640.webp",
+      "grok/soirees-place-1280.webp",
+      "grok/soirees-place-1920.webp",
+      "grok/soirees-place-mobile-640.webp",
+      "grok/soirees-place-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/soirees-place-640.webp": 35458,
+      "grok/soirees-place-1280.webp": 111510,
+      "grok/soirees-place-1920.webp": 194260,
+      "grok/soirees-place-mobile-640.webp": 72072,
+      "grok/soirees-place-mobile-1080.webp": 134138
+    },
+    "media": "c.media({ nom: 'grok/soirees-place', alt: \"Place de village un soir de fête, scène sous un auvent rayé et faisceaux violets dans le brouillard\", cadrage: '71% 47%', cadrageMobile: '43% 50%', sizes: '100vw', priorite: true })"
+  },
+  "grok/formules-salle-des-fetes": {
+    "nom": "grok/formules-salle-des-fetes",
+    "source": "recu/grok/formules-salle-des-fetes.jpg",
+    "role": "section-fond",
+    "alt": "Salle des fêtes de village la nuit, piste vide, deux lyres et brouillard sous la charpente",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d8b168056291536b",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "44% 60%"
+    },
+    "cadrage": "56% 49%",
+    "sujet": {
+      "x": 9.4,
+      "y": 18.2,
+      "l": 87.5,
+      "h": 72.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1800,
+      "height": 1200,
+      "source": [
+        1800,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1800 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/formules-salle-des-fetes-640.webp",
+      "grok/formules-salle-des-fetes-1280.webp",
+      "grok/formules-salle-des-fetes-1920.webp",
+      "grok/formules-salle-des-fetes-mobile-640.webp",
+      "grok/formules-salle-des-fetes-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/formules-salle-des-fetes-640.webp": 36902,
+      "grok/formules-salle-des-fetes-1280.webp": 88042,
+      "grok/formules-salle-des-fetes-1920.webp": 139978,
+      "grok/formules-salle-des-fetes-mobile-640.webp": 45688,
+      "grok/formules-salle-des-fetes-mobile-1080.webp": 85968
+    },
+    "media": "c.media({ nom: 'grok/formules-salle-des-fetes', alt: \"Salle des fêtes de village la nuit, piste vide, deux lyres et brouillard sous la charpente\", cadrage: '56% 49%', cadrageMobile: '44% 60%', sizes: '100vw' })"
   }
 }

@@ -15,10 +15,12 @@
     "date-laser",
     "eclats",
     "index-occasions",
-    "gel-portrait",
     "fil",
-    "prix-allumes",
-    "show-laser"
+    "show-laser",
+    "vu-metre",
+    "lettres-ludo",
+    "frise-faisceau",
+    "boule-3d"
   ],
   "grille": {
     "dispenses": {}

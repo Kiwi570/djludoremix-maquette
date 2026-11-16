@@ -1,29 +1,37 @@
-/* Contact : ouverture compacte, le numéro en très grand et la carte du rayon de 50 km (le cercle se trace),
-   puis la demande de devis en étapes ; à l'envoi, la date s'écrit au laser et se tamponne « reçu ». */
+/* Contact : le numéro en chiffres géants tracés au laser ; puis la demande de devis en étapes, à côté de l'affiche
+   de la soirée qui se compose à mesure (data-affiche) ; à l'envoi, la date s'écrit au laser et l'affiche est tamponnée. */
 import { html } from '../../outils/gabarit.mjs';
-import { carte } from '../gabarits/carte.mjs';
 
 export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'contact-ludo-784.webp' };
 
 const carteChoix = (nom, valeur, titre, texte, requis = false) => html`<label class="fpe__carte"><input type="radio" name="${nom}" value="${valeur}"${requis ? ' required' : ''}><span class="fpe__carte-titre">${titre}</span>${texte ? html`<span class="fpe__carte-texte">${texte}</span>` : ''}</label>`;
 
 export default (c) => html`
-<section class="ouv-contact conteneur" id="debut">
-  <div class="ouv-contact-texte">
+<section class="ouv-numero" id="debut">
+  <svg class="ouv-numero-faisceaux" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true" data-visuel><g class="faisceaux-g">${[0, 1, 2, 3, 4].map((i) => html`<line x1="1000" y1="-10" x2="${80 + i * 170}" y2="610"/>`)}</g><g class="faisceaux-d">${[0, 1, 2, 3].map((i) => html`<line x1="0" y1="-10" x2="${300 + i * 190}" y2="610"/>`)}</g></svg>
+  <div class="conteneur ouv-numero-tete">
     <p class="surtitre" data-anime="gsap">${c.t('contact.sur')}</p>
     <h1 data-grille="typo"><span class="hero-ligne" data-anime="gsap">${c.t('contact.titre1')}</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="${c.s('contact.titre2')}">${c.t('contact.titre2')}</span></h1>
-    <p class="ouv-contact-tel" data-anime="gsap"><a href="tel:${c.site.contact.telephoneLien}" data-action-principale>${c.site.contact.telephone}</a></p>
+  </div>
+  <p class="ouv-numero-tel conteneur" data-visuel><a class="laser-titre" data-effet="laser-titre" data-texte="${c.site.contact.telephone}" href="tel:${c.site.contact.telephoneLien}" data-action-principale data-iris-centre>${c.site.contact.telephone}</a></p>
+  <div class="conteneur ouv-numero-pied">
     <p class="masque-ecran-tres-bas" data-anime="gsap">${c.t('contact.texte')}</p>
     <p class="hero-actions" data-anime="gsap"><a class="bouton" href="#devis">${c.t('contact.devis')} ↓</a><span class="hero-info" data-info-cle>${c.t('commun.reponse')} · ${c.t('contact.info')}</span></p>
   </div>
-  <div class="ouv-contact-carte"><div class="rayon-boite" data-fx="trace" data-iris-centre data-visuel>${carte(c, 'contact')}</div><p class="rayon-legende"><span class="pastille est-dans"></span>${c.t('accueil.rayon.legendeDans')}&nbsp;: déplacement compris · <span class="pastille"></span>${c.t('accueil.rayon.legendeHors')}</p></div>
 </section>
 
 <section class="devis conteneur" id="devis">
   <div class="devis-grille">
     <div class="devis-tete">
       <h2 class="laser-titre" data-effet="laser-titre" data-texte="${c.s('contact.devis')}">${c.t('contact.devis')}</h2>
-      ${c.media({ nom: 'date-ludo', alt: 'Ludo en casquette derrière ses platines, en extérieur le soir', classe: 'devis-photo', sizes: '(max-width: 760px) 90vw, 30vw', attrs: 'data-anime="rideau"' })}
+      <aside class="affiche" data-affiche data-visuel aria-label="${c.s('contact.affiche.region')}">
+        <p class="affiche-sur">${c.t('contact.affiche.sur')}</p>
+        <p class="affiche-type" data-affiche-champ="type">${c.t('contact.affiche.type')}</p>
+        <p class="affiche-date" data-affiche-champ="date">${c.t('contact.affiche.date')}</p>
+        <p class="affiche-lieu" data-affiche-champ="lieu">${c.t('contact.affiche.lieu')}</p>
+        <p class="affiche-ligne"><span data-affiche-champ="invites">${c.t('contact.affiche.invites')}</span> · <span data-affiche-champ="formule">${c.t('contact.affiche.formule')}</span></p>
+        <span class="affiche-tampon" aria-hidden="true">${c.t('contact.affiche.tampon')}</span>
+      </aside>
     </div>
     <div class="fpe" data-module="formulaire-par-etapes" role="region" aria-label="${c.s('contact.devis')}">
       <div class="fpe__carton">
@@ -82,6 +90,7 @@ export default (c) => html`
     <li><a href="https://www.facebook.com/DJLUDOREMIX" target="_blank" rel="noopener">Facebook<span>/DJLUDOREMIX</span></a></li>
     <li><a href="https://www.instagram.com/djludoremix" target="_blank" rel="noopener">Instagram<span>@djludoremix</span></a></li>
     <li><a href="https://www.tiktok.com/@djludoremix" target="_blank" rel="noopener">TikTok<span>@djludoremix</span></a></li>
+    <li><a href="https://x.com/DjludoDjludo472" target="_blank" rel="noopener">X<span>@DjludoDjludo472</span></a></li>
     <li><a href="https://dj-ludo-remix.myspreadshop.fr/" target="_blank" rel="noopener">Boutique<span>t-shirts DJ Ludo Remix</span></a></li>
   </ul>
   ${c.media({ nom: 'salle-laser-1', alt: 'Lasers vert et rose au-dessus de la piste d\'une salle des fêtes', classe: 'reseaux-photo', sizes: '(max-width: 760px) 90vw, 30vw', attrs: 'data-fx="parallaxe"' })}

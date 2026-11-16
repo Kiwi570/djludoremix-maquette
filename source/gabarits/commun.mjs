@@ -93,10 +93,9 @@ function pied(c) {
   return html`<footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div class="pied-marque">
-      <p class="pied-logo">DJ Ludo <b>Remix</b></p>
+      <p class="pied-logo"><span class="logo-lentille" aria-hidden="true"></span>DJ Ludo <b>Remix</b></p>
       <p>${c.t('commun.base')}<br>${c.t('commun.zone')}</p>
       <p><a class="pied-tel" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p>
-      <img class="pied-logo-image" src="/assets/images/logo-480.webp" alt="Logo actuel de DJ Ludo Remix" width="480" height="93" loading="lazy">
     </div>
     <nav aria-label="${c.s('commun.sommaire')}">
       <p><strong>${c.t('commun.sommaire')}</strong></p>

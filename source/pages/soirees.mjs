@@ -2,20 +2,21 @@
    puis les quatre publics. Signature : la boule à facettes qui jette ses éclats (data-effet="eclats"). */
 import { html } from '../../outils/gabarit.mjs';
 
-export const page = { cle: 'soirees', fichier: 'soirees', imagePartage: 'grok/soirees-ouverture-1280.webp' };
+export const page = { cle: 'soirees', fichier: 'soirees', imagePartage: 'grok/soirees-place-1280.webp' };
 
 const OCCASIONS = ['Anniversaires', 'Mariages', 'Cousinades', 'Garden parties', 'Communions', 'Départs en retraite', 'Fêtes votives', 'Bals', 'Kermesses', 'Arbres de Noël', 'Bodegas', 'Soirées de camping', 'Séminaires', 'Soirées de gala', 'Inaugurations', 'Soirées de bar', 'Conventions', 'Présentations de produits'];
 
 export default (c) => html`
 <section class="ouv-soirees" id="debut">
-  ${c.media({ nom: 'grok/soirees-ouverture', alt: c.s('soirees.alt'), priorite: true, classe: 'ouv-soirees-fond', sizes: '100vw', attrs: 'data-fx="zoom"' })}
+  ${c.media({ nom: 'grok/soirees-place', alt: c.s('soirees.alt'), priorite: true, classe: 'ouv-soirees-fond', sizes: '100vw', attrs: 'data-fx="zoom"' })}
   <div class="ouv-soirees-texte conteneur">
     <p class="surtitre" data-anime="gsap">${c.t('soirees.sur')}</p>
     <h1 class="ouv-soirees-titre" data-grille="typo"><span class="hero-ligne" data-anime="gsap">${c.t('soirees.titre1')}</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="${c.s('soirees.titre2')}">${c.t('soirees.titre2')}</span></h1>
     <p class="masque-ecran-tres-bas" data-anime="gsap">${c.t('soirees.texte')}</p>
     <p class="hero-actions" data-anime="gsap">${c.lien('contact', { ancre: 'devis', classe: 'bouton', texte: html`${c.t('soirees.action')} →`, attrs: 'data-action-principale' })}<span class="hero-info" data-info-cle>${c.t('soirees.info')}</span></p>
   </div>
-  <span class="ouv-soirees-boule" data-iris-centre="disque" aria-hidden="true"></span>
+  <canvas class="boule-scene" data-effet="boule-3d" aria-hidden="true"></canvas>
+  <span class="ouv-soirees-boule boule-place" data-iris-centre="disque" aria-hidden="true"></span>
 </section>
 
 <section class="index-occasions" id="occasions">

@@ -308,5 +308,33 @@
     "role": "carte-service",
     "alt": "Ludo, casquette blanche, aux platines Numark à la tombée du jour",
     "beaute": 3
+  },
+  {
+    "source": "recu/grok/soirees-place.jpg",
+    "source_mobile": "recu/grok/soirees-place-mobile.jpg",
+    "nom": "grok/soirees-place",
+    "role": "ouverture",
+    "page": "soirees",
+    "emplacement": "Soirées · ouverture (v2) : place de village un soir de fête votive",
+    "priorite": "indispensable",
+    "mobile": true,
+    "zone_texte": "gauche",
+    "alt": "Place de village un soir de fête, scène sous un auvent rayé et faisceaux violets dans le brouillard",
+    "beaute": 4,
+    "consigne_scene": "Wide shot of a small stone village square in the south of France on a summer night during the local festival: a modest open-air stage under a striped red and white awning at the right, a small aluminium truss with two moving-head lights sending violet and blue beams through light haze, strings of warm bulbs hung between plane trees, a few dozen people of all ages dancing seen from behind as soft distant silhouettes, old stone house facades with shutters around the square. Human scale, nothing like a big club or a festival main stage."
+  },
+  {
+    "source": "recu/grok/formules-salle-des-fetes.jpg",
+    "source_mobile": "recu/grok/formules-salle-des-fetes-mobile.jpg",
+    "nom": "grok/formules-salle-des-fetes",
+    "role": "section-fond",
+    "page": "formules",
+    "emplacement": "Formules · la salle du pupitre (v2), plein écran",
+    "priorite": "indispensable",
+    "mobile": true,
+    "zone_texte": "bas",
+    "alt": "Salle des fêtes de village la nuit, piste vide, deux lyres et brouillard sous la charpente",
+    "beaute": 4,
+    "consigne_scene": "Wide shot of an empty village community hall in the south of France at night, seen from the back of the room: a wooden parquet dance floor in the middle, stacked chairs and long tables pushed along whitewashed walls, exposed wooden roof beams, a small DJ corner at the far end with an unbranded table under a short black aluminium truss holding two moving-head lights, light haze in the air, the room still dark with only soft blue and violet ambient light. Human scale, modest, nothing like a club, a concert or a festival stage. Nobody in the frame."
   }
 ]

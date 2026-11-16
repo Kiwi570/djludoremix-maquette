@@ -2,8 +2,8 @@
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets posée par attributs.
    Effets du plan (data-effet) : faisceau, laser-titre, lumiere-change, pupitre-apercu, pupitre, rayon-50km,
    date-laser, eclats, index-occasions, gel-portrait, fil. */
-import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=1';
-import { init as initEtapes } from './modules/formulaire-par-etapes.js?v=1';
+import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=2';
+import { init as initEtapes } from './modules/formulaire-par-etapes.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -295,7 +295,7 @@ function unPupitre(sec) {
       let sup = 0;
       if (finH > p.finH) { if (!p.heureSup || finH === 99) continue; sup = (finH - p.finH) * p.heureSup; }
       const total = p.prix + sup;
-      if (!meilleur || total < meilleur.total) meilleur = { p, total, sup, heures: sup / 100 };
+      if (!meilleur || total < meilleur.total || (total === meilleur.total && p.association)) meilleur = { p, total, sup, heures: sup / 100 };
     }
     if (!meilleur) meilleur = { p: packs[packs.length - 1], total: packs[packs.length - 1].prix, sup: 0, heures: 0 };
     return { v, m: meilleur };
@@ -311,8 +311,9 @@ function unPupitre(sec) {
     sec.style.setProperty('--nuit', (0.74 - 0.12 * n - 0.03 * v.fin).toFixed(2));
     sec.style.setProperty('--noir', (0.985 - 0.07 * n).toFixed(3));
     nom.textContent = m.p.nom;
+    if (sec.dataset.formuleAffichee !== m.p.cle) { sec.dataset.formuleAffichee = m.p.cle; sec.dispatchEvent(new CustomEvent('pupitre:formule', { detail: m.p.cle })); }
     const fin = v.fin === 5 ? m.p.fin : champs.fin.dataset.valeurs.split('|')[v.fin];
-    detail.textContent = `${m.p.materiel.join(' · ')} · ${m.p.debut} – ${m.p.fin}` + (m.heures ? ` · + ${m.heures} h jusqu'à ${fin} (${euros(m.sup)})` : (v.fin < 5 && m.p.fin !== fin ? ` · fin vers ${fin}\u00a0: comprise` : '')) + (m.p.heureSup ? ` · heure en plus\u00a0: ${euros(m.p.heureSup)}` : '');
+    detail.textContent = `${m.p.materiel.join(' · ')} · ${m.p.debut} – ${m.p.fin}` + (m.heures ? ` · + ${m.heures} h jusqu'à ${fin} (${euros(m.sup)})` : '') + (m.p.heureSup ? ` · heure en plus\u00a0: ${euros(m.p.heureSup)}` : '');
     lien.href = `/contact?formule=${m.p.cle}#devis`;
     const de = affiche; affiche = m.total;
     prix.textContent = euros(m.total);
@@ -322,6 +323,8 @@ function unPupitre(sec) {
   const regl = { 'premier-prix': [0, 1, 0, 0, 0], association: [0, 1, 0, 0, 1], 'de-base': [1, 1, 0, 0, 2], blacklight: [1, 1, 1, 0, 4], unlimited: [1, 2, 0, 1, 5] };
   const q = new URLSearchParams(location.search).get('formule') || sec.dataset.defaut;
   if (regl[q]) { ['lyres', 'lasers', 'uv', 'disco', 'fin'].forEach((k, i) => { champs[k].value = regl[q][i]; }); asso.checked = q === 'association'; }
+  sec.regler = (cle) => { if (!regl[cle]) return; ['lyres', 'lasers', 'uv', 'disco', 'fin'].forEach((k, i) => { champs[k].value = regl[cle][i]; }); asso.checked = cle === 'association'; rendre(); };
+  if (regl[new URLSearchParams(location.search).get('formule')]) sec.dataset.touche = '1';
   form.addEventListener('input', rendre);
   form.addEventListener('change', (e) => { const f = e.target.closest('.fader'); if (f) { f.classList.remove('secousse'); void f.offsetWidth; f.classList.add('secousse'); } });
   form.addEventListener('submit', (e) => e.preventDefault());
@@ -377,6 +380,187 @@ function gelPortrait() {
   ST.create({ start: 0, end: 'max', onUpdate: (s) => html.style.setProperty('--gel', GELS[Math.min(3, Math.floor(s.progress * 4))]) });
 }
 
+/* ---------- Formules : VU-mètre des cinq prix (les LED montent puis vivent ; une colonne règle le pupitre) ---------- */
+function vuMetre() {
+  const sec = $('[data-effet="vu-metre"]');
+  if (!sec) return;
+  const cols = $$('.vu-lien', sec).map((a) => ({ a, segs: $$('i', a), base: +a.dataset.niveau, n: -1 }));
+  const poser = (c, n) => { if (n === c.n) return; c.n = n; c.segs.forEach((s, k) => s.classList.toggle('on', k < n)); };
+  const calme = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let survol = null, montee = calme ? 1 : 0, pret = calme, pas = 0;
+  cols.forEach((c) => {
+    c.a.addEventListener('pointerenter', () => { survol = c; }); c.a.addEventListener('pointerleave', () => { survol = null; });
+    c.a.addEventListener('click', (e) => {
+      const p = $('.salle-scene');
+      if (!p || !p.regler) return;
+      e.preventDefault();
+      p.dataset.touche = '1'; p.regler(c.a.dataset.vu);
+      $$('.salle-etape', p).forEach((x) => x.classList.toggle('est-active', x.dataset.etapeFormule === c.a.dataset.vu));
+      history.replaceState(null, '', `?formule=${c.a.dataset.vu}#pupitre`);
+      p.scrollIntoView({ behavior: calme ? 'auto' : 'smooth' });
+    });
+  });
+  if (!calme) cols.forEach((c) => poser(c, 0));
+  quand('pret', () => { pret = true; });
+  boucle(sec, (dt, t) => {
+    if (!pret) return;
+    montee = Math.min(1, montee + dt / 0.9);
+    pas += dt; if (pas < 0.09 && montee === 1) return; pas = 0;
+    cols.forEach((c, i) => {
+      const vit = calme || c === survol ? 0 : Math.round(1.3 + Math.sin(t * 5.1 + i * 1.9) * 1.1 + Math.sin(t * 8.7 + i * 0.7) * 0.8);
+      poser(c, Math.max(1, Math.round(c.base * easeOut(montee)) - (montee === 1 ? vit : 0)));
+    });
+  });
+}
+const easeOut = (x) => 1 - Math.pow(1 - x, 3);
+
+/* ---------- Formules : la salle épinglée ; le défilement passe les cinq formules au pupitre tant qu'on n'y a pas touché ---------- */
+function salleScene() {
+  const sec = $('.salle-scene');
+  if (!sec || !ST) return;
+  const etapes = $$('.salle-etape', sec), cles = etapes.map((e) => e.dataset.etapeFormule);
+  const table = $('.pupitre-table', sec);
+  const toucher = () => { sec.dataset.touche = '1'; };
+  table.addEventListener('pointerdown', toucher, { passive: true });
+  table.addEventListener('keydown', toucher);
+  let courant = -1;
+  const marquer = (cle) => etapes.forEach((e) => e.classList.toggle('est-active', e.dataset.etapeFormule === cle));
+  sec.addEventListener('pupitre:formule', (e) => marquer(e.detail));
+  if (sec.dataset.formuleAffichee) marquer(sec.dataset.formuleAffichee);
+  ST.create({ trigger: sec, start: 'top top', end: 'bottom bottom', onUpdate: (st) => {
+    if (sec.dataset.touche === '1') return;
+    const i = Math.min(cles.length - 1, Math.floor(st.progress * cles.length * 1.05));
+    if (i === courant) return;
+    courant = i;
+    if (sec.regler) sec.regler(cles[i]);
+  } });
+}
+
+/* ---------- Ludo : la photo vue à travers « LUDO » ; au défilement, les lettres s'ouvrent jusqu'à la photo pleine ---------- */
+function lettresLudo() {
+  const sec = $('[data-effet="lettres-ludo"]');
+  if (!sec) return;
+  const m = $('.ouv-lettres-masque', sec), t = $('.ouv-lettres-texte', sec);
+  const hauteurTexte = () => sec.style.setProperty('--texte-h', `${t.parentElement.clientHeight - t.offsetTop + 16}px`);
+  hauteurTexte(); new ResizeObserver(hauteurTexte).observe(t);
+  if (!gsap || !ST) return;
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const tl = gsap.timeline({ scrollTrigger: { trigger: sec, start: 'top top', end: 'bottom bottom', scrub: 0.6 } });
+  tl.to(m, { scale: 14, ease: 'power2.in', duration: 1 }, 0)
+    .to(m, { opacity: 0, duration: 0.25, ease: 'none' }, 0.75)
+    .to(t, { y: () => t.offsetHeight + 40, duration: 0.6, ease: 'power1.in' }, 0.1);
+  /* Seule, la photo respire derrière les lettres. */
+  const img = $('.ouv-lettres-photo img', sec);
+  if (img) boucle(sec, (dt, tt) => { img.style.transform = `scale(${(1.06 + Math.sin(tt * 0.5) * 0.03).toFixed(4)}) translate3d(${(Math.sin(tt * 0.3) * 1.2).toFixed(2)}%, 0, 0)`; });
+}
+
+/* ---------- Ludo : le parcours défile de côté sous la lyre ; chaque date passée sous le faisceau s'allume ---------- */
+function friseFaisceau() {
+  const sec = $('[data-effet="frise-faisceau"]');
+  if (!sec || !gsap || !ST) return;
+  const piste = $('.frise2-piste', sec), items = $$('.frise2-item', sec), fen = $('.frise2-fenetre', sec);
+  let dist = 0;
+  const mesurer = () => { dist = Math.max(0, piste.scrollWidth - fen.clientWidth); sec.style.height = `calc(100svh + ${Math.round(dist * 1.1)}px)`; };
+  mesurer(); addEventListener('resize', () => { mesurer(); ST.refresh(); });
+  const allumer = () => {
+    const cx = innerWidth / 2;
+    items.forEach((it) => { const r = it.getBoundingClientRect(); const dans = r.left < cx + 40 && r.right > cx - 40; it.classList.toggle('est-allume', dans); if (dans) it.classList.add('a-brule'); });
+  };
+  gsap.to(piste, { x: () => -dist, ease: 'none', scrollTrigger: { trigger: sec, start: 'top top', end: 'bottom bottom', scrub: 0.4, invalidateOnRefresh: true } });
+  let pas = 0;
+  boucle(sec, (dt) => { pas += dt; if (pas < 0.08) return; pas = 0; allumer(); });
+  allumer();
+}
+
+/* ---------- Contact : l'affiche de la soirée se compose pendant la demande, puis se fait tamponner ---------- */
+function affiche() {
+  const a = $('[data-affiche]'), form = $('[data-devis]');
+  if (!a || !form) return;
+  const champ = (k) => $(`[data-affiche-champ="${k}"]`, a);
+  const defaut = Object.fromEntries(['type', 'date', 'lieu', 'invites', 'formule'].map((k) => [k, champ(k).textContent]));
+  const poser = (k, v) => {
+    const el = champ(k), txt = v || defaut[k];
+    if (el.textContent === txt) return;
+    el.textContent = txt; el.classList.remove('est-rempli'); void el.offsetWidth; if (v) el.classList.add('est-rempli');
+  };
+  const lire = () => {
+    const f = new FormData(form);
+    poser('type', f.get('type') || '');
+    const d = String(f.get('date') || '').match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    const jour = d ? new Date(+d[3], +d[2] - 1, +d[1], 12) : null;
+    poser('date', jour && !isNaN(jour) ? new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' }).format(jour).replace('.', '') : '');
+    poser('lieu', String(f.get('lieu') || '').trim());
+    const n = +f.get('invites'); poser('invites', n > 0 ? `${n} invités` : '');
+    const r = $('[name="formule"]:checked', form);
+    poser('formule', r ? (r.value === 'nsp' ? 'formule à choisir' : $('.fpe__carte-titre', r.closest('label')).textContent.split(' · ')[0]) : '');
+  };
+  form.addEventListener('input', lire); form.addEventListener('change', lire);
+  lire(); setTimeout(lire, 300); quand('pret', lire);
+  $('.fpe').addEventListener('formulaire:envoye', () => a.classList.add('est-tamponnee'));
+  const recommencer = $('[data-recommencer]');
+  if (recommencer) recommencer.addEventListener('click', () => { a.classList.remove('est-tamponnee'); setTimeout(lire, 50); });
+}
+
+/* ---------- Soirées : une vraie boule à facettes, dessinée facette par facette, qui tourne et jette ses reflets ---------- */
+function boule3d() {
+  const cv = $('[data-effet="boule-3d"]'), place = $('.boule-place');
+  if (!cv || !place) return;
+  const sec = cv.parentElement, ctx = cv.getContext('2d');
+  const calme = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W = 0, H = 0, dpr = 1;
+  const mesurer = () => { dpr = Math.min(2, devicePixelRatio || 1); W = sec.clientWidth; H = sec.clientHeight; cv.width = W * dpr; cv.height = H * dpr; };
+  mesurer(); new ResizeObserver(mesurer).observe(sec);
+  const BANDES = 16, facettes = [];
+  for (let b = 0; b < BANDES; b++) {
+    const phi = -Math.PI / 2 + (b + 0.5) * Math.PI / BANDES, n = Math.max(6, Math.round(2 * BANDES * Math.cos(phi)));
+    for (let k = 0; k < n; k++) { const r = Math.random(); facettes.push({ phi, dphi: Math.PI / BANDES, lam: k * 2 * Math.PI / n, dlam: 2 * Math.PI / n, eclat: Math.random(), miroir: Math.random(), teinte: r < 0.1 ? 330 : r < 0.18 ? 215 : r < 0.23 ? 275 : -1 }); }
+  }
+  const reflets = Array.from({ length: 90 }, () => ({ lam: Math.random() * Math.PI * 2, y: Math.random(), r: 1 + Math.random() * 1.8, teinte: [330, 210, 280, 0, 0][Math.floor(Math.random() * 5)] }));
+  const L = [-0.45, 0.6, 0.66];
+  const dessiner = (t) => {
+    const rot = t * 0.55;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+    const pr = place.getBoundingClientRect(), sr = sec.getBoundingClientRect();
+    const visible = pr.width > 0 && getComputedStyle(place).display !== 'none';
+    const cx = pr.left - sr.left + pr.width / 2, cy = pr.top - sr.top + pr.height / 2, R = pr.width / 2;
+    /* Reflets sur la salle */
+    ctx.globalCompositeOperation = 'lighter';
+    reflets.forEach((p) => {
+      const a = (p.lam + rot) % (Math.PI * 2), face = Math.cos(a);
+      if (face < 0.05) return;
+      const x = W * (0.5 + Math.sin(a) * 0.62), y = H * (0.08 + p.y * 0.86);
+      const surTexte = W > 760 && x < W * 0.55 && y > H * 0.25;
+      const c = p.teinte ? `hsla(${p.teinte}, 100%, 72%,` : 'hsla(0, 0%, 100%,', al = (surTexte ? 0.25 : 0.9) * face;
+      const gr = ctx.createRadialGradient(x, y, 0, x, y, p.r * 6); gr.addColorStop(0, c + al + ')'); gr.addColorStop(0.25, c + al * 0.5 + ')'); gr.addColorStop(1, c + '0)');
+      ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(x, y, p.r * 6, 0, Math.PI * 2); ctx.fill();
+    });
+    ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    if (!visible) return;
+    /* Le fil */
+    ctx.strokeStyle = 'rgba(243,238,230,.35)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(cx, 0); ctx.lineTo(cx, cy - R); ctx.stroke();
+    /* Halo */
+    const g = ctx.createRadialGradient(cx, cy, R * 0.6, cx, cy, R * 2.4); g.addColorStop(0, 'rgba(200,190,255,.28)'); g.addColorStop(1, 'rgba(200,190,255,0)');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(cx, cy, R * 2.4, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#0c0b12'; ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.fill();
+    const pt = (phi, lam) => [cx + R * Math.cos(phi) * Math.sin(lam), cy - R * Math.sin(phi), Math.cos(phi) * Math.cos(lam)];
+    facettes.forEach((f) => {
+      const lam = f.lam + rot, nz = Math.cos(f.phi) * Math.cos(lam + f.dlam / 2);
+      if (nz <= 0.02) return;
+      const m = 0.42, p1 = pt(f.phi - f.dphi * m, lam + f.dlam * (0.5 - m)), p2 = pt(f.phi - f.dphi * m, lam + f.dlam * (0.5 + m)), p3 = pt(f.phi + f.dphi * m, lam + f.dlam * (0.5 + m)), p4 = pt(f.phi + f.dphi * m, lam + f.dlam * (0.5 - m));
+      const nx = Math.cos(f.phi) * Math.sin(lam + f.dlam / 2), ny = Math.sin(f.phi);
+      const d = Math.max(0, nx * L[0] + ny * L[1] + nz * L[2]);
+      const spec = Math.pow(Math.max(0, 2 * d * nz - L[2]), 18);
+      const scint = 0.5 + 0.5 * Math.sin(t * 7 + f.eclat * 40);
+      const lum = Math.min(96, 8 + f.miroir * 26 + d * 34 + spec * 60 * scint);
+      ctx.fillStyle = spec * scint > 0.55 ? '#fff' : f.teinte < 0 ? `hsl(225 8% ${lum}%)` : `hsl(${f.teinte} 85% ${Math.min(80, lum + 18)}%)`;
+      ctx.beginPath(); ctx.moveTo(p1[0], p1[1]); ctx.lineTo(p2[0], p2[1]); ctx.lineTo(p3[0], p3[1]); ctx.lineTo(p4[0], p4[1]); ctx.closePath(); ctx.fill();
+      if (spec * scint > 0.7) { ctx.globalCompositeOperation = 'lighter'; ctx.fillStyle = 'rgba(255,255,255,.8)'; const sx = (p1[0] + p3[0]) / 2, sy = (p1[1] + p3[1]) / 2; ctx.fillRect(sx - R * 0.18, sy - 0.6, R * 0.36, 1.2); ctx.fillRect(sx - 0.6, sy - R * 0.18, 1.2, R * 0.36); ctx.globalCompositeOperation = 'source-over'; }
+    });
+  };
+  if (calme) { dessiner(0.8); return; }
+  boucle(sec, (dt, t) => dessiner(t));
+}
+
 /* ---------- Ouverture ---------- */
 const enTete = () => $$('#debut [data-anime="gsap"]');
 function entreePremierEcran(tl, a) {
@@ -387,7 +571,7 @@ function entreePremierEcran(tl, a) {
 
 demarrer({
   preparer() {
-    [faisceau, showLaser, fil, laserTitres, cartesEclairees, lumiereChange, rayon, dateLaser, pupitre, indexOccasions, eclats, gelPortrait]
+    [faisceau, showLaser, fil, laserTitres, cartesEclairees, lumiereChange, rayon, dateLaser, pupitre, salleScene, vuMetre, lettresLudo, friseFaisceau, affiche, boule3d, indexOccasions, eclats, gelPortrait]
       .forEach((f) => { try { f(); } catch (err) { console.error('[site]', f.name, err); } });
     devis().catch((err) => console.error('[site] devis', err));
   },

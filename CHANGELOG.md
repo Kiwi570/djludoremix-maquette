@@ -1,5 +1,29 @@
 # Journal des versions
 
+## v2 · 16 novembre 2026 · une signature par page
+- **Formules** :
+  - l'ouverture devient un VU-mètre géant. Cinq colonnes de LED montent jusqu'au prix de chaque formule et vivent ensuite comme sur une table de mixage ;
+  - un clic sur une colonne règle le pupitre sur cette formule ;
+  - le pupitre passe en plein écran dans la salle, épinglé. Le défilement monte seul les faders de 1er prix à Unlimited, jusqu'à ce qu'on y touche.
+- **Ludo** :
+  - l'ouverture affiche « LUDO » en lettres géantes, avec la photo de Ludo vue à travers. Au défilement, les lettres s'ouvrent jusqu'à la photo ;
+  - le parcours défile de côté sous une lyre, et chaque date s'allume en passant dans son faisceau ;
+  - le livre d'or devient une pile de cartes qui se posent l'une sur l'autre. Les deux vignettes floues sont retirées.
+- **Contact** :
+  - l'ouverture montre le numéro en chiffres géants, tracés au laser, sous des faisceaux. La carte des 50 km reste sur l'accueil ;
+  - à côté de la demande de devis, l'affiche de la soirée se compose à mesure : occasion, date, lieu, invités, formule. À l'envoi, elle est tamponnée « Reçu » ;
+  - le compte X est ajouté aux réseaux.
+- **Soirées** : la boule à facettes est maintenant une vraie boule en 3D, dessinée facette par facette. Elle tourne, scintille et jette ses reflets sur la page.
+- **Accueil** : la liste « Cinq formules, cinq vrais prix » devient une bande de cinq prix cliquables. Le jeu reste au pupitre de la scène, et les trois soirées types arrivent juste après.
+- **Pied de page** : le logotype remplace l'ancien logo GIF.
+- **Images** : deux nouvelles illustrations générées remplacent les scènes de festival.
+  - Soirées ouvre sur une place de village un soir de fête votive, avec son auvent rayé.
+  - Le pupitre de Formules est posé dans une salle des fêtes en pierre, sous sa charpente.
+- **Le pupitre** :
+  - il affiche sur téléphone le matériel et le prix de l'heure en plus ;
+  - Association est bien reconnue ;
+  - la mention trompeuse « fin vers 1 h : comprise » est retirée.
+
 ## v1 · 16 novembre 2026 · la base
 - Direction « Plein feux » : site sombre, brouillard, lyres et lasers, autour des vraies photos de Ludo.
 - Accueil, une seule grande scène :
@@ -20,11 +44,3 @@
   - le flash est adouci ;
   - les boutons du formulaire restent visibles ;
   - le pupitre dit si l'heure de fin choisie est comprise.
-
-## À faire en v2 (relevé par le regard neuf)
-- Donner une signature et une ouverture propres à Formules, Ludo et Contact. Aujourd'hui, les trois ouvrent sur la même composition.
-- Rendre à Formules un jeu qui lui appartient, puis retirer de l'accueil la liste des cinq prix, qui double le pupitre.
-- Ludo : faire de la frise un vrai faisceau au défilement et recomposer le livre d'or.
-- Soirées : refaire la boule à facettes, qui fait clip-art.
-- Remplacer les images Grok d'ouverture de Soirées et de Formules, qui montrent un grand club. Il faut des salles des fêtes, des places de village et des pergolas.
-- Remplacer le logo GIF du pied de page par le logotype.
