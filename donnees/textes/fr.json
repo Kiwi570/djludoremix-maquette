@@ -1,0 +1,277 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Devis sous 48 h",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "confort": "Suivre Ludo",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : les formulaires sont simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "DJ · son · lumière · laser",
+    "mentions": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "zone": "Gard · Vaucluse · Drôme · Ardèche · Lozère",
+    "base": "Basé à Pont-Saint-Esprit (Gard)",
+    "boutique": "La boutique de t-shirts",
+    "reseaux": "Réseaux",
+    "credits": "Photos de Ludo : Yann Elissalde, Christophe Restivo et archives DJ Ludo Remix.",
+    "devis": "Demander un devis",
+    "reponse": "Réponse sous 48 h"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "DJ Ludo Remix : DJ, son, lumière et laser dans le Gard",
+      "description": "Anniversaires, mariages, fêtes de village et soirées d'entreprise : Ludo, ses platines, ses lyres et son show laser. Formules dès 400 €, déplacement compris à 50 km de Pont-Saint-Esprit.",
+      "nav": "Accueil",
+      "partageAlt": "Ludo aux platines dans la lumière violette, titre « Votre soirée en plein feux »",
+      "accroche": "Votre soirée en plein feux"
+    },
+    "soirees": {
+      "titre": "Les soirées de DJ Ludo Remix : privées, fêtes de village, entreprises",
+      "description": "Total Bodega, Kitsch Party, mariages, cousinades, fêtes votives, bals, séminaires et galas : les soirées que Ludo anime dans le Gard et autour.",
+      "nav": "Soirées",
+      "partageAlt": "Piste de danse sous les lasers, titre « Les soirées »",
+      "accroche": "Toutes les soirées, un seul DJ"
+    },
+    "formules": {
+      "titre": "Formules et prix : de 400 à 1 250 € | DJ Ludo Remix",
+      "description": "Cinq formules son et lumière, du 1er prix à l'Unlimited avec deux lasers ILDA : composez votre soirée au pupitre et voyez le prix.",
+      "nav": "Formules",
+      "partageAlt": "Pupitre lumière dans le brouillard, titre « Les formules »",
+      "accroche": "Composez votre lumière"
+    },
+    "ludo": {
+      "titre": "Ludo : le parcours de DJ Ludo Remix",
+      "description": "Des Bodega Feria au bal du 14 juillet devant 500 personnes : le parcours de Ludo, ses photos et le livre d'or.",
+      "nav": "Ludo",
+      "partageAlt": "Ludo derrière sa table de mixage, lumière bleue",
+      "accroche": "Ludo, derrière les platines"
+    },
+    "contact": {
+      "titre": "Contact et devis : DJ Ludo Remix, 07 61 59 61 17",
+      "description": "Demandez un devis pour votre soirée : date, lieu, nombre d'invités. Réponse sous 48 h. Basé à Pont-Saint-Esprit, dans le Gard.",
+      "nav": "Contact",
+      "partageAlt": "Numéro de DJ Ludo Remix et carte du rayon de 50 km",
+      "accroche": "Réservez votre date"
+    },
+    "404": {
+      "titre": "Page introuvable : DJ Ludo Remix",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Piste vide sous une seule poursuite",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "sur": "DJ, son, lumière et laser · Gard, Vaucluse, Drôme, Ardèche",
+    "titre1": "Votre soirée",
+    "titre2": "en plein feux",
+    "texte": "Lasers qui écrivent, lyres, brouillard et les platines de Ludo, de 20 h jusqu'au bout de la nuit : anniversaires, mariages, fêtes de village, soirées d'entreprise.",
+    "action": "Demander un devis",
+    "prix": "dès 400 €",
+    "prixLegende": "formule son et lumière",
+    "km": "50 km",
+    "kmLegende": "déplacement compris",
+    "astuce": "Promenez la lumière",
+    "astuceTactile": "Glissez pour bouger la lumière",
+    "alt": "Ludo aux platines devant un mur de pierre éclairé en violet et bleu",
+    "soirees": {
+      "sur": "Trois façons de faire la fête",
+      "titre": "Une piste, trois publics",
+      "texte": "Le même DJ pour la cousinade du samedi, la fête votive du village et la soirée de gala de l'entreprise.",
+      "voir": "Voir toutes les soirées"
+    },
+    "lumiere": {
+      "sur": "La lumière change, Ludo reste",
+      "titre": "Une scène, mille couleurs",
+      "texte": "Faites défiler : la lyre change de couleur, la salle aussi.",
+      "region": "La même scène sous quatre couleurs"
+    },
+    "formules": {
+      "sur": "Les formules au pupitre",
+      "titre": "Cinq formules, cinq vrais prix",
+      "texte": "Tout compris : son, lumière, laser, brouillard, et le déplacement à 50 km de Pont-Saint-Esprit. Touchez une formule pour la régler au pupitre.",
+      "action": "Composer ma soirée au pupitre",
+      "uv": "Le projecteur UV de la formule BlackLight fait briller tout ce qui est blanc.",
+      "alt": "Lumière ultraviolette et lasers au-dessus d'une piste",
+      "heure": "heure supplémentaire : 100 €"
+    },
+    "laser": {
+      "sur": "Le livre d'or",
+      "titre": "286 messages, un show laser",
+      "texte": "Extraits du livre d'or du site, mot pour mot.",
+      "badges": "Wedding Awards 2023 de Mariages.net, partenaire officiel et sélection des meilleurs prestataires Zankyou.",
+      "lire": "Lire le parcours de Ludo"
+    },
+    "rayon": {
+      "sur": "Où joue Ludo",
+      "titre": "50 km autour de Pont-Saint-Esprit, déplacement compris",
+      "texte": "Le Gard, le Vaucluse, la Drôme, l'Ardèche et la Lozère, jusqu'en Auvergne-Rhône-Alpes. Au-delà, et à l'étranger : le déplacement s'ajoute au devis.",
+      "legendeDans": "Dans le rayon de 50 km",
+      "legendeHors": "Au-delà : sur devis",
+      "carte": "Carte des villes autour de Pont-Saint-Esprit et du rayon de 50 km"
+    },
+    "date": {
+      "sur": "Une date en tête ?",
+      "titre": "Réservez la date",
+      "texte": "Dites-nous quand et où : Ludo répond sous 48 h. La date n'est bloquée qu'à la signature du devis.",
+      "date": "Date de la soirée",
+      "type": "Type de soirée",
+      "tel": "Votre téléphone",
+      "envoyer": "Écrire ma date au laser",
+      "recu": "Reçu",
+      "recuTexte": "Demande simulée : rien n'a été envoyé. Sur le vrai site, Ludo vous rappelle sous 48 h.",
+      "suite": "Préciser ma demande"
+    }
+  },
+  "soirees": {
+    "sur": "Les soirées",
+    "titre1": "Toutes les fêtes,",
+    "titre2": "un seul DJ",
+    "texte": "Des anniversaires aux fêtes votives, du bar du vendredi au séminaire : Ludo adapte la musique, la lumière et le micro à votre public.",
+    "action": "Demander un devis",
+    "info": "Réponse sous 48 h",
+    "alt": "Piste de danse en contre-jour sous les faisceaux laser",
+    "index": {
+      "titre": "On fête quoi ?",
+      "texte": "Les occasions que Ludo anime, d'après son site."
+    },
+    "bodega": {
+      "sur": "Concept maison",
+      "titre": "Total Bodega",
+      "texte": "L'ambiance des ferias : rythmes latins, cuivres et sons Bodega Feria, que Ludo a mixés en résident dès 2011.",
+      "alt": "Rue de fête du Sud la nuit, lumière rouge et or"
+    },
+    "kitsch": {
+      "sur": "Concept maison",
+      "titre": "Kitsch Party",
+      "texte": "La variété française des années 80 et 90, celle que toute la salle chante, sous la boule à facettes.",
+      "alt": "Boule à facettes et reflets roses dans le brouillard"
+    },
+    "publics": {
+      "titre": "Trois publics, une même exigence",
+      "privee": "Soirées privées",
+      "priveeTexte": "Anniversaires, mariages, cousinades, garden parties, communions, départs en retraite.",
+      "publique": "Fêtes de village",
+      "publiqueTexte": "Fêtes votives, bals, kermesses, arbres de Noël, bodegas, soirées de camping.",
+      "entreprise": "Entreprises",
+      "entrepriseTexte": "Séminaires, comités d'entreprise, inaugurations, présentations de produits, soirées de gala.",
+      "bar": "Bars et restaurants",
+      "barTexte": "« DJ sans matériel » : Ludo vient avec ses platines et joue sur votre sono.",
+      "devis": "Un devis pour ça"
+    },
+    "fin": {
+      "titre": "Votre fête est dans la liste ?",
+      "texte": "Et si elle n'y est pas, Ludo l'ajoute.",
+      "formules": "Voir les formules"
+    }
+  },
+  "formules": {
+    "sur": "Formules",
+    "titre1": "Composez",
+    "titre2": "votre lumière",
+    "texte": "Cinq formules tout compris, de 20 h jusqu'à la fin de la nuit, avec la nouvelle sono de 3 000 W prévue pour 500 personnes. Montez les faders du pupitre : la salle s'allume et la formule qui vous va s'affiche avec son prix.",
+    "info": "de 400 à 1 250 €",
+    "action": "Aller au pupitre",
+    "alt": "Pupitre lumière dans une salle plongée dans le brouillard",
+    "pupitre": {
+      "titre": "Le pupitre",
+      "texte": "Montez ce que vous voulez voir dans votre salle.",
+      "lyres": "Lyres",
+      "lasers": "Lasers",
+      "uv": "UV",
+      "disco": "Disco",
+      "fin": "Finir vers",
+      "asso": "Nous sommes une association",
+      "resultat": "Votre formule",
+      "inclus": "Compris : son, lumière, brouillard, installation 1 h avant, déplacement à 50 km.",
+      "sup": "dont heures supplémentaires",
+      "demander": "Demander ce devis",
+      "alt": "Salle des fêtes vide, pont lumière et brouillard",
+      "region": "Pupitre lumière : faders des lyres, des lasers, de l'UV, du disco et de l'heure de fin"
+    },
+    "tableau": {
+      "titre": "Les cinq formules côte à côte",
+      "horaire": "Horaire",
+      "sup": "Heure en plus",
+      "nonPrecise": "sans heure de fin",
+      "choisir": "Choisir"
+    },
+    "faq": {
+      "titre": "Bon à savoir",
+      "q1": "Le déplacement est-il compris ?",
+      "r1": "Oui, dans un rayon de 50 km autour de Pont-Saint-Esprit. Au-delà, et à l'étranger, il s'ajoute au devis.",
+      "q2": "Quand Ludo installe-t-il ?",
+      "r2": "Au moins une heure avant le début de la soirée, selon la formule. Un assistant l'accompagne parfois pour le montage et la lumière.",
+      "q3": "Et si je veux finir plus tard ?",
+      "r3": "Chaque heure en plus coûte 100 € (sauf Unlimited, sans heure de fin). Pour d'autres horaires, appelez le 07 61 59 61 17.",
+      "q4": "Comment la date est-elle bloquée ?",
+      "r4": "Le devis doit être signé : une date non confirmée peut être donnée à un autre client. Une demande sans numéro de téléphone n'est pas confirmée."
+    }
+  },
+  "ludo": {
+    "sur": "Ludo",
+    "titre1": "Derrière",
+    "titre2": "les platines",
+    "texte": "Élevé à Béziers, Ludo s'est fait un nom dans les nuits du Gard : House, Electro House, Hip-Hop, funk, new wave, et toute la chanson française qu'on chante en chœur.",
+    "action": "Lui confier ma soirée",
+    "info": "Résident des Bodega Feria depuis 2011",
+    "alt": "Ludo debout derrière sa table de mixage, lumière bleue",
+    "parcours": { "titre": "Le parcours, au laser", "texte": "Les dates de sa biographie." },
+    "photos": { "titre": "En lumière", "texte": "Ses soirées, des photos pros aux souvenirs de piste.", "region": "Photos de Ludo et de ses soirées" },
+    "livre": { "titre": "Le livre d'or", "texte": "286 messages sur le site. Quelques extraits, mot pour mot." },
+    "fin": { "titre": "À vous de jouer", "texte": "Racontez votre soirée à Ludo." }
+  },
+  "contact": {
+    "sur": "Contact",
+    "titre1": "Réservez",
+    "titre2": "votre date",
+    "texte": "Appelez Ludo ou décrivez votre soirée : réponse sous 48 h. Pour un devis juste, donnez le nombre d'invités, le lieu, la date et ce que vous aimeriez.",
+    "info": "Pont-Saint-Esprit · Gard",
+    "appeler": "Appeler Ludo",
+    "devis": "Demande de devis",
+    "carte": "Le rayon de 50 km autour de Pont-Saint-Esprit",
+    "form": {
+      "e1": "Votre soirée",
+      "q1": "Quelle soirée préparez-vous ?",
+      "e2": "Date et lieu",
+      "q2": "Quand et où ?",
+      "e3": "Formule",
+      "q3": "Quelle formule vous tente ?",
+      "e4": "Vos coordonnées",
+      "q4": "Comment vous joindre ?",
+      "e5": "Récapitulatif",
+      "q5": "Tout est juste ?",
+      "date": "Date",
+      "lieu": "Commune",
+      "invites": "Nombre d'invités",
+      "nom": "Nom",
+      "tel": "Téléphone (obligatoire pour confirmer)",
+      "email": "E-mail",
+      "message": "Ce que vous aimeriez (styles, moments clés)",
+      "nsp": "Je ne sais pas encore",
+      "retour": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "merci": "Demande reçue",
+      "merciTexte": "Demande simulée : rien n'a été envoyé. Sur le vrai site, Ludo vous répond sous 48 h.",
+      "recommencer": "Nouvelle demande",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande."
+    },
+    "reseaux": "Suivre Ludo"
+  },
+  "introuvable": {
+    "titre": "Piste vide",
+    "texte": "La page que vous cherchez a quitté la soirée.",
+    "retour": "Retour sur la piste",
+    "alt": "Piste vide sous une seule poursuite"
+  }
+}

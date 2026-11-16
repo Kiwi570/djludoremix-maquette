@@ -1,0 +1,26 @@
+{
+  "siteActuel": "djludoremix.fr",
+  "pagesTypes": [
+    "/",
+    "/soirees",
+    "/formules",
+    "/ludo",
+    "/contact"
+  ],
+  "effets": [
+    "faisceau",
+    "laser-titre",
+    "pupitre",
+    "rayon-50km",
+    "date-laser",
+    "eclats",
+    "index-occasions",
+    "gel-portrait",
+    "fil",
+    "prix-allumes",
+    "show-laser"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

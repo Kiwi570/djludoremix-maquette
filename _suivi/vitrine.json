@@ -1,0 +1,223 @@
+{
+ "explication": "Vitrine du projet : des ouvertures de la bibliothèque à dépasser, jamais à imiter (ni leur idée, ni leur mise en page).",
+ "activite": [
+  "spectacle"
+ ],
+ "metier": "DJ animation soirée",
+ "besoin": [
+  "devis",
+  "zone-d-intervention"
+ ],
+ "ton": [
+  "énergique"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "djludoremix-maquette",
+ "ecartees": [],
+ "ouvertures": [
+  {
+   "rang": 1,
+   "id": "edwin-sonorisation-maquette/hero",
+   "maquette": "edwin-sonorisation-maquette",
+   "client": "DJ et animation de soirées privées",
+   "metier": "DJ et sonorisation",
+   "activite": [
+    "spectacle"
+   ],
+   "pourquoi": [
+    "même métier",
+    "besoin devis, zone-d-intervention",
+    "ambiance énergique",
+    "style sombre (100 % sombre)",
+    "vitesse",
+    "webgl"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 100,
+   "note_section": 4,
+   "note_maquette": 90,
+   "titre": "Vinyle WebGL scratché",
+   "description": "Héros sombre : un disque vinyle WebGL (OGL) incliné, avec sillons, reflet anisotrope, étiquette et faisceaux laser, tourne à droite du titre ; le défilement le fait scratcher. Le titre arrive ligne par ligne sur les temps d'un tempo affiché. Repli en disque CSS qui tourne sans WebGL.",
+   "familles": [
+    "vitesse",
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/edwin-sonorisation-maquette/hero.json",
+   "capture": "medias/edwin-sonorisation-maquette/hero-p1440.jpg",
+   "video": "medias/edwin-sonorisation-maquette/hero-p720.mp4",
+   "en_ligne": "https://edwin-sonorisation-maquette.vercel.app"
+  },
+  {
+   "rang": 2,
+   "id": "games42-maquette/haut",
+   "maquette": "games42-maquette",
+   "client": "escape game familial (enfants, familles, adultes, groupes)",
+   "metier": "escape game",
+   "activite": [
+    "spectacle",
+    "tourisme"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin devis",
+    "clair et sombre alternés (77 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 77,
+   "note_section": 4,
+   "note_maquette": 90,
+   "titre": "Passez le portail",
+   "description": "Héros de l'accueil : grand titre, accroche, deux boutons et preuves (note Google, accès) devant le portail ; au défilement la caméra plonge dans l'anneau.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/games42-maquette/haut.json",
+   "capture": "medias/games42-maquette/haut-p1440.jpg",
+   "video": "medias/games42-maquette/haut-p720.mp4",
+   "en_ligne": "https://games42-maquette.vercel.app"
+  },
+  {
+   "rang": 3,
+   "id": "qd2a-maquette/debut",
+   "maquette": "qd2a-maquette",
+   "client": "Comité de lecture international des écritures dramatiques contemporaines de langue française (association), accueilli au Théâtre des Quartiers d'Ivry",
+   "metier": "comité de lecture théâtral",
+   "activite": [
+    "association",
+    "culture",
+    "spectacle"
+   ],
+   "pourquoi": [
+    "même activité",
+    "ambiance énergique",
+    "style clair (13 % sombre)",
+    "objet-manipulable",
+    "masque",
+    "profondeur"
+   ],
+   "lumiere": "clair",
+   "part_sombre": 13,
+   "note_section": 5,
+   "note_maquette": 89,
+   "titre": "Le Quartier des Autrices et des Auteurs",
+   "description": "Le Q du logo du Quartier, vectorisé, dont chacune des six formes est remplie d'une mosaïque des vrais visages de son comité (France, Belgique, Cameroun, Canada), des coups de cœur et de la lauréate, sous un voile de sa couleur qui s'efface au toucher ; on attrape une forme, elle s'écarte avec résistance et revient avec élan ; les formes suivent la souris en profondeur et se défont doucement au défilement ; légende des six formes visible sans interaction",
+   "familles": [
+    "objet-manipulable",
+    "masque",
+    "profondeur"
+   ],
+   "plan": "recit-lineaire",
+   "module": "document-a-feuilleter",
+   "fiche": "sections/qd2a-maquette/debut.json",
+   "capture": "medias/qd2a-maquette/debut-p1440.jpg",
+   "video": "medias/qd2a-maquette/debut-p720.mp4",
+   "en_ligne": "https://qd2a-maquette.vercel.app"
+  },
+  {
+   "rang": 4,
+   "id": "swiss-cloisons-solutions-maquette/hero",
+   "maquette": "swiss-cloisons-solutions-maquette",
+   "client": "entreprise d'aménagement intérieur de bureaux (cloisons, faux-plafonds, planchers techniques) à Genève",
+   "metier": "aménagement de bureaux",
+   "activite": [
+    "bâtiment",
+    "services-b2b"
+   ],
+   "pourquoi": [
+    "besoin devis, zone-d-intervention",
+    "clair et sombre alternés (36 % sombre)",
+    "lumiere-pointeur",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 36,
+   "note_section": 5,
+   "note_maquette": 85,
+   "titre": "Vitre coulissante",
+   "description": "Sur la photo d'un plateau de bureaux, deux panneaux vitrés bord à bord rendus en WebGL (OGL) avec réfraction sur les chants, liseré chromatique, reflet, bande dépolie et profilés alu ; la vitre suit le pointeur puis se referme au défilement. Sans WebGL ou en mode calme, une vitre CSS reste et la photo est intacte.",
+   "familles": [
+    "lumiere-pointeur",
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/swiss-cloisons-solutions-maquette/hero.json",
+   "capture": "medias/swiss-cloisons-solutions-maquette/hero-p1440.jpg",
+   "video": "medias/swiss-cloisons-solutions-maquette/hero-p720.mp4",
+   "en_ligne": "https://swiss-cloisons-solutions-maquette.vercel.app"
+  },
+  {
+   "rang": 5,
+   "id": "les-plus-hautes-eaux-maquette/haut",
+   "maquette": "les-plus-hautes-eaux-maquette",
+   "client": "compagnie de théâtre gestuel et clown pour tous publics, tournée dans le Grand Ouest",
+   "metier": "compagnie de théâtre",
+   "activite": [
+    "spectacle",
+    "culture"
+   ],
+   "pourquoi": [
+    "même activité",
+    "style sombre (100 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 100,
+   "note_section": 5,
+   "note_maquette": 90,
+   "titre": "Héros sous la montée des eaux",
+   "description": "Photo de scène en bichromie : une nappe d'eau WebGL (OGL) avec caustiques monte en lui rendant ses couleurs, puis couvre toute l'image au défilement (scrub) ; un clic fait des ronds dans l'eau. Titre révélé mot à mot, prochaine représentation en carte. Repli CSS par variable --lvl sans WebGL.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": "revelation-a-l-encre",
+   "fiche": "sections/les-plus-hautes-eaux-maquette/haut.json",
+   "capture": "medias/les-plus-hautes-eaux-maquette/haut-p1440.jpg",
+   "video": "medias/les-plus-hautes-eaux-maquette/haut-p720.mp4",
+   "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+  },
+  {
+   "rang": 6,
+   "id": "coupdefood-maquette/une",
+   "maquette": "coupdefood-maquette",
+   "client": "agence de relations presse et de communication culinaire",
+   "metier": "agence de relations presse culinaire",
+   "activite": [
+    "conseil",
+    "média"
+   ],
+   "pourquoi": [
+    "activité proche",
+    "clair et sombre alternés (20 % sombre)",
+    "typo-geante",
+    "vitesse",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 20,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "La une",
+   "description": "Une de quotidien : filets qui se tracent, manchette « COUP DE FOOD » lettre à lettre (SplitText), photo qui se développe en trame WebGL, titre imprimé au rouleau, tampon rouge, sommaire « En bref » et fil de dépêches défilant accéléré par la vitesse de défilement et arrêté au survol ou au focus.",
+   "familles": [
+    "typo-geante",
+    "vitesse",
+    "webgl"
+   ],
+   "plan": null,
+   "module": "trame-photo",
+   "fiche": "sections/coupdefood-maquette/une.json",
+   "capture": "medias/coupdefood-maquette/une-p1440.jpg",
+   "video": "medias/coupdefood-maquette/une-p720.mp4",
+   "en_ligne": "https://coupdefood-maquette.vercel.app"
+  }
+ ]
+}

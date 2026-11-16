@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "DJ Ludo Remix",
+  "url": "https://djludoremix-maquette.vercel.app/",
+  "telephone": "+33761596117",
+  "address": { "@type": "PostalAddress", "addressLocality": "Pont-Saint-Esprit", "postalCode": "30130", "addressCountry": "FR" },
+  "geo": { "@type": "GeoCoordinates", "latitude": 44.2685151, "longitude": 4.641604 },
+  "areaServed": ["Gard", "Vaucluse", "Drôme", "Ardèche", "Lozère"],
+  "description": "DJ, sonorisation, éclairage et laser pour soirées privées, fêtes de village et événements d'entreprise dans le Gard, le Vaucluse, la Drôme, l'Ardèche et la Lozère.",
+  "sameAs": ["https://www.facebook.com/DJLUDOREMIX", "https://www.instagram.com/djludoremix", "https://www.tiktok.com/@djludoremix"]
+}

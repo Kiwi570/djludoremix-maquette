@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le crossfader — esquisse</title>
+<style>
+@font-face{font-family:"Brico";src:url(/_suivi/esquisses/polices/bricolage-grotesque-latin-standard-normal.woff2) format("woff2");font-weight:200 800;font-stretch:75% 100%}
+@font-face{font-family:"DM";src:url(/_suivi/esquisses/polices/dm-sans-latin-wght-normal.woff2) format("woff2");font-weight:100 1000}
+:root{--nuit:#0c0a10;--creme:#fbf1e4;--or:#ffb43a;--braise:#e5341d;--rose:#ff3fae;--cyan:#38e6ff}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;overflow:hidden;background:var(--nuit);color:var(--creme);font-family:DM,system-ui,sans-serif}
+.ecran{position:relative;height:100svh;display:grid;grid-template-columns:42% 58%;overflow:hidden;isolation:isolate}
+.cote{position:relative;overflow:hidden}
+.cote .ph{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat}
+.bodega .ph{background-image:url(/recu/site/dj-ludo-remix-5.jpg);background-position:30% 30%;background-size:auto 112%;filter:sepia(.35) saturate(1.5) contrast(1.08) brightness(.82)}
+.bodega:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(80,10,4,.15),rgba(60,8,2,.82)),radial-gradient(circle at 70% 20%,rgba(255,180,58,.35),transparent 50%)}
+.kitsch .ph{background-image:url(/recu/site/dj-ludo-remix-dj-6.jpg);background-position:58% 28%;background-size:auto 114%;filter:hue-rotate(-18deg) saturate(1.6) contrast(1.1) brightness(.85)}
+.kitsch:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,0,60,.1),rgba(20,0,40,.85)),repeating-linear-gradient(0deg,rgba(255,255,255,.05) 0 1px,transparent 1px 4px)}
+.titre{position:absolute;z-index:3;bottom:clamp(170px,29vh,270px);left:0;right:0;display:grid;grid-template-columns:42% 58%;pointer-events:none}
+.titre h2{font-family:Brico;text-transform:uppercase;line-height:.84;letter-spacing:-.02em;padding:0 clamp(18px,3vw,48px)}
+.t-bodega{font-weight:800;font-stretch:75%;font-size:clamp(54px,7.2vw,118px);color:var(--or);text-shadow:0 4px 0 #7a1406}
+.t-kitsch{font-weight:300;font-stretch:100%;font-size:clamp(54px,7.2vw,118px);color:#fff;text-shadow:0 0 14px var(--rose),0 0 40px var(--rose),3px 0 0 var(--cyan)}
+.sous{display:block;font-family:DM;font-weight:600;font-size:14px;letter-spacing:.18em;text-transform:none;margin-top:14px;color:var(--creme);text-shadow:none}
+header{position:absolute;top:0;left:0;right:0;height:76px;z-index:6;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,3vw,48px);background:linear-gradient(rgba(12,10,16,.96),rgba(12,10,16,.78))}
+.logo{font-family:Brico;font-weight:800;font-stretch:80%;font-size:26px;letter-spacing:.02em}
+nav{display:flex;gap:28px;font-weight:600;font-size:15px}
+.devis{height:42px;padding:0 20px;border-radius:999px;background:var(--creme);color:var(--nuit);display:flex;align-items:center;font-weight:700;font-size:14px}
+.une{position:absolute;z-index:4;top:108px;left:50%;transform:translateX(-50%);text-align:center;width:min(640px,90vw)}
+.une h1{font-family:Brico;font-weight:700;font-stretch:88%;font-size:clamp(30px,2.9vw,46px);line-height:1.02}
+.une p{margin-top:12px;font-size:17px;line-height:1.45;color:#eadfd2}
+/* La table de mixage */
+.table{position:absolute;z-index:5;left:50%;bottom:0;transform:translateX(-50%);width:min(760px,96vw);height:clamp(150px,24vh,210px);border-radius:22px 22px 0 0;
+  background:linear-gradient(180deg,#3a3a40,#1c1c21 40%,#141418);box-shadow:0 -20px 60px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.18);padding:22px 36px 0}
+.table:before{content:"";position:absolute;inset:0;border-radius:inherit;background:repeating-linear-gradient(90deg,rgba(255,255,255,.025) 0 1px,transparent 1px 3px);pointer-events:none}
+.vu{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.vu span{display:flex;gap:8px;align-items:center}
+.leds{display:flex;gap:3px}.leds i{width:7px;height:16px;border-radius:2px;background:#2a2a30}
+.leds i.on{background:#3dff8b;box-shadow:0 0 8px #3dff8b}.leds i.on.o{background:var(--or);box-shadow:0 0 8px var(--or)}.leds i.on.r{background:#ff4040;box-shadow:0 0 8px #ff4040}
+.fente{position:relative;margin:26px auto 0;height:14px;width:82%;border-radius:8px;background:#060608;box-shadow:inset 0 2px 4px #000,0 1px 0 rgba(255,255,255,.12)}
+.graduation{position:absolute;left:0;right:0;top:-14px;display:flex;justify-content:space-between}
+.graduation i{width:1px;height:8px;background:#77777f}.graduation i:nth-child(5n+1){height:12px;background:#aaa}
+.bouton{position:absolute;top:50%;left:44%;width:62px;height:96px;transform:translate(-50%,-50%);border-radius:10px;
+  background:linear-gradient(90deg,#9c9ca4,#f1f1f4 30%,#d3d3d8 50%,#8a8a92 100%);box-shadow:0 12px 24px rgba(0,0,0,.7),inset 0 -6px 0 rgba(0,0,0,.25)}
+.bouton:after{content:"";position:absolute;left:12px;right:12px;top:16px;bottom:16px;background:repeating-linear-gradient(0deg,rgba(0,0,0,.35) 0 2px,transparent 2px 7px);border-radius:4px}
+.bouton b{position:absolute;left:50%;top:-1px;bottom:-1px;width:3px;transform:translateX(-50%);background:var(--rose);box-shadow:0 0 8px var(--rose)}
+.actions{position:absolute;z-index:6;right:clamp(18px,3vw,48px);top:108px;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.btn{height:54px;padding:0 24px;border-radius:999px;background:var(--rose);color:#fff;font-weight:700;font-size:16px;display:inline-flex;align-items:center}
+.tel{font-weight:700;font-size:18px}
+.cle{position:absolute;z-index:6;left:clamp(18px,3vw,48px);top:108px;font-size:14px;color:#eadfd2;line-height:1.4}
+.cle b{display:block;font-family:Brico;font-weight:800;font-stretch:80%;font-size:34px;color:var(--or)}
+@media (max-width:760px){
+  .ecran{grid-template-columns:1fr;grid-template-rows:50% 50%}
+  .titre{grid-template-columns:1fr;grid-template-rows:1fr 1fr;top:0;bottom:0}
+  .titre h2{align-self:end;padding-bottom:18px}.t-kitsch{align-self:end;padding-bottom:180px!important}
+  .t-bodega,.t-kitsch{font-size:52px}
+  nav,.devis,.une p,.cle{display:none}header{height:62px}
+  .une{top:76px;width:auto;left:18px;right:18px;transform:none;text-align:left}.une h1{font-size:28px}
+  .actions{top:142px;bottom:auto;left:18px;right:auto;flex-direction:row;align-items:center}.btn{height:48px;font-size:15px}
+  .table{height:160px;padding:16px 18px 0;width:100vw}.vu{font-size:11px}
+}
+</style></head><body>
+<main class="ecran">
+  <div class="cote bodega"><div class="ph"></div></div>
+  <div class="cote kitsch"><div class="ph"></div></div>
+  <div class="titre" aria-hidden="true">
+    <h2 class="t-bodega">Total<br>Bodega<span class="sous">rythmes latins, cuivres, feria</span></h2>
+    <h2 class="t-kitsch">Kitsch<br>Party<span class="sous">variété française 80-90</span></h2>
+  </div>
+  <header><div class="logo">DJ LUDO REMIX</div><nav><span>Soirées</span><span>Formules</span><span>Ludo</span><span>Contact</span></nav><div class="devis">Devis sous 48 h</div></header>
+  <div class="une"><h1>Une soirée, deux mondes, un seul DJ.</h1><p>Glissez le curseur : Ludo passe de la bodega à la boum sans couper le son.</p></div>
+  <div class="cle"><b>dès 400 €</b>son, lumière et laser<br>déplacement compris à 50 km</div>
+  <div class="actions"><a class="btn">Demander un devis →</a><span class="tel">07 61 59 61 17</span></div>
+  <div class="table" aria-hidden="true">
+    <div class="vu"><span>Bodega <span class="leds"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on o"></i><i class="on o"></i><i></i><i></i></span></span>
+      
+      <span><span class="leds"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></span> Kitsch</span></div>
+    <div class="fente"><div class="graduation"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="bouton"><b></b></div></div>
+  </div>
+</main>
+</body></html>

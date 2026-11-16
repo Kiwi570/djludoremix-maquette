@@ -1,0 +1,192 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "accueil-ouverture-1280.webp",
+      "poids": 64797,
+      "sujet": {
+        "x": 600,
+        "y": 35,
+        "l": 600,
+        "h": 595
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "contact-ludo-784.webp",
+      "poids": 58080,
+      "sujet": {
+        "x": 778,
+        "y": 89,
+        "l": 308,
+        "h": 541
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "formules",
+      "langue": "fr",
+      "fichier": "assets/partage/formules-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/formules-ouverture-1280.webp",
+      "poids": 58573,
+      "sujet": {
+        "x": 600,
+        "y": 35,
+        "l": 600,
+        "h": 525
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "ludo",
+      "langue": "fr",
+      "fichier": "assets/partage/ludo-fr.jpg",
+      "gabarit": "droite",
+      "image": "ludo-ouverture-784.webp",
+      "poids": 42556,
+      "sujet": {
+        "x": 775,
+        "y": 0,
+        "l": 400,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "soirees",
+      "langue": "fr",
+      "fichier": "assets/partage/soirees-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/soirees-ouverture-1280.webp",
+      "poids": 58781,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

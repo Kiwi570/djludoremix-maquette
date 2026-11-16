@@ -1,0 +1,16 @@
+{
+ "id": "20261116-134854-complet-cible-partiel",
+ "date": "2026-11-16T13:52:48.089Z",
+ "niveau": "complet",
+ "pages": "/,/contact,/formules,/ludo",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 0,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

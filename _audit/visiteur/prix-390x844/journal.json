@@ -1,0 +1,305 @@
+{
+ "mission": "prix",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.1,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8000,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Menu",
+    "Demander un devis",
+    "07 61 59 61 17"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "menu",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8000,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Fermer",
+    "ACCUEIL",
+    "SOIRÉES",
+    "FORMULES",
+    "LUDO",
+    "CONTACT",
+    "Appeler 07 61 59 61 17",
+    "Demander un devis",
+    "07 61 59 61 17"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "550 €",
+    "400 €",
+    "500 €",
+    "700 €",
+    "250 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": true
+  },
+  {
+   "k": 2,
+   "geste": "cliquer Formules",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 6.2,
+   "adresse": "/formules",
+   "y": 0,
+   "hauteurPage": 6770,
+   "titres": [
+    "h1 COMPOSEZ VOTRE LUMIÈRE"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Menu",
+    "Aller au pupitre ↓",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "1 250 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "defiler 2",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 8.6,
+   "adresse": "/formules",
+   "y": 1434,
+   "hauteurPage": 6770,
+   "titres": [
+    "h2 LES CINQ FORMULES CÔTE À CÔTE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 8.6,
+   "adresse": "/formules",
+   "y": 1434,
+   "hauteurPage": 6770,
+   "titres": [
+    "h2 LES CINQ FORMULES CÔTE À CÔTE"
+   ],
+   "actions": [
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 9.8,
+   "adresse": "/formules",
+   "y": 2151,
+   "hauteurPage": 6770,
+   "titres": [
+    "h2 LES CINQ FORMULES CÔTE À CÔTE",
+    "h3 1ER PRIX",
+    "h3 ASSOCIATION"
+   ],
+   "actions": [
+    "Choisir 1er prix",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "400 €",
+    "100 €",
+    "500 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 9.8,
+   "adresse": "/formules",
+   "y": 2151,
+   "hauteurPage": 6770,
+   "titres": [
+    "h2 LES CINQ FORMULES CÔTE À CÔTE",
+    "h3 1ER PRIX",
+    "h3 ASSOCIATION"
+   ],
+   "actions": [
+    "Choisir 1er prix",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "400 €",
+    "100 €",
+    "500 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  },
+  {
+   "k": 7,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 10.9,
+   "adresse": "/formules",
+   "y": 2868,
+   "hauteurPage": 6770,
+   "titres": [
+    "h3 DE BASE"
+   ],
+   "actions": [
+    "Choisir Association",
+    "Choisir De base",
+    "Appeler",
+    "Devis sous 48 h"
+   ],
+   "prixVus": [
+    "500 €",
+    "100 €",
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-7.png"
+  }
+ ]
+}

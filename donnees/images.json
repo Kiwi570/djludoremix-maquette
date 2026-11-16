@@ -1,0 +1,2394 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/site/logo-sombre.gif",
+    "role": "logo",
+    "alt": "DJ Ludo Remix",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "4245e4a305576167",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 2088,
+      "logo-480.webp": 5514
+    },
+    "media": "c.media({ nom: 'logo', alt: \"DJ Ludo Remix\", sizes: '240px' })"
+  },
+  "accueil-ouverture": {
+    "nom": "accueil-ouverture",
+    "source": "recu/site/net/dj-ludo-remix-dj-6.jpg",
+    "role": "ouverture",
+    "alt": "Ludo aux platines devant un mur de pierre éclairé en violet et bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2242c67a1db1ffdd",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "44% 40%",
+    "sujet": {
+      "x": 9.4,
+      "y": 5.6,
+      "l": 84.4,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "accueil-ouverture-640.webp",
+      "accueil-ouverture-1280.webp",
+      "accueil-ouverture-1920.webp",
+      "accueil-ouverture-mobile-640.webp"
+    ],
+    "poids": {
+      "accueil-ouverture-640.webp": 26828,
+      "accueil-ouverture-1280.webp": 71458,
+      "accueil-ouverture-1920.webp": 121048,
+      "accueil-ouverture-mobile-640.webp": 37824
+    },
+    "media": "c.media({ nom: 'accueil-ouverture', alt: \"Ludo aux platines devant un mur de pierre éclairé en violet et bleu\", cadrage: '44% 40%', cadrageMobile: '50% 40%', sizes: '100vw', priorite: true })"
+  },
+  "accueil-ludo": {
+    "nom": "accueil-ludo",
+    "source": "recu/site/net/dj-ludo-remix-7.jpg",
+    "role": "section-fond",
+    "alt": "Ludo penché sur ses platines, mur éclairé en rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "acf0404dc232b230",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "41% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 92.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 312,
+      "top": 0,
+      "width": 1688,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 1688 px après recadrage)"
+    ],
+    "fichiers": [
+      "accueil-ludo-640.webp",
+      "accueil-ludo-1280.webp",
+      "accueil-ludo-1920.webp"
+    ],
+    "poids": {
+      "accueil-ludo-640.webp": 25534,
+      "accueil-ludo-1280.webp": 61208,
+      "accueil-ludo-1920.webp": 102250
+    },
+    "media": "c.media({ nom: 'accueil-ludo', alt: \"Ludo penché sur ses platines, mur éclairé en rouge\", cadrage: '41% 61%', sizes: '100vw' })"
+  },
+  "ludo-vert": {
+    "nom": "ludo-vert",
+    "source": "recu/site/net/dj-ludo-remix-4.jpg",
+    "role": "section-fond",
+    "alt": "Ludo aux platines sous une lumière verte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f3aec4b83aef2216",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "40% 26%",
+    "sujet": {
+      "x": 25.9,
+      "y": 0,
+      "l": 40.8,
+      "h": 72.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.83,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.52,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1688,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 1688 px après recadrage)"
+    ],
+    "fichiers": [
+      "ludo-vert-640.webp",
+      "ludo-vert-1280.webp",
+      "ludo-vert-1920.webp"
+    ],
+    "poids": {
+      "ludo-vert-640.webp": 17062,
+      "ludo-vert-1280.webp": 41494,
+      "ludo-vert-1920.webp": 69696
+    },
+    "media": "c.media({ nom: 'ludo-vert', alt: \"Ludo aux platines sous une lumière verte\", cadrage: '40% 26%', sizes: '100vw' })"
+  },
+  "ludo-rouge": {
+    "nom": "ludo-rouge",
+    "source": "recu/site/net/dj-ludo-remix-5.jpg",
+    "role": "section-fond",
+    "alt": "Ludo mixe, casque bleu, mur éclairé en rouge et orange",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ab654faadde2db27",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "55% 47%",
+    "sujet": {
+      "x": 25.9,
+      "y": 0,
+      "l": 40.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 312,
+      "top": 0,
+      "width": 1688,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 1688 px après recadrage)"
+    ],
+    "fichiers": [
+      "ludo-rouge-640.webp",
+      "ludo-rouge-1280.webp",
+      "ludo-rouge-1920.webp"
+    ],
+    "poids": {
+      "ludo-rouge-640.webp": 15288,
+      "ludo-rouge-1280.webp": 36370,
+      "ludo-rouge-1920.webp": 60752
+    },
+    "media": "c.media({ nom: 'ludo-rouge', alt: \"Ludo mixe, casque bleu, mur éclairé en rouge et orange\", cadrage: '55% 47%', sizes: '100vw' })"
+  },
+  "ludo-braise": {
+    "nom": "ludo-braise",
+    "source": "recu/site/net/dj-ludo-remix-3.jpg",
+    "role": "galerie",
+    "alt": "Ludo derrière ses platines, lumière rouge sur la pierre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c38bc9af7a40d63c",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 68%",
+    "sujet": {
+      "x": 0,
+      "y": 22.2,
+      "l": 100,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 478,
+      "top": 0,
+      "width": 844,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 844 px après recadrage)",
+      "recadrage fort : 42 % de l'image gardée"
+    ],
+    "fichiers": [
+      "ludo-braise-480.webp",
+      "ludo-braise-640.webp",
+      "ludo-braise-960.webp"
+    ],
+    "poids": {
+      "ludo-braise-480.webp": 14784,
+      "ludo-braise-640.webp": 21638,
+      "ludo-braise-960.webp": 36410
+    },
+    "media": "c.media({ nom: 'ludo-braise', alt: \"Ludo derrière ses platines, lumière rouge sur la pierre\", cadrage: '50% 68%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "ludo-olive": {
+    "nom": "ludo-olive",
+    "source": "recu/site/net/dj-ludo-remix-6.jpg",
+    "role": "galerie",
+    "alt": "Ludo concentré sur son mix",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e9dbc9ff47493eac",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 67%",
+    "sujet": {
+      "x": 0,
+      "y": 16.7,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.63,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 378,
+      "top": 0,
+      "width": 844,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 844 px après recadrage)",
+      "recadrage fort : 42 % de l'image gardée"
+    ],
+    "fichiers": [
+      "ludo-olive-480.webp",
+      "ludo-olive-640.webp",
+      "ludo-olive-960.webp"
+    ],
+    "poids": {
+      "ludo-olive-480.webp": 13170,
+      "ludo-olive-640.webp": 19710,
+      "ludo-olive-960.webp": 32996
+    },
+    "media": "c.media({ nom: 'ludo-olive', alt: \"Ludo concentré sur son mix\", cadrage: '50% 67%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "ludo-ouverture": {
+    "nom": "ludo-ouverture",
+    "source": "recu/site/net/dj-ludo-remix-2.jpg",
+    "role": "portrait",
+    "alt": "Ludo debout derrière sa table de mixage, lumière bleue",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3ee59181d8472065",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "65% 57%",
+    "sujet": {
+      "x": 29.2,
+      "y": 0,
+      "l": 66.7,
+      "h": 92.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.71,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 115,
+      "width": 1324,
+      "height": 1655,
+      "source": [
+        1324,
+        1820
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "ludo-ouverture-480.webp",
+      "ludo-ouverture-640.webp",
+      "ludo-ouverture-784.webp"
+    ],
+    "poids": {
+      "ludo-ouverture-480.webp": 13008,
+      "ludo-ouverture-640.webp": 18734,
+      "ludo-ouverture-784.webp": 24966
+    },
+    "media": "c.media({ nom: 'ludo-ouverture', alt: \"Ludo debout derrière sa table de mixage, lumière bleue\", cadrage: '65% 57%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "soiree-privee": {
+    "nom": "soiree-privee",
+    "source": "recu/site/dj-sans-materiel-4.jpg",
+    "role": "carte-service",
+    "alt": "Ludo, casque rose, mixe en plein air sous une pergola au crépuscule",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6e56bab76f352a2f",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 48%",
+    "sujet": {
+      "x": 31.4,
+      "y": 23.1,
+      "l": 42,
+      "h": 55.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1202,
+      "height": 1202,
+      "source": [
+        1202,
+        1503
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1202 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "soiree-privee-480.webp",
+      "soiree-privee-640.webp",
+      "soiree-privee-784.webp"
+    ],
+    "poids": {
+      "soiree-privee-480.webp": 23590,
+      "soiree-privee-640.webp": 34434,
+      "soiree-privee-784.webp": 44522
+    },
+    "media": "c.media({ nom: 'soiree-privee', alt: \"Ludo, casque rose, mixe en plein air sous une pergola au crépuscule\", cadrage: '52% 48%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '1 / 1' })"
+  },
+  "contact-ludo": {
+    "nom": "contact-ludo",
+    "source": "recu/site/dj-sans-materiel-5.jpg",
+    "role": "portrait",
+    "alt": "Ludo en casquette derrière ses platines, en extérieur le soir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "98e0d7cb56e997c3",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "46% 46%",
+    "sujet": {
+      "x": 29.6,
+      "y": 21.3,
+      "l": 51.4,
+      "h": 74.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1190,
+      "height": 1487,
+      "source": [
+        1190,
+        1487
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1190 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "contact-ludo-480.webp",
+      "contact-ludo-640.webp",
+      "contact-ludo-784.webp"
+    ],
+    "poids": {
+      "contact-ludo-480.webp": 23826,
+      "contact-ludo-640.webp": 33144,
+      "contact-ludo-784.webp": 42888
+    },
+    "media": "c.media({ nom: 'contact-ludo', alt: \"Ludo en casquette derrière ses platines, en extérieur le soir\", cadrage: '46% 46%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "bars-ludo": {
+    "nom": "bars-ludo",
+    "source": "recu/site/dj-sans-materiel.jpg",
+    "role": "carte-service",
+    "alt": "Ludo aux platines Numark, guirlande lumineuse derrière lui",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c0ecf31c421cfc5a",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 27.8,
+      "y": 16.7,
+      "l": 45.4,
+      "h": 40
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 139,
+      "top": 0,
+      "width": 1121,
+      "height": 1681,
+      "source": [
+        1345,
+        1681
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "bars-ludo-480.webp",
+      "bars-ludo-640.webp",
+      "bars-ludo-784.webp"
+    ],
+    "poids": {
+      "bars-ludo-480.webp": 38078,
+      "bars-ludo-640.webp": 55212,
+      "bars-ludo-784.webp": 70918
+    },
+    "media": "c.media({ nom: 'bars-ludo', alt: \"Ludo aux platines Numark, guirlande lumineuse derrière lui\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "soiree-publique": {
+    "nom": "soiree-publique",
+    "source": "recu/site/dj-ludo-remix-dj-7.png",
+    "role": "carte-service",
+    "alt": "Ludo sous le pont de scène d'une fête en plein air",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0dd2077944c48915",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 2.3,
+      "y": 36.3,
+      "l": 69.6,
+      "h": 52.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 224,
+      "top": 0,
+      "width": 427,
+      "height": 640,
+      "source": [
+        857,
+        640
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 784",
+      "857 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 427 px après recadrage)"
+    ],
+    "fichiers": [
+      "soiree-publique-480.webp",
+      "soiree-publique-640.webp"
+    ],
+    "poids": {
+      "soiree-publique-480.webp": 41284,
+      "soiree-publique-640.webp": 55896
+    },
+    "media": "c.media({ nom: 'soiree-publique', alt: \"Ludo sous le pont de scène d'une fête en plein air\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "salle-laser-1": {
+    "nom": "salle-laser-1",
+    "source": "recu/site/galerie-photo-djludoremix-56.jpg",
+    "role": "vignette",
+    "alt": "Lasers vert et rose au-dessus de la piste d'une salle des fêtes",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "4c89879995d9b85f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "35% 50%",
+    "sujet": {
+      "x": 12.9,
+      "y": 28.8,
+      "l": 43.7,
+      "h": 71.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.54,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 78,
+      "width": 960,
+      "height": 640,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "salle-laser-1-480.webp",
+      "salle-laser-1-640.webp",
+      "salle-laser-1-800.webp"
+    ],
+    "poids": {
+      "salle-laser-1-480.webp": 12998,
+      "salle-laser-1-640.webp": 18098,
+      "salle-laser-1-800.webp": 24170
+    },
+    "media": "c.media({ nom: 'salle-laser-1', alt: \"Lasers vert et rose au-dessus de la piste d'une salle des fêtes\", cadrage: '35% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "salle-laser-2": {
+    "nom": "salle-laser-2",
+    "source": "recu/site/galerie-photo-djludoremix-52.jpg",
+    "role": "vignette",
+    "alt": "Faisceaux laser sur des danseurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "e08d67096ac35046",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "56% 50%",
+    "sujet": {
+      "x": 32.4,
+      "y": 36.3,
+      "l": 52.9,
+      "h": 24.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 11,
+      "width": 960,
+      "height": 640,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "salle-laser-2-480.webp",
+      "salle-laser-2-640.webp",
+      "salle-laser-2-800.webp"
+    ],
+    "poids": {
+      "salle-laser-2-480.webp": 12912,
+      "salle-laser-2-640.webp": 18258,
+      "salle-laser-2-800.webp": 24284
+    },
+    "media": "c.media({ nom: 'salle-laser-2', alt: \"Faisceaux laser sur des danseurs\", cadrage: '56% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "salle-piste": {
+    "nom": "salle-piste",
+    "source": "recu/site/galerie-photo-djludoremix-63.jpg",
+    "role": "vignette",
+    "alt": "Piste de danse pleine sous les lumières",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "bec99bc42aca77cf",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "61% 56%",
+    "sujet": {
+      "x": 32.1,
+      "y": 41.7,
+      "l": 60.6,
+      "h": 58.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 80,
+      "width": 960,
+      "height": 640,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "salle-piste-480.webp",
+      "salle-piste-640.webp",
+      "salle-piste-800.webp"
+    ],
+    "poids": {
+      "salle-piste-480.webp": 14656,
+      "salle-piste-640.webp": 21816,
+      "salle-piste-800.webp": 30906
+    },
+    "media": "c.media({ nom: 'salle-piste', alt: \"Piste de danse pleine sous les lumières\", cadrage: '61% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "scene-village": {
+    "nom": "scene-village",
+    "source": "recu/site/galerie-photo-djludoremix-41.png",
+    "role": "vignette",
+    "alt": "Scène de fête de village éclairée en violet",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "1f42bace04f7e2d5",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 56%",
+    "sujet": {
+      "x": 25,
+      "y": 30.5,
+      "l": 39.7,
+      "h": 49.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 80,
+      "width": 960,
+      "height": 640,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "scene-village-480.webp",
+      "scene-village-640.webp",
+      "scene-village-800.webp"
+    ],
+    "poids": {
+      "scene-village-480.webp": 19704,
+      "scene-village-640.webp": 28090,
+      "scene-village-800.webp": 38420
+    },
+    "media": "c.media({ nom: 'scene-village', alt: \"Scène de fête de village éclairée en violet\", cadrage: '47% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "badge-zankyou-real": {
+    "nom": "badge-zankyou-real",
+    "source": "recu/site/real-wedding-publie-zankyou.png",
+    "role": "logo",
+    "alt": "Badge Zankyou Real Wedding publié",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "b50d9e9cbd2041d5",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "badge-zankyou-real-240.webp"
+    ],
+    "poids": {
+      "badge-zankyou-real-240.webp": 11568
+    },
+    "media": "c.media({ nom: 'badge-zankyou-real', alt: \"Badge Zankyou Real Wedding publié\", sizes: '240px' })"
+  },
+  "badge-zankyou-selection": {
+    "nom": "badge-zankyou-selection",
+    "source": "recu/site/selection-meilleurs-prestataires.png",
+    "role": "logo",
+    "alt": "Badge Zankyou sélection des meilleurs prestataires",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "e3b049d7c7b9ae2d",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "badge-zankyou-selection-240.webp"
+    ],
+    "poids": {
+      "badge-zankyou-selection-240.webp": 11448
+    },
+    "media": "c.media({ nom: 'badge-zankyou-selection', alt: \"Badge Zankyou sélection des meilleurs prestataires\", sizes: '240px' })"
+  },
+  "badge-zankyou-partenaire": {
+    "nom": "badge-zankyou-partenaire",
+    "source": "recu/site/collaborateur-zankyou.png",
+    "role": "logo",
+    "alt": "Badge Zankyou partenaire officiel",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "636c8d12d9c69ff2",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "badge-zankyou-partenaire-240.webp"
+    ],
+    "poids": {
+      "badge-zankyou-partenaire-240.webp": 11172
+    },
+    "media": "c.media({ nom: 'badge-zankyou-partenaire', alt: \"Badge Zankyou partenaire officiel\", sizes: '240px' })"
+  },
+  "grok/formules-ouverture": {
+    "nom": "grok/formules-ouverture",
+    "source": "recu/grok/formules-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Pupitre lumière dans une salle plongée dans le brouillard",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1766d641e00cc9f7",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "60% 46%"
+    },
+    "cadrage": "52% 46%",
+    "sujet": {
+      "x": 3.1,
+      "y": 5.6,
+      "l": 96.9,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/formules-ouverture-640.webp",
+      "grok/formules-ouverture-1280.webp",
+      "grok/formules-ouverture-1920.webp",
+      "grok/formules-ouverture-mobile-640.webp",
+      "grok/formules-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/formules-ouverture-640.webp": 26974,
+      "grok/formules-ouverture-1280.webp": 57658,
+      "grok/formules-ouverture-1920.webp": 91214,
+      "grok/formules-ouverture-mobile-640.webp": 30084,
+      "grok/formules-ouverture-mobile-1080.webp": 56516
+    },
+    "media": "c.media({ nom: 'grok/formules-ouverture', alt: \"Pupitre lumière dans une salle plongée dans le brouillard\", cadrage: '52% 46%', cadrageMobile: '60% 46%', sizes: '100vw', priorite: true })"
+  },
+  "grok/formules-salle": {
+    "nom": "grok/formules-salle",
+    "source": "recu/grok/formules-salle.jpg",
+    "role": "section-fond",
+    "alt": "Salle des fêtes vide, pont lumière et brouillard",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4462535d22b43a30",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "49% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 22.7,
+      "l": 100,
+      "h": 63.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/formules-salle-640.webp",
+      "grok/formules-salle-1280.webp",
+      "grok/formules-salle-1920.webp"
+    ],
+    "poids": {
+      "grok/formules-salle-640.webp": 41284,
+      "grok/formules-salle-1280.webp": 89522,
+      "grok/formules-salle-1920.webp": 145024
+    },
+    "media": "c.media({ nom: 'grok/formules-salle', alt: \"Salle des fêtes vide, pont lumière et brouillard\", cadrage: '49% 58%', sizes: '100vw' })"
+  },
+  "grok/soirees-ouverture": {
+    "nom": "grok/soirees-ouverture",
+    "source": "recu/grok/soirees-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Piste de danse en contre-jour sous les faisceaux laser",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "9597abefb9319986",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "45% 46%"
+    },
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/soirees-ouverture-640.webp",
+      "grok/soirees-ouverture-1280.webp",
+      "grok/soirees-ouverture-1920.webp",
+      "grok/soirees-ouverture-mobile-640.webp",
+      "grok/soirees-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/soirees-ouverture-640.webp": 31552,
+      "grok/soirees-ouverture-1280.webp": 68904,
+      "grok/soirees-ouverture-1920.webp": 108676,
+      "grok/soirees-ouverture-mobile-640.webp": 37992,
+      "grok/soirees-ouverture-mobile-1080.webp": 70790
+    },
+    "media": "c.media({ nom: 'grok/soirees-ouverture', alt: \"Piste de danse en contre-jour sous les faisceaux laser\", cadrage: '48% 50%', cadrageMobile: '45% 46%', sizes: '100vw', priorite: true })"
+  },
+  "grok/soirees-bodega": {
+    "nom": "grok/soirees-bodega",
+    "source": "recu/grok/soirees-bodega.jpg",
+    "role": "section-fond",
+    "alt": "Rue de fête du Sud la nuit, lumière rouge et or",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f7c42f48d607afff",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "47% 46%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 93.8,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/soirees-bodega-640.webp",
+      "grok/soirees-bodega-1280.webp",
+      "grok/soirees-bodega-1920.webp"
+    ],
+    "poids": {
+      "grok/soirees-bodega-640.webp": 40824,
+      "grok/soirees-bodega-1280.webp": 89152,
+      "grok/soirees-bodega-1920.webp": 138094
+    },
+    "media": "c.media({ nom: 'grok/soirees-bodega', alt: \"Rue de fête du Sud la nuit, lumière rouge et or\", cadrage: '47% 46%', sizes: '100vw' })"
+  },
+  "grok/soirees-kitsch": {
+    "nom": "grok/soirees-kitsch",
+    "source": "recu/grok/soirees-kitsch.jpg",
+    "role": "section-fond",
+    "alt": "Boule à facettes et reflets roses dans le brouillard",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "85bae034a80de6a6",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "43% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/soirees-kitsch-640.webp",
+      "grok/soirees-kitsch-1280.webp",
+      "grok/soirees-kitsch-1920.webp"
+    ],
+    "poids": {
+      "grok/soirees-kitsch-640.webp": 34438,
+      "grok/soirees-kitsch-1280.webp": 73938,
+      "grok/soirees-kitsch-1920.webp": 116666
+    },
+    "media": "c.media({ nom: 'grok/soirees-kitsch', alt: \"Boule à facettes et reflets roses dans le brouillard\", cadrage: '43% 51%', sizes: '100vw' })"
+  },
+  "grok/soirees-entreprise": {
+    "nom": "grok/soirees-entreprise",
+    "source": "recu/grok/soirees-entreprise.jpg",
+    "role": "carte-service",
+    "alt": "Dîner de gala, tables dressées et éclairage d'ambiance",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "14c4aed2743e6f03",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "54% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 21.9,
+      "l": 95.5,
+      "h": 65.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        1000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/soirees-entreprise-480.webp",
+      "grok/soirees-entreprise-640.webp",
+      "grok/soirees-entreprise-784.webp"
+    ],
+    "poids": {
+      "grok/soirees-entreprise-480.webp": 29614,
+      "grok/soirees-entreprise-640.webp": 40684,
+      "grok/soirees-entreprise-784.webp": 51186
+    },
+    "media": "c.media({ nom: 'grok/soirees-entreprise', alt: \"Dîner de gala, tables dressées et éclairage d'ambiance\", cadrage: '54% 60%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/accueil-formules": {
+    "nom": "grok/accueil-formules",
+    "source": "recu/grok/accueil-formules.jpg",
+    "role": "section-fond",
+    "alt": "Faisceaux ultraviolets dans le brouillard",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5b219faac5660748",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "42% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 93.8,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-formules-640.webp",
+      "grok/accueil-formules-1280.webp",
+      "grok/accueil-formules-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-formules-640.webp": 32956,
+      "grok/accueil-formules-1280.webp": 74608,
+      "grok/accueil-formules-1920.webp": 119990
+    },
+    "media": "c.media({ nom: 'grok/accueil-formules', alt: \"Faisceaux ultraviolets dans le brouillard\", cadrage: '42% 56%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/404.jpg",
+    "role": "404",
+    "alt": "Piste vide sous une seule poursuite",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d69271ba5673db21",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "58% 54%",
+    "sujet": {
+      "x": 3.1,
+      "y": 16.7,
+      "l": 90.6,
+      "h": 72.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 36842,
+      "grok/page-404-1600.webp": 82218
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Piste vide sous une seule poursuite\", cadrage: '58% 54%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "ferrade": {
+    "nom": "ferrade",
+    "source": "recu/site/net/galerie-photo-djludoremix-91.jpg",
+    "role": "carte-service",
+    "alt": "Ludo sous le pont de scène d'une fête de village en plein air",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "11622fc6f914c4c8",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 179,
+      "top": 0,
+      "width": 619,
+      "height": 619,
+      "source": [
+        940,
+        619
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "940 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "ferrade-480.webp",
+      "ferrade-640.webp"
+    ],
+    "poids": {
+      "ferrade-480.webp": 32310,
+      "ferrade-640.webp": 43078
+    },
+    "media": "c.media({ nom: 'ferrade', alt: \"Ludo sous le pont de scène d'une fête de village en plein air\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '1 / 1' })"
+  },
+  "accueil-console": {
+    "nom": "accueil-console",
+    "source": "recu/site/net/dj-ludo-remix-2.jpg",
+    "role": "section-fond",
+    "alt": "Ludo debout derrière sa table de mixage, lumière bleue sur la pierre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9ca1f9c137a42924",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 29.2,
+      "y": 0,
+      "l": 66.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.71,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 177,
+      "width": 1324,
+      "height": 883,
+      "source": [
+        1324,
+        1820
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,45 fois (source de 1324 px après recadrage)"
+    ],
+    "fichiers": [
+      "accueil-console-640.webp",
+      "accueil-console-1280.webp",
+      "accueil-console-1920.webp"
+    ],
+    "poids": {
+      "accueil-console-640.webp": 8622,
+      "accueil-console-1280.webp": 22540,
+      "accueil-console-1920.webp": 38758
+    },
+    "media": "c.media({ nom: 'accueil-console', alt: \"Ludo debout derrière sa table de mixage, lumière bleue sur la pierre\", cadrage: '52% 50%', sizes: '100vw' })"
+  },
+  "badge-wedding-awards": {
+    "nom": "badge-wedding-awards",
+    "source": "recu/site/dj-ludo-remix-dj-8.jpg",
+    "role": "logo",
+    "alt": "Wedding Awards 2023, Mariages.net",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "c442ddc634cf27a2",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "badge-wedding-awards-240.webp",
+      "badge-wedding-awards-480.webp"
+    ],
+    "poids": {
+      "badge-wedding-awards-240.webp": 6098,
+      "badge-wedding-awards-480.webp": 11200
+    },
+    "media": "c.media({ nom: 'badge-wedding-awards', alt: \"Wedding Awards 2023, Mariages.net\", sizes: '240px' })"
+  },
+  "date-ludo": {
+    "nom": "date-ludo",
+    "source": "recu/site/dj-sans-materiel-3.jpg",
+    "role": "portrait",
+    "alt": "Ludo en casquette derrière ses platines, en plein air le soir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "80449d9217384686",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "47% 40%",
+    "sujet": {
+      "x": 25.1,
+      "y": 16.5,
+      "l": 43.1,
+      "h": 45.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1247,
+      "height": 1559,
+      "source": [
+        1247,
+        1559
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1247 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "date-ludo-480.webp",
+      "date-ludo-640.webp",
+      "date-ludo-784.webp"
+    ],
+    "poids": {
+      "date-ludo-480.webp": 27624,
+      "date-ludo-640.webp": 39778,
+      "date-ludo-784.webp": 52850
+    },
+    "media": "c.media({ nom: 'date-ludo', alt: \"Ludo en casquette derrière ses platines, en plein air le soir\", cadrage: '47% 40%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "village": {
+    "nom": "village",
+    "source": "recu/site/galerie-41-recadree.jpg",
+    "role": "vignette",
+    "alt": "Ludo sur la scène d'une fête de village, sous l'auvent rayé et les lyres violettes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dae83f5d803672d4",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 24.9,
+      "l": 93.8,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 38,
+      "width": 720,
+      "height": 480,
+      "source": [
+        720,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "720 px de large",
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 720 px après recadrage)"
+    ],
+    "fichiers": [
+      "village-480.webp",
+      "village-640.webp",
+      "village-800.webp"
+    ],
+    "poids": {
+      "village-480.webp": 17200,
+      "village-640.webp": 25016,
+      "village-800.webp": 31738
+    },
+    "media": "c.media({ nom: 'village', alt: \"Ludo sur la scène d'une fête de village, sous l'auvent rayé et les lyres violettes\", cadrage: '54% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "ludo-violet": {
+    "nom": "ludo-violet",
+    "source": "recu/site/net/dj-ludo-remix.jpg",
+    "role": "galerie",
+    "alt": "Ludo aux platines, mur éclairé en violet et vert",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "99a3e696d3b049ef",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 63%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 438,
+      "top": 0,
+      "width": 845,
+      "height": 1126,
+      "source": [
+        2000,
+        1126
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 845 px après recadrage)",
+      "recadrage fort : 42 % de l'image gardée"
+    ],
+    "fichiers": [
+      "ludo-violet-480.webp",
+      "ludo-violet-640.webp",
+      "ludo-violet-960.webp"
+    ],
+    "poids": {
+      "ludo-violet-480.webp": 15958,
+      "ludo-violet-640.webp": 23024,
+      "ludo-violet-960.webp": 38390
+    },
+    "media": "c.media({ nom: 'ludo-violet', alt: \"Ludo aux platines, mur éclairé en violet et vert\", cadrage: '50% 63%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "ludo-pergola": {
+    "nom": "ludo-pergola",
+    "source": "recu/site/dj-sans-materiel-9.jpg",
+    "role": "galerie",
+    "alt": "Ludo, casque rose, aux platines Numark sous la pergola",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "26592c9b11d9d582",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 722,
+      "height": 962,
+      "source": [
+        750,
+        962
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "750 px de large",
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 722 px après recadrage)"
+    ],
+    "fichiers": [
+      "ludo-pergola-480.webp",
+      "ludo-pergola-640.webp",
+      "ludo-pergola-960.webp"
+    ],
+    "poids": {
+      "ludo-pergola-480.webp": 30762,
+      "ludo-pergola-640.webp": 43340,
+      "ludo-pergola-960.webp": 67674
+    },
+    "media": "c.media({ nom: 'ludo-pergola', alt: \"Ludo, casque rose, aux platines Numark sous la pergola\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bar-casquette": {
+    "nom": "bar-casquette",
+    "source": "recu/site/dj-sans-materiel-8.jpg",
+    "role": "carte-service",
+    "alt": "Ludo, casquette blanche, aux platines Numark à la tombée du jour",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d85848102b088614",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "39% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 665,
+      "height": 998,
+      "source": [
+        750,
+        998
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "750 px de large",
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 665 px après recadrage)"
+    ],
+    "fichiers": [
+      "bar-casquette-480.webp",
+      "bar-casquette-640.webp",
+      "bar-casquette-784.webp"
+    ],
+    "poids": {
+      "bar-casquette-480.webp": 29704,
+      "bar-casquette-640.webp": 43242,
+      "bar-casquette-784.webp": 54046
+    },
+    "media": "c.media({ nom: 'bar-casquette', alt: \"Ludo, casquette blanche, aux platines Numark à la tombée du jour\", cadrage: '39% 42%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  }
+}

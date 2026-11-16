@@ -1,0 +1,51 @@
+{
+ "mission": "arrivee",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 4.9,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7530,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Demander un devis",
+    "07 61 59 61 17",
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  }
+ ]
+}

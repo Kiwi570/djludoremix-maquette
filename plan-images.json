@@ -1,0 +1,312 @@
+[
+  {
+    "source": "recu/site/logo-sombre.gif",
+    "nom": "logo",
+    "role": "logo",
+    "alt": "DJ Ludo Remix"
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-dj-6.jpg",
+    "nom": "accueil-ouverture",
+    "role": "ouverture",
+    "page": "accueil",
+    "alt": "Ludo aux platines devant un mur de pierre éclairé en violet et bleu",
+    "mobile": true,
+    "zone_texte": "gauche",
+    "cadrage": [
+      44,
+      40
+    ],
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-7.jpg",
+    "nom": "accueil-ludo",
+    "role": "section-fond",
+    "alt": "Ludo penché sur ses platines, mur éclairé en rouge",
+    "zone_texte": "droite",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-4.jpg",
+    "nom": "ludo-vert",
+    "role": "section-fond",
+    "alt": "Ludo aux platines sous une lumière verte",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-5.jpg",
+    "nom": "ludo-rouge",
+    "role": "section-fond",
+    "alt": "Ludo mixe, casque bleu, mur éclairé en rouge et orange",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-3.jpg",
+    "nom": "ludo-braise",
+    "role": "galerie",
+    "alt": "Ludo derrière ses platines, lumière rouge sur la pierre",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-6.jpg",
+    "nom": "ludo-olive",
+    "role": "galerie",
+    "alt": "Ludo concentré sur son mix",
+    "beaute": 3
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-2.jpg",
+    "nom": "ludo-ouverture",
+    "role": "portrait",
+    "page": "ludo",
+    "alt": "Ludo debout derrière sa table de mixage, lumière bleue",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/dj-sans-materiel-4.jpg",
+    "nom": "soiree-privee",
+    "role": "carte-service",
+    "alt": "Ludo, casque rose, mixe en plein air sous une pergola au crépuscule",
+    "beaute": 4,
+    "ratio": "1:1"
+  },
+  {
+    "source": "recu/site/dj-sans-materiel-5.jpg",
+    "nom": "contact-ludo",
+    "role": "portrait",
+    "alt": "Ludo en casquette derrière ses platines, en extérieur le soir",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/dj-sans-materiel.jpg",
+    "nom": "bars-ludo",
+    "role": "carte-service",
+    "alt": "Ludo aux platines Numark, guirlande lumineuse derrière lui",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/dj-ludo-remix-dj-7.png",
+    "nom": "soiree-publique",
+    "role": "carte-service",
+    "alt": "Ludo sous le pont de scène d'une fête en plein air",
+    "beaute": 3
+  },
+  {
+    "source": "recu/site/galerie-photo-djludoremix-56.jpg",
+    "nom": "salle-laser-1",
+    "role": "vignette",
+    "alt": "Lasers vert et rose au-dessus de la piste d'une salle des fêtes",
+    "beaute": 2
+  },
+  {
+    "source": "recu/site/galerie-photo-djludoremix-52.jpg",
+    "nom": "salle-laser-2",
+    "role": "vignette",
+    "alt": "Faisceaux laser sur des danseurs",
+    "beaute": 2
+  },
+  {
+    "source": "recu/site/galerie-photo-djludoremix-63.jpg",
+    "nom": "salle-piste",
+    "role": "vignette",
+    "alt": "Piste de danse pleine sous les lumières",
+    "beaute": 2
+  },
+  {
+    "source": "recu/site/galerie-photo-djludoremix-41.png",
+    "nom": "scene-village",
+    "role": "vignette",
+    "alt": "Scène de fête de village éclairée en violet",
+    "beaute": 2
+  },
+  {
+    "source": "recu/site/real-wedding-publie-zankyou.png",
+    "nom": "badge-zankyou-real",
+    "role": "logo",
+    "alt": "Badge Zankyou Real Wedding publié"
+  },
+  {
+    "source": "recu/site/selection-meilleurs-prestataires.png",
+    "nom": "badge-zankyou-selection",
+    "role": "logo",
+    "alt": "Badge Zankyou sélection des meilleurs prestataires"
+  },
+  {
+    "source": "recu/site/collaborateur-zankyou.png",
+    "nom": "badge-zankyou-partenaire",
+    "role": "logo",
+    "alt": "Badge Zankyou partenaire officiel"
+  },
+  {
+    "source": "recu/grok/formules-ouverture.jpg",
+    "source_mobile": "recu/grok/formules-ouverture-mobile.jpg",
+    "nom": "grok/formules-ouverture",
+    "role": "ouverture",
+    "page": "formules",
+    "emplacement": "Formules · ouverture (pupitre lumière)",
+    "priorite": "indispensable",
+    "mobile": true,
+    "zone_texte": "gauche",
+    "alt": "Pupitre lumière dans une salle plongée dans le brouillard",
+    "beaute": 4,
+    "consigne_scene": "Wide shot from behind a lighting operator's desk at the back of a dark village festival hall at night: an unbranded lighting console with rows of faders and softly glowing buttons in the sharp foreground on the right half, and far behind it two moving-head beams crossing in thick haze above an empty dance floor. Nobody in the frame, no hands."
+  },
+  {
+    "source": "recu/grok/formules-salle.jpg",
+    "nom": "grok/formules-salle",
+    "role": "section-fond",
+    "page": "formules",
+    "emplacement": "Formules · la salle qui s'allume au pupitre",
+    "priorite": "indispensable",
+    "zone_texte": "bas",
+    "alt": "Salle des fêtes vide, pont lumière et brouillard",
+    "beaute": 4,
+    "consigne_scene": "Wide frontal view of an empty village festival hall at night, seen from the middle of the dance floor: a DJ booth with a black cloth on a low stage, an aluminium truss above it holding two moving heads and a small laser unit, all switched off, only a faint blue work light, thick haze hanging in the air, raw stone side walls, nobody in the frame. Leave the lower third calm and dark."
+  },
+  {
+    "source": "recu/grok/soirees-ouverture.jpg",
+    "source_mobile": "recu/grok/soirees-ouverture-mobile.jpg",
+    "nom": "grok/soirees-ouverture",
+    "role": "ouverture",
+    "page": "soirees",
+    "emplacement": "Soirées · ouverture",
+    "priorite": "indispensable",
+    "mobile": true,
+    "zone_texte": "gauche",
+    "alt": "Piste de danse en contre-jour sous les faisceaux laser",
+    "beaute": 4,
+    "scene": "a village festival hall at night"
+  },
+  {
+    "source": "recu/grok/soirees-bodega.jpg",
+    "nom": "grok/soirees-bodega",
+    "role": "section-fond",
+    "page": "soirees",
+    "emplacement": "Soirées · Total Bodega",
+    "priorite": "indispensable",
+    "zone_texte": "gauche",
+    "alt": "Rue de fête du Sud la nuit, lumière rouge et or",
+    "beaute": 4,
+    "consigne_scene": "A narrow old stone street in a southern French village during a summer night festival, warm red and golden light spilling from an open courtyard, red and white bunting overhead, a few dancers seen only as blurred dark silhouettes from behind, light haze, no signs, no writing, no flags of any country, no bull, nobody facing the camera."
+  },
+  {
+    "source": "recu/grok/soirees-kitsch.jpg",
+    "nom": "grok/soirees-kitsch",
+    "role": "section-fond",
+    "page": "soirees",
+    "emplacement": "Soirées · Kitsch Party",
+    "priorite": "indispensable",
+    "zone_texte": "droite",
+    "alt": "Boule à facettes et reflets roses dans le brouillard",
+    "beaute": 4,
+    "consigne_scene": "Close shot of a large mirror ball hanging in thick haze, hit by pink and cyan spotlights, thousands of light specks scattered across the dark, a faint 1980s retro mood, slight motion blur on the specks, nobody in the frame, no text."
+  },
+  {
+    "source": "recu/grok/soirees-entreprise.jpg",
+    "nom": "grok/soirees-entreprise",
+    "role": "carte-service",
+    "page": "soirees",
+    "emplacement": "Soirées · entreprises",
+    "priorite": "indispensable",
+    "alt": "Dîner de gala, tables dressées et éclairage d'ambiance",
+    "beaute": 4,
+    "consigne_scene": "Elegant gala dinner hall just before the guests arrive: round tables with white tablecloths and glasses, stone walls washed in deep blue and warm amber uplights, a small DJ setup with an unbranded controller at the far end, light haze, nobody in the frame."
+  },
+  {
+    "source": "recu/grok/accueil-formules.jpg",
+    "nom": "grok/accueil-formules",
+    "role": "section-fond",
+    "page": "accueil",
+    "emplacement": "Accueil · formules (UV)",
+    "priorite": "conseillée",
+    "zone_texte": "gauche",
+    "alt": "Faisceaux ultraviolets dans le brouillard",
+    "beaute": 4,
+    "consigne_scene": "Ultraviolet blacklight party atmosphere in a dark hall: violet haze, white streamers and white tablecloths glowing bright under the UV light, thin red laser lines crossing above, dancers only as dark blurred silhouettes from behind in the lower part, no faces, no text."
+  },
+  {
+    "source": "recu/grok/404.jpg",
+    "nom": "grok/page-404",
+    "role": "404",
+    "page": "404",
+    "emplacement": "Page 404",
+    "priorite": "conseillée",
+    "zone_texte": "gauche",
+    "alt": "Piste vide sous une seule poursuite",
+    "beaute": 4,
+    "consigne_scene": "An empty dance floor in a dark village hall after the party, one single round spotlight beam falling on the floor through haze, a forgotten pair of headphones on the floor in the light circle, confetti, nobody in the frame."
+  },
+  {
+    "source": "recu/site/net/galerie-photo-djludoremix-91.jpg",
+    "nom": "ferrade",
+    "role": "carte-service",
+    "alt": "Ludo sous le pont de scène d'une fête de village en plein air",
+    "cadrage": [
+      52,
+      52
+    ],
+    "beaute": 4,
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640
+    ]
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix-2.jpg",
+    "nom": "accueil-console",
+    "role": "section-fond",
+    "alt": "Ludo debout derrière sa table de mixage, lumière bleue sur la pierre",
+    "cadrage": [
+      52,
+      34
+    ],
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/dj-ludo-remix-dj-8.jpg",
+    "nom": "badge-wedding-awards",
+    "role": "logo",
+    "alt": "Wedding Awards 2023, Mariages.net"
+  },
+  {
+    "source": "recu/site/dj-sans-materiel-3.jpg",
+    "nom": "date-ludo",
+    "role": "portrait",
+    "alt": "Ludo en casquette derrière ses platines, en plein air le soir",
+    "cadrage": [
+      47,
+      40
+    ],
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/galerie-41-recadree.jpg",
+    "nom": "village",
+    "role": "vignette",
+    "alt": "Ludo sur la scène d'une fête de village, sous l'auvent rayé et les lyres violettes",
+    "beaute": 3
+  },
+  {
+    "source": "recu/site/net/dj-ludo-remix.jpg",
+    "nom": "ludo-violet",
+    "role": "galerie",
+    "alt": "Ludo aux platines, mur éclairé en violet et vert",
+    "beaute": 4
+  },
+  {
+    "source": "recu/site/dj-sans-materiel-9.jpg",
+    "nom": "ludo-pergola",
+    "role": "galerie",
+    "alt": "Ludo, casque rose, aux platines Numark sous la pergola",
+    "beaute": 3
+  },
+  {
+    "source": "recu/site/dj-sans-materiel-8.jpg",
+    "nom": "bar-casquette",
+    "role": "carte-service",
+    "alt": "Ludo, casquette blanche, aux platines Numark à la tombée du jour",
+    "beaute": 3
+  }
+]

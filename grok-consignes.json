@@ -1,0 +1,148 @@
+{
+  "client": "DJ Ludo Remix",
+  "activite": "spectacle",
+  "direction": "Plein feux",
+  "date": "2026-11-13T14:35:22.292Z",
+  "images": [
+    {
+      "nom": "formules-ouverture",
+      "fichier": "formules-ouverture.jpg",
+      "page": "formules",
+      "emplacement": "Formules · ouverture (pupitre lumière) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide shot from behind a lighting operator's desk at the back of a dark village festival hall at night: an unbranded lighting console with rows of faders and softly glowing buttons in the sharp foreground on the right half, and far behind it two moving-head beams crossing in thick haze above an empty dance floor. Nobody in the frame, no hands. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "formules-ouverture",
+      "fichier": "formules-ouverture-mobile.jpg",
+      "page": "formules",
+      "emplacement": "Formules · ouverture (pupitre lumière) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide shot from behind a lighting operator's desk at the back of a dark village festival hall at night: an unbranded lighting console with rows of faders and softly glowing buttons in the sharp foreground on the right half, and far behind it two moving-head beams crossing in thick haze above an empty dance floor. Nobody in the frame, no hands. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "formules-salle",
+      "fichier": "formules-salle.jpg",
+      "page": "formules",
+      "emplacement": "Formules · la salle qui s'allume au pupitre",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Wide frontal view of an empty village festival hall at night, seen from the middle of the dance floor: a DJ booth with a black cloth on a low stage, an aluminium truss above it holding two moving heads and a small laser unit, all switched off, only a faint blue work light, thick haze hanging in the air, raw stone side walls, nobody in the frame. Leave the lower third calm and dark. Landscape composition, aspect ratio 3:2, the lower third stays dark and simple for text overlay. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "soirees-ouverture",
+      "fichier": "soirees-ouverture.jpg",
+      "page": "soirees",
+      "emplacement": "Soirées · ouverture (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop",
+        "visages"
+      ],
+      "consigne": "Wide shot of a village festival hall at night at night seen from just behind the stage: light beams fanning out through haze above a crowd shown only as dark backlit silhouettes with raised hands in the bottom third. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "soirees-ouverture",
+      "fichier": "soirees-ouverture-mobile.jpg",
+      "page": "soirees",
+      "emplacement": "Soirées · ouverture (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop",
+        "visages"
+      ],
+      "consigne": "Wide shot of a village festival hall at night at night seen from just behind the stage: light beams fanning out through haze above a crowd shown only as dark backlit silhouettes with raised hands in the bottom third. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "soirees-bodega",
+      "fichier": "soirees-bodega.jpg",
+      "page": "soirees",
+      "emplacement": "Soirées · Total Bodega",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A narrow old stone street in a southern French village during a summer night festival, warm red and golden light spilling from an open courtyard, red and white bunting overhead, a few dancers seen only as blurred dark silhouettes from behind, light haze, no signs, no writing, no flags of any country, no bull, nobody facing the camera. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "soirees-kitsch",
+      "fichier": "soirees-kitsch.jpg",
+      "page": "soirees",
+      "emplacement": "Soirées · Kitsch Party",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Close shot of a large mirror ball hanging in thick haze, hit by pink and cyan spotlights, thousands of light specks scattered across the dark, a faint 1980s retro mood, slight motion blur on the specks, nobody in the frame, no text. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "soirees-entreprise",
+      "fichier": "soirees-entreprise.jpg",
+      "page": "soirees",
+      "emplacement": "Soirées · entreprises",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Elegant gala dinner hall just before the guests arrive: round tables with white tablecloths and glasses, stone walls washed in deep blue and warm amber uplights, a small DJ setup with an unbranded controller at the far end, light haze, nobody in the frame. Vertical composition, aspect ratio 2:3. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-formules",
+      "fichier": "accueil-formules.jpg",
+      "page": "accueil",
+      "emplacement": "Accueil · formules (UV)",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Ultraviolet blacklight party atmosphere in a dark hall: violet haze, white streamers and white tablecloths glowing bright under the UV light, thin red laser lines crossing above, dancers only as dark blurred silhouettes from behind in the lower part, no faces, no text. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "404.jpg",
+      "page": "404",
+      "emplacement": "Page 404",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "404",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "An empty dance floor in a dark village hall after the party, one single round spotlight beam falling on the floor through haze, a forgotten pair of headphones on the floor in the light circle, confetti, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive yet premium, dark and dramatic mood, palette of deep smoky black, warm off-white, laser red, cool blue and ultraviolet violet accents, moving-head beams and thin laser lines cutting through thick stage haze, tactile raw stone walls, aluminium truss, black flight cases, haze, set in the south of France on a summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

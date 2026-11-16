@@ -1,0 +1,654 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 44 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(4) > a « Ludo »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ouv-contact-texte:nth-of-type(1) > h1 > span.laser-titre.hero-ligne:nth-of-type(2) « VOTRE DATE »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-contact-texte:nth-of-type(1) > h1 > span.hero-ligne:nth-of-type(1) « RÉSERVEZ »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "salle-laser-1 (2/5, faible, 39 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#reseaux > figure.media.reseaux-photo > picture > img « Lasers vert et rose au-dessus de la piste d'une sa »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ouv-contact-texte:nth-of-type(1) > p.ouv-contact-tel:nth-of-type(2) > a « 07 61 59 61 17 »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-contact-texte:nth-of-type(1) > h1 > span.laser-titre.hero-ligne:nth-of-type(2) « VOTRE DATE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ouv-formules-texte > h1 > span.laser-titre.hero-ligne:nth-of-type(2) « VOTRE LUMIÈRE »",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-formules-texte > h1 > span.hero-ligne:nth-of-type(1) « COMPOSEZ »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "section sans visuel",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#tableau « LES CINQ FORMULES CÔTE À CÔTE 1ER PRIX 400 € Anniv »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 44 px",
+      "etape": "mesures",
+      "page": "/formules",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(4) > a « Ludo »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 44 px",
+      "etape": "mesures",
+      "page": "/ludo",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(4) > a « Ludo »",
+      "lieux": [
+        "390×844 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ouv-ludo-texte > h1 > span.laser-titre.hero-ligne:nth-of-type(2) « LES PLATINES »",
+      "etape": "mesures",
+      "page": "/ludo",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-ludo-texte > h1 > span.hero-ligne:nth-of-type(1) « DERRIÈRE »",
+      "lieux": [
+        "390×844 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 44 px",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "nav > ul > li:nth-of-type(4) > a « Ludo »",
+      "lieux": [
+        "390×844 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.ouv-soirees-texte.conteneur > h1.ouv-soirees-titre > span.laser-titre.hero-ligne:nth-of-type(2) « UN SEUL DJ »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-soirees-texte.conteneur > h1.ouv-soirees-titre > span.hero-ligne:nth-of-type(1) « TOUTES LES FÊTES, »",
+      "lieux": [
+        "390×844 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(3) « COUSINADES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(1) « ANNIVERSAIRES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(4) « GARDEN PARTIES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(2) « MARIAGES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(5) « COMMUNIONS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(3) « COUSINADES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(6) « DÉPARTS EN RETRAITE »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(4) « GARDEN PARTIES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(7) « FÊTES VOTIVES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(5) « COMMUNIONS »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(8) « BALS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(6) « DÉPARTS EN RETRAITE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(9) « KERMESSES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(6) « DÉPARTS EN RETRAITE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(10) « ARBRES DE NOËL »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(7) « FÊTES VOTIVES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(11) « BODEGAS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(8) « BALS »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(11) « BODEGAS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(9) « KERMESSES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(12) « SOIRÉES DE CAMPING »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(10) « ARBRES DE NOËL »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(12) « SOIRÉES DE CAMPING »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(11) « BODEGAS »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(13) « SÉMINAIRES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(11) « BODEGAS »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(14) « SOIRÉES DE GALA »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(12) « SOIRÉES DE CAMPING »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(15) « INAUGURATIONS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(12) « SOIRÉES DE CAMPING »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(15) « INAUGURATIONS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(13) « SÉMINAIRES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(16) « SOIRÉES ÉTUDIANTES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(14) « SOIRÉES DE GALA »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(16) « SOIRÉES ÉTUDIANTES »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(15) « INAUGURATIONS »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#occasions > ul.index-liste.conteneur > li:nth-of-type(17) « DÎNERS DANSANTS »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#occasions > ul.index-liste.conteneur > li:nth-of-type(16) « SOIRÉES ÉTUDIANTES »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#bodega > div.concept-texte.conteneur > h2.concept-titre « TOTAL BODEGA »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#bodega > div.concept-texte.conteneur > p.surtitre:nth-of-type(1) « CONCEPT MAISON »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#bodega > div.concept-texte.conteneur > p:nth-of-type(2) « L'ambiance des ferias : rythmes latins, cuivres et »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#bodega > div.concept-texte.conteneur > h2.concept-titre « TOTAL BODEGA »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#kitsch > div.concept-texte.conteneur > h2.concept-titre.concept-titre--neon « KITSCH PARTY »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#kitsch > div.concept-texte.conteneur > p.surtitre:nth-of-type(1) « CONCEPT MAISON »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#kitsch > div.concept-texte.conteneur > p:nth-of-type(2) « La variété française des années 80 et 90, celle qu »",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#kitsch > div.concept-texte.conteneur > h2.concept-titre.concept-titre--neon « KITSCH PARTY »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/soirees",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-soirees-texte.conteneur > p.hero-actions:nth-of-type(3) > span.hero-info « Réponse sous 48 h »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "index.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "clearProps « all »",
+      "detail": "assets/js/modules/formulaire-par-etapes.js : efface aussi les variables CSS posées dans le HTML ; nommer les propriétés (clearProps: 'transform,opacity')",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "mouvement /contact 390×844",
+      "raison": "page.evaluate: Target page, context or browser has been closed",
+      "etape": "mouvement"
+    },
+    {
+      "controle": "mouvement",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "mouvement"
+    },
+    {
+      "controle": "vitesse",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "vitesse"
+    },
+    {
+      "controle": "captures",
+      "raison": "browser.newContext: Target page, context or browser has been closed",
+      "etape": "captures"
+    },
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 7,
+    "mesures": 24,
+    "films d’ouverture": 8,
+    "films de transition": 8,
+    "bords de l’écran": 4,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 4,
+    "liens et boutons": 4,
+    "liens profonds": 14,
+    "liens vers la page en cours": 4,
+    "changements de hauteur": 4,
+    "fluidité": 8,
+    "défilement selon l’appareil": 5,
+    "mouvement": 4
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 2 étape(s) notée(s), 27 min de travail pour 50 min de budget, 15 min d’attente de l’utilisateur.",
+    "Audit rapide : étapes lourdes sur /contact, /formules, /ludo, /soirees.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Balayage des largeurs : non fait en audit rapide.",
+    "Ouverture /contact (1366×768) : 2491 ms depuis le premier octet",
+    "Ouverture /formules (1366×768) : 2557 ms depuis le premier octet",
+    "Ouverture /ludo (1366×768) : 2431 ms depuis le premier octet",
+    "Ouverture /soirees (1366×768) : 2478 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2455 ms depuis le premier octet",
+    "Ouverture /formules (390×844) : 2501 ms depuis le premier octet",
+    "Ouverture /ludo (390×844) : 2445 ms depuis le premier octet",
+    "Ouverture /soirees (390×844) : 2462 ms depuis le premier octet",
+    "film de l'ouverture /soirees 390×844 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 207 images d’intro, 17 de voile et 127 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /formules : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /ludo : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /soirees : aucune section épinglée ou plein écran.",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 144, tâche la plus longue 0 ms",
+    "Fluidité /formules 1366×768 (molette) : 0 % d'images lentes sur 192, tâche la plus longue 0 ms",
+    "Fluidité /ludo 1366×768 (molette) : 0 % d'images lentes sur 289, tâche la plus longue 57 ms",
+    "Fluidité /soirees 1366×768 (molette) : 2 % d'images lentes sur 323, tâche la plus longue 114 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1362, tâche la plus longue 0 ms",
+    "Fluidité /formules 390×844 (doigt) : 0 % d'images lentes sur 1342, tâche la plus longue 0 ms",
+    "Fluidité /ludo 390×844 (doigt) : 0 % d'images lentes sur 1341, tâche la plus longue 0 ms",
+    "Fluidité /soirees 390×844 (doigt) : 0 % d'images lentes sur 1417, tâche la plus longue 0 ms"
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "présent",
+      "detail": "accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en iris"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "présent",
+      "detail": "sur les 5 page(s)"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "présent",
+      "detail": "sur les 5 page(s)"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "présent",
+      "detail": "geste du métier sur /"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "présent",
+      "detail": "sur /contact, /"
+    }
+  ]
+}

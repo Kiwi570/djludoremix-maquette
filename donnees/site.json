@@ -1,0 +1,15 @@
+{
+  "nom": "DJ Ludo Remix",
+  "adresse": "https://djludoremix-maquette.vercel.app",
+  "siteActuel": "djludoremix.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "soirees", "formules", "ludo", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "devis" },
+  "couleurs": { "fond": "#07070b", "texte": "#f3eee6", "voile": "#0b0a12", "ouverture": "#07070b", "menu": "#0b0a12", "theme": "#07070b" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "07 61 59 61 17", "telephoneLien": "+33761596117", "email": "à compléter", "adresse": "Pont-Saint-Esprit (Gard)" },
+  "polices": ["/assets/fonts/big-shoulders.woff2", "/assets/fonts/figtree.woff2"],
+  "imagePartage": "accueil-ouverture-1280.webp",
+  "curseur": false
+}

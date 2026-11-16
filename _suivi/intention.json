@@ -1,0 +1,98 @@
+{
+  "client": "DJ Ludo Remix",
+  "depot": "djludoremix-maquette",
+  "site_actuel": "https://www.djludoremix.fr",
+  "activite": "DJ, sonorisation et éclairage d'événements (Gard, Vaucluse, Drôme, Ardèche)",
+  "constat": "Le site actuel cache ses prix réels (formules de 400 à 1 250 €) sous « Matériels » et annonce « sur devis uniquement » ; il est noyé de mots-clés et de publicités d'autres prestataires. Le show laser, cité par les clients dans le livre d'or (286 messages), et les belles photos de Yann Elissalde ne sont mis en avant nulle part.",
+  "directions": [
+    {
+      "nom": "Plein feux",
+      "idee": "Une seule lyre accrochée au pont reste à l'écran tout l'accueil. Dans le brouillard, le visiteur promène son faisceau : il révèle les vraies photos de soirées cachées dans le noir. Les lasers ILDA de Ludo écrivent les titres. À chaque section, la lyre change de couleur et de gobo (UV pour BlackLight, éclats DISCO pour Unlimited).",
+      "plan": "objet-unique",
+      "palette": ["#07070b", "#f3eee6", "#ff2d55", "#5b8cff", "#9a5cff"],
+      "polices": ["Big Shoulders Display", "Figtree"],
+      "grille": {
+        "objet": "la lyre et son faisceau, qu'on promène dans le brouillard au pointeur ou au doigt, avec inertie",
+        "fil": "le faisceau de la même lyre, qui suit la lecture et change d'état à chaque section",
+        "voile": "douche de poursuite : un cercle de lumière s'ouvre depuis le clic sur l'objet de la page suivante",
+        "forme_voile": "iris",
+        "familles": ["lumiere-pointeur", "ambiance-qui-change", "trait-qui-se-dessine"],
+        "signature": "lumiere-pointeur",
+        "modernes": ["faisceau dans le brouillard révélant la photo (WebGL)", "titres tracés en un seul trait de laser", "lumière de la page qui passe du bleu au rouge, à l'UV puis au disco"]
+      },
+      "modules": ["composeur-de-formule", "texte-grave-en-direct", "formulaire-par-etapes"],
+      "sections": [
+        { "role": "ouverture", "reprend": "swiss-cloisons-solutions-maquette/hero", "plus": "la lumière n'est pas une vitre : c'est le vrai faisceau de sa lyre dans le brouillard, et il révèle sa vraie photo" },
+        { "role": "calculateur", "reprend": "tiki-cassis-maquette/formules-composeur", "plus": "pupitre lumière : on pousse les faders (lyres, laser, UV, DISCO, heures après 1 h) et la scène s'allume ; le prix réel des cinq formules se calcule" },
+        { "role": "témoignages", "reprend": "h-renovation-maquette/avis", "plus": "les vrais messages du livre d'or écrits au laser sur le mur" },
+        { "role": "contact", "reprend": "instinct-aventure-maquette/contact", "plus": "la date demandée s'écrit au laser, tampon « reçu, réponse sous 48 h »" }
+      ],
+      "ancrage": [
+        { "element": "Ludo aux platines, mur de pierre éclairé par ses projecteurs LED (photos de Yann Elissalde)", "source": "photo:dj-ludo-remix-dj-6.jpg" },
+        { "element": "les lasers vert et rose qui balaient une salle des fêtes pleine", "source": "photo:galerie-photo-djludoremix-56.jpg" },
+        { "element": "lasers ILDA 1,5 W « capables d'écrire et de dessiner », lyres LED, brouillard, projecteur UV", "source": "site:/matériels" },
+        { "element": "« un show laser époustouflant » (Marc, Nîmes) et « le show laser était absolument incroyable » (Sophie, Avignon)", "source": "releve:livre d'or" },
+        { "element": "cinq formules réelles de 400 à 1 250 €, déplacement compris à 50 km", "source": "site:/matériels" }
+      ],
+      "invente": ["la lyre dessinée accrochée au pont", "le faisceau qu'on promène", "la couleur de page qui suit la formule"]
+    },
+    {
+      "nom": "Grand Bal",
+      "idee": "L'accueil est une affiche de fête votive : grosses capitales d'imprimerie, papier, tampons. Une colonne d'affichage tourne à la main et porte les affiches de ses soirées (Total Bodega, Kitsch Party, bal, fête de village), avec ses vraies photos.",
+      "plan": "magazine",
+      "palette": ["#efe3c8", "#16130f", "#d3261b", "#f2b705", "#1d4a3c"],
+      "polices": ["Anton", "Archivo"],
+      "grille": {
+        "objet": "la colonne d'affichage en 3D qu'on fait tourner à la main, avec élan",
+        "fil": "une bande de tickets de bal numérotés qui se détache section après section",
+        "voile": "rideau de scène de bal qui se ferme puis s'ouvre",
+        "forme_voile": "rideau",
+        "familles": ["3d", "typo-geante", "vitesse"],
+        "signature": "3d",
+        "modernes": ["colonne d'affichage en 3D", "capitales géantes tamponnées", "affiches qui se gondolent selon la vitesse de défilement"]
+      },
+      "modules": ["catalogue-filtres-flip", "formulaire-par-etapes"],
+      "sections": [
+        { "role": "ouverture", "reprend": "coupdefood-maquette/une", "plus": "la une devient l'affiche du bal et la colonne se fait tourner" },
+        { "role": "offre", "reprend": "nelis-maquette/puissances", "plus": "les formules imprimées comme des billets de tombola, prix tamponnés" },
+        { "role": "galerie", "reprend": "games42-maquette/missions", "plus": "les photos de fêtes collées en affichage sauvage, qu'on arrache" }
+      ],
+      "ancrage": [
+        { "element": "fêtes votives, bals, kermesses, fêtes de village, bodegas", "source": "site:/" },
+        { "element": "Ludo sous le pont de scène à la ferrade du Moulet (photo de Christophe Restivo)", "source": "photo:dj-ludo-remix-dj-7.png" },
+        { "element": "DJ résident des Bodega Feria depuis 2011 ; bal du 14 juillet, 7 h de mix devant 500 personnes", "source": "releve:biographie" },
+        { "element": "formule Association à 500 €, de 20 h à 2 h", "source": "site:/matériels" }
+      ],
+      "invente": ["la colonne d'affichage", "les affiches et les tickets numérotés"]
+    },
+    {
+      "nom": "Le crossfader",
+      "idee": "Écran partagé entre ses deux concepts maison : Total Bodega à gauche (braise et or), Kitsch Party à droite (néon rose, trame VHS). Un vrai crossfader de table de mixage, en bas de l'écran, se pousse à la main : tout le site se mélange d'un monde à l'autre (photos, couleurs, typographie).",
+      "plan": "ecran-partage",
+      "palette": ["#0c0a10", "#fbf1e4", "#ffb43a", "#e5341d", "#ff3fae"],
+      "polices": ["Bricolage Grotesque", "DM Sans"],
+      "grille": {
+        "objet": "le crossfader qu'on pousse d'un monde à l'autre, avec son retour et ses vumètres",
+        "fil": "la forme d'onde du morceau en haut de page, chaque section est un repère (cue)",
+        "voile": "onde sonore qui monte et redescend",
+        "forme_voile": "vague",
+        "familles": ["ambiance-qui-change", "curseur-vivant", "carrousel"],
+        "signature": "ambiance-qui-change",
+        "modernes": ["tout le site qui se mélange au fader", "curseur en point lumineux qui laisse un reflet de boule à facettes", "carrousel des soirées à l'élan"]
+      },
+      "modules": ["lecteur-reactif-au-son", "formulaire-par-etapes"],
+      "sections": [
+        { "role": "ouverture", "reprend": "les-plus-hautes-eaux-maquette/haut", "plus": "deux scènes en une, et le visiteur choisit le mélange" },
+        { "role": "outil-interactif", "reprend": "edwin-sonorisation-maquette/ambiances", "plus": "pas des pads : le fader mélange les deux concepts réels de Ludo" },
+        { "role": "contact", "reprend": "edwin-sonorisation-maquette/contact-devis", "plus": "la demande garde le dosage choisi au fader" }
+      ],
+      "ancrage": [
+        { "element": "concepts maison « Total Bodega » et « Kitsch Party »", "source": "site:/" },
+        { "element": "la même séance photo sous des projecteurs rouge, vert et bleu", "source": "photo:dj-ludo-remix-5.jpg" },
+        { "element": "platines Pioneer et contrôleurs vus sur les photos", "source": "photo:dj-sans-materiel-4.jpg" },
+        { "element": "styles : sons Bodega Feria, funk, new wave, variété française", "source": "releve:biographie" }
+      ],
+      "invente": ["le crossfader à l'écran", "la forme d'onde en guise de fil"]
+    }
+  ]
+}

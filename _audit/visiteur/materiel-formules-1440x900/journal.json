@@ -1,0 +1,134 @@
+{
+ "mission": "materiel-formules",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.1,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7530,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Demander un devis",
+    "07 61 59 61 17",
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer Formules",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.4,
+   "adresse": "/formules",
+   "y": 0,
+   "hauteurPage": 4095,
+   "titres": [
+    "h1 COMPOSEZ VOTRE LUMIÈRE"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Aller au pupitre ↓"
+   ],
+   "prixVus": [
+    "1 250 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "defiler 3",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 7.6,
+   "adresse": "/formules",
+   "y": 2295,
+   "hauteurPage": 4095,
+   "titres": [
+    "h3 1ER PRIX",
+    "h3 ASSOCIATION",
+    "h3 DE BASE",
+    "h3 BLACKLIGHT",
+    "h3 UNLIMITED",
+    "h2 BON À SAVOIR"
+   ],
+   "actions": [
+    "Choisir 1er prix",
+    "Choisir Association",
+    "Choisir De base",
+    "Choisir BlackLight",
+    "Choisir Unlimited"
+   ],
+   "prixVus": [
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "250 €",
+    "400 €",
+    "100 €",
+    "500 €",
+    "550 €",
+    "700 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grand Bal — esquisse</title>
+<style>
+@font-face{font-family:"Anton";src:url(/_suivi/esquisses/polices/anton-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Archivo";src:url(/_suivi/esquisses/polices/archivo-latin-wdth-normal.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%}
+:root{--papier:#efe3c8;--encre:#16130f;--rouge:#d3261b;--jaune:#f2b705;--bleu:#1d2b5c}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;overflow:hidden;background:var(--papier);color:var(--encre);font-family:Archivo,system-ui,sans-serif}
+.ecran{position:relative;height:100svh;overflow:hidden;isolation:isolate;
+  background:radial-gradient(ellipse 70% 60% at 30% 40%,#f6ecd5,transparent 70%),var(--papier)}
+.ecran:before{content:"";position:absolute;inset:0;opacity:.22;mix-blend-mode:multiply;filter:url(#grain);background:#b89c6a}
+header{position:absolute;top:0;left:0;right:0;height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4.5vw,72px);z-index:5;border-bottom:2px solid var(--encre);background:var(--papier)}
+.logo{font-family:Anton;font-size:26px;letter-spacing:.04em}.logo b{color:var(--rouge);font-weight:400}
+nav{display:flex;gap:28px;font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.06em;font-stretch:85%}
+.devis{background:var(--encre);color:var(--papier);height:44px;padding:0 20px;display:flex;align-items:center;font-weight:800;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+.affiche{position:absolute;left:clamp(20px,4.5vw,72px);top:110px;bottom:40px;width:min(54vw,760px);display:flex;flex-direction:column;z-index:3}
+.bandeau{display:flex;gap:0;align-items:stretch;border:2px solid var(--encre)}
+.bandeau span{padding:9px 14px;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.12em;font-stretch:80%}
+.bandeau span+span{border-left:2px solid var(--encre)}
+.bandeau .r{background:var(--rouge);color:var(--papier)}
+h1{font-family:Anton;font-weight:400;text-transform:uppercase;font-size:clamp(70px,10.6vw,176px);line-height:.84;letter-spacing:-.005em;margin:22px 0 0}
+h1 .r{color:var(--rouge)}
+h1 .contour{color:transparent;-webkit-text-stroke:2.5px var(--encre);position:relative}
+.ligne{display:flex;align-items:center;gap:18px;margin-top:22px}
+.ligne p{font-size:clamp(16px,1.2vw,19px);line-height:1.45;max-width:420px;font-weight:500}
+.tampon{flex:none;width:118px;height:118px;border-radius:50%;border:3px solid var(--rouge);color:var(--rouge);display:grid;place-items:center;text-align:center;transform:rotate(-12deg);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:.08em;line-height:1.15;font-stretch:80%;box-shadow:inset 0 0 0 5px var(--papier),inset 0 0 0 7px var(--rouge)}
+.tampon b{display:block;font-family:Anton;font-weight:400;font-size:30px;letter-spacing:0}
+.actions{display:flex;gap:16px;align-items:center;margin-top:auto;flex-wrap:wrap}
+.btn{height:56px;padding:0 28px;background:var(--rouge);color:var(--papier);display:inline-flex;align-items:center;font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:15px;box-shadow:5px 5px 0 var(--encre)}
+.tel{font-family:Anton;font-size:30px;letter-spacing:.02em}
+/* Colonne d'affichage */
+.colonne{position:absolute;right:clamp(10px,5vw,90px);top:92px;bottom:-30px;width:min(34vw,470px);z-index:2}
+.dome{position:absolute;left:-8%;right:-8%;top:0;height:92px;border-radius:50% 50% 8px 8px/86% 86% 8px 8px;
+  background:linear-gradient(90deg,#0d2a22,#2f6b58 30%,#4f8f78 42%,#1d4a3c 70%,#0b211b)}
+.dome:after{content:"";position:absolute;left:44%;top:-26px;width:12%;height:34px;border-radius:50% 50% 0 0;background:linear-gradient(90deg,#0d2a22,#4f8f78,#0b211b)}
+.corniche{position:absolute;left:-5%;right:-5%;top:84px;height:20px;background:linear-gradient(90deg,#0b211b,#3d7a65 40%,#0b211b)}
+.fut{position:absolute;left:0;right:0;top:104px;bottom:0;overflow:hidden;display:flex;border-radius:0 0 4px 4px}
+.lame{flex:1;overflow:hidden;position:relative}
+.lame .bande{position:absolute;top:0;bottom:0;width:470px;display:flex}
+.ombre{position:absolute;inset:104px 0 0;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.25) 16%,rgba(255,255,255,.12) 38%,rgba(0,0,0,0) 52%,rgba(0,0,0,.28) 78%,rgba(0,0,0,.78))}
+.poster{flex:none;height:100%;display:flex;flex-direction:column;border-right:3px solid #e8dcc0;font-family:Anton;text-transform:uppercase;text-align:center}
+.p1{width:250px;background:var(--rouge);color:var(--papier)}
+.p2{width:220px;background:var(--jaune);color:var(--encre)}
+.poster .t{font-size:54px;line-height:.88;padding:22px 12px 14px}
+.poster .s{font-family:Archivo;font-weight:800;font-size:14px;letter-spacing:.14em;padding:10px;border-top:2px solid currentColor;border-bottom:2px solid currentColor;margin:0 14px}
+.poster .ph{flex:1;margin:16px 14px 0;background-size:cover;background-position:center;filter:contrast(1.1) saturate(1.1)}
+.poster .pied{font-size:30px;padding:14px 10px 40px}
+.astuce{position:absolute;right:clamp(20px,6vw,110px);bottom:28px;z-index:4;background:var(--encre);color:var(--papier);padding:10px 16px;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+@media (max-width:760px){
+  header{height:62px}nav,.devis{display:none}
+  .colonne{left:auto;right:-70px;width:250px;top:66px;bottom:auto;height:40svh}
+  .affiche{top:auto;bottom:22px;left:20px;right:20px;width:auto;height:auto}
+  h1{font-size:clamp(52px,15vw,66px);margin-top:12px}.bandeau{display:none}.ligne{margin-top:14px}
+  .bandeau span{font-size:11px;padding:7px 9px}
+  .tampon{width:92px;height:92px;font-size:10px}.tampon b{font-size:24px}
+  .ligne p{font-size:16px}.actions{margin-top:20px}.tel{font-size:24px}
+  .astuce{top:calc(66px + 40svh - 44px);bottom:auto;right:auto;left:20px}
+}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix type="saturate" values="0"/></filter></svg>
+<main class="ecran">
+  <header><div class="logo">DJ LUDO <b>REMIX</b></div><nav><span>Fêtes</span><span>Formules</span><span>Ludo</span><span>Contact</span></nav><div class="devis">Devis sous 48 h</div></header>
+  <div class="colonne" aria-hidden="true"><div class="dome"></div><div class="corniche"></div><div class="fut" id="fut"></div><div class="ombre"></div></div>
+  <section class="affiche">
+    <div class="bandeau"><span class="r">Fêtes votives</span><span>Bals</span><span>Cousinades</span><span>Bodegas</span></div>
+    <h1>Tout le<br><span class="r">village</span><br><span class="contour">danse.</span></h1>
+    <div class="ligne"><div class="tampon"><span>Formule<br>association<b>500 €</b>20 h – 2 h</span></div>
+      <p>Ludo fait danser le Gard depuis les Bodega Feria : son, lyres, laser et brouillard, de la place du village à la salle des fêtes.</p></div>
+    <div class="actions"><a class="btn">Réserver la date →</a><span class="tel">07 61 59 61 17</span></div>
+  </section>
+  <p class="astuce">↔ Faites tourner la colonne</p>
+</main>
+<script>
+const band = `<div class="poster p1"><div class="t">Total<br>Bodega</div><div class="s">Rythmes latins</div><div class="ph" style="background-image:url(/recu/site/dj-ludo-remix-dj-7.png)"></div><div class="pied">DJ Ludo Remix</div></div>
+<div class="poster p2"><div class="t">Kitsch<br>Party</div><div class="s">Années 80-90</div><div class="ph" style="background-image:url(/recu/site/galerie-photo-djludoremix-41.png)"></div><div class="pied">Grand bal</div></div>`;
+const fut = document.getElementById('fut'), n = 40, W = fut.getBoundingClientRect().width, B = 470, du = B / n;
+const cs = [...Array(n)].map((_, i) => Math.cos(-Math.PI/2 + (i + .5) * Math.PI / n)), tot = cs.reduce((a, b) => a + b, 0);
+cs.forEach((c, i) => {
+  const w = W * c / tot, sc = w / du, l = document.createElement('div');
+  l.className = 'lame'; l.style.flex = `0 0 ${w}px`;
+  l.innerHTML = `<div class="bande" style="left:0;transform-origin:0 0;transform:translateX(${-i*du*sc}px) scaleX(${sc})">${band}</div>`;
+  fut.appendChild(l);
+});
+</script>
+</body></html>

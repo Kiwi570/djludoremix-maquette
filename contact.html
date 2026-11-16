@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et devis : DJ Ludo Remix, 07 61 59 61 17</title>
+<meta name="description" content="Demandez un devis pour votre soirée : date, lieu, nombre d&#39;invités. Réponse sous 48 h. Basé à Pont-Saint-Esprit, dans le Gard.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://djludoremix-maquette.vercel.app/contact">
+<style>:root{--fond:#07070b;--texte:#f3eee6;--voile-fond:#0b0a12;--ouverture-fond:#07070b;--menu-fond:#0b0a12}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#07070b">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DJ Ludo Remix">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact et devis : DJ Ludo Remix, 07 61 59 61 17">
+<meta property="og:description" content="Demandez un devis pour votre soirée : date, lieu, nombre d&#39;invités. Réponse sous 48 h. Basé à Pont-Saint-Esprit, dans le Gard.">
+<meta property="og:url" content="https://djludoremix-maquette.vercel.app/contact">
+<meta property="og:image" content="https://djludoremix-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Numéro de DJ Ludo Remix et carte du rayon de 50 km">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"DJ Ludo Remix","url":"https://djludoremix-maquette.vercel.app/","telephone":"+33761596117","address":{"@type":"PostalAddress","addressLocality":"Pont-Saint-Esprit","postalCode":"30130","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":44.2685151,"longitude":4.641604},"areaServed":["Gard","Vaucluse","Drôme","Ardèche","Lozère"],"description":"DJ, sonorisation, éclairage et laser pour soirées privées, fêtes de village et événements d'entreprise dans le Gard, le Vaucluse, la Drôme, l'Ardèche et la Lozère.","sameAs":["https://www.facebook.com/DJLUDOREMIX","https://www.instagram.com/djludoremix","https://www.tiktok.com/@djludoremix"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-lentille"></span><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <span class="ouverture-brume"></span>
+  <svg class="ouverture-laser" viewBox="0 0 1000 220" aria-hidden="true"><defs><clipPath id="intro-revele"><rect class="ouverture-revele" x="0" y="0" width="0" height="220"/></clipPath></defs><text x="500" y="160" text-anchor="middle" class="ouverture-trace ouverture-trace--fond">LUDO REMIX</text><text x="500" y="160" text-anchor="middle" class="ouverture-trace" clip-path="url(#intro-revele)">LUDO REMIX</text><circle class="ouverture-pointe" cx="0" cy="110" r="6"/></svg>
+  <span class="ouverture-objet" data-ouverture-objet></span>
+  <p class="ouverture-ligne">DJ · son · lumière · laser</p>
+</div>
+<div class="fil" data-grille="fil" data-effet="fil" aria-hidden="true"><span class="fil-pont"></span><span class="fil-lyre"><span class="fil-lentille"></span></span></div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="logo-lentille" aria-hidden="true"></span><span class="logo-mot">DJ Ludo <b>Remix</b></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/soirees" data-libelle="Soirées">Soirées</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/ludo" data-libelle="Ludo">Ludo</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Devis sous 48 h</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/soirees" class="menu-lien" data-libelle="Soirées">Soirées</a></li><li style="--i:2"><a href="/formules" class="menu-lien" data-libelle="Formules">Formules</a></li><li style="--i:3"><a href="/ludo" class="menu-lien" data-libelle="Ludo">Ludo</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33761596117">Appeler 07 61 59 61 17</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-contact conteneur" id="debut">
+  <div class="ouv-contact-texte">
+    <p class="surtitre" data-anime="gsap">Contact</p>
+    <h1 data-grille="typo"><span class="hero-ligne" data-anime="gsap">Réservez</span> <span class="laser-titre hero-ligne" data-effet="laser-titre" data-texte="votre date">votre date</span></h1>
+    <p class="ouv-contact-tel" data-anime="gsap"><a href="tel:+33761596117" data-action-principale>07 61 59 61 17</a></p>
+    <p class="masque-ecran-tres-bas" data-anime="gsap">Appelez Ludo ou décrivez votre soirée : réponse sous 48 h. Pour un devis juste, donnez le nombre d&#39;invités, le lieu, la date et ce que vous aimeriez.</p>
+    <p class="hero-actions" data-anime="gsap"><a class="bouton" href="#devis">Demande de devis ↓</a><span class="hero-info" data-info-cle>Réponse sous 48 h · Pont-Saint-Esprit · Gard</span></p>
+  </div>
+  <div class="ouv-contact-carte"><div class="rayon-boite" data-fx="trace" data-iris-centre data-visuel><svg class="rayon-carte" viewBox="0 0 600 600" role="img" aria-label="Carte des villes autour de Pont-Saint-Esprit et du rayon de 50 km" data-repere>
+  <defs><radialGradient id="contact-fond"><stop offset="0" stop-color="#5b8cff" stop-opacity=".16"/><stop offset="1" stop-color="#5b8cff" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="300" cy="300" r="290" fill="url(#contact-fond)"/>
+  <g class="rayon-grille" fill="none" stroke="rgba(243,238,230,.12)"><circle cx="300" cy="300" r="50"/><circle cx="300" cy="300" r="100"/><circle cx="300" cy="300" r="150"/><path d="M300 20 V580 M20 300 H580"/></g>
+  <path class="rayon-rhone" d="M325.9 138.3 L325.9 169.5 L313.2 218.4 L310.0 258.4 L303.6 294.0 L316.4 325.1 L325.9 360.7 L338.7 391.9 L345.1 423.0 L338.7 445.2 L306.8 485.3" fill="none" stroke="#5b8cff" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+  <circle class="rayon-cercle" cx="300" cy="300" r="200" fill="none" stroke="#ff2d55" stroke-width="2.5" pathLength="1" data-fx-trait/>
+  <g class="rayon-balayage" data-effet="rayon-50km"><path d="M300 300 L300 40 A260 260 0 0 1 430 75 Z" fill="url(#contact-fond)" opacity=".9"/><path d="M300 300 L300 40" stroke="#ff2d55" stroke-width="1.5"/></g>
+  <g class="rayon-ville est-base est-dans" transform="translate(300.0 300.0)"><circle r="7"/><text x="10" y="-10" text-anchor="start">Pont-Saint-Esprit</text></g><g class="rayon-ville est-dans est-secondaire" transform="translate(290.8 341.9)"><circle r="4.5"/><text x="-10" y="5" text-anchor="end">Bagnols-sur-Cèze</text></g><g class="rayon-ville est-dans est-secondaire" transform="translate(312.7 278.3)"><circle r="4.5"/></g><g class="rayon-ville est-dans" transform="translate(331.9 289.1)"><circle r="4.5"/></g><g class="rayon-ville est-dans est-secondaire" transform="translate(350.6 352.7)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Orange</text></g><g class="rayon-ville est-dans" transform="translate(227.1 408.5)"><circle r="4.5"/><text x="-10" y="5" text-anchor="end">Uzès</text></g><g class="rayon-ville est-dans est-secondaire" transform="translate(313.2 424.8)"><circle r="4.5"/><text x="-10" y="5" text-anchor="end">Rochefort-du-Gard</text></g><g class="rayon-ville est-dans" transform="translate(350.0 436.6)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Avignon</text></g><g class="rayon-ville est-dans" transform="translate(332.6 165.8)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Montélimar</text></g><g class="rayon-ville est-dans" transform="translate(217.6 138.3)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Aubenas</text></g><g class="rayon-ville est-dans" transform="translate(119.2 358.5)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Alès</text></g><g class="rayon-ville" transform="translate(208.1 486.7)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Nîmes · 52 km</text></g><g class="rayon-ville est-dans est-secondaire" transform="translate(427.3 389.4)"><circle r="4.5"/><text x="10" y="5" text-anchor="start">Carpentras</text></g><g class="rayon-ville est-dans est-secondaire" transform="translate(218.9 233.1)"><circle r="4.5"/><text x="-10" y="5" text-anchor="end">Vallon-Pont-d&#39;Arc</text></g>
+</svg></div><p class="rayon-legende"><span class="pastille est-dans"></span>Dans le rayon de 50 km&nbsp;: déplacement compris · <span class="pastille"></span>Au-delà : sur devis</p></div>
+</section>
+<section class="devis conteneur" id="devis">
+  <div class="devis-grille">
+    <div class="devis-tete">
+      <h2 class="laser-titre" data-effet="laser-titre" data-texte="Demande de devis">Demande de devis</h2>
+      <figure class="media devis-photo" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/date-ludo-784.webp" srcset="/assets/images/date-ludo-480.webp 480w, /assets/images/date-ludo-640.webp 640w, /assets/images/date-ludo-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Ludo en casquette derrière ses platines, en extérieur le soir" width="784" height="980" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="fpe" data-module="formulaire-par-etapes" role="region" aria-label="Demande de devis">
+      <div class="fpe__carton">
+        <form class="fpe__form" novalidate data-devis>
+          <fieldset class="fpe__etape" data-etape="Votre soirée">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Quelle soirée préparez-vous ?</h3></legend>
+            <div class="fpe__groupe fpe__cartes" data-libelle="Soirée">
+              <label class="fpe__carte"><input type="radio" name="type" value="Anniversaire" required><span class="fpe__carte-titre">Anniversaire</span><span class="fpe__carte-texte">ou cousinade, communion</span></label>
+              <label class="fpe__carte"><input type="radio" name="type" value="Mariage"><span class="fpe__carte-titre">Mariage</span></label>
+              <label class="fpe__carte"><input type="radio" name="type" value="Fête de village"><span class="fpe__carte-titre">Fête de village</span><span class="fpe__carte-texte">votive, bal, kermesse</span></label>
+              <label class="fpe__carte"><input type="radio" name="type" value="Soirée d&#39;entreprise"><span class="fpe__carte-titre">Entreprise</span><span class="fpe__carte-texte">séminaire, gala</span></label>
+              <label class="fpe__carte"><input type="radio" name="type" value="Bar ou restaurant"><span class="fpe__carte-titre">Bar ou restaurant</span><span class="fpe__carte-texte">DJ sans matériel</span></label>
+              <label class="fpe__carte"><input type="radio" name="type" value="Autre"><span class="fpe__carte-titre">Autre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Date et lieu">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Quand et où ?</h3></legend>
+            <div class="fpe__champ"><label for="c-date">Date (jj/mm/aaaa)</label><input id="c-date" name="date" type="text" inputmode="numeric" placeholder="jj/mm/aaaa" autocomplete="off" required></div>
+            <div class="fpe__champ"><label for="c-lieu">Commune</label><input id="c-lieu" name="lieu" autocomplete="address-level2" required></div>
+            <div class="fpe__champ"><label for="c-invites">Nombre d&#39;invités</label><input id="c-invites" name="invites" type="number" min="1" max="2000" inputmode="numeric"></div>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Formule">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Quelle formule vous tente ?</h3></legend>
+            <div class="fpe__groupe fpe__cartes" data-libelle="Formule">
+              <label class="fpe__carte"><input type="radio" name="formule" value="premier-prix"><span class="fpe__carte-titre">1er prix · 400 €</span><span class="fpe__carte-texte">20 h – 1 h</span></label><label class="fpe__carte"><input type="radio" name="formule" value="association"><span class="fpe__carte-titre">Association · 500 €</span><span class="fpe__carte-texte">20 h – 2 h</span></label><label class="fpe__carte"><input type="radio" name="formule" value="de-base"><span class="fpe__carte-titre">De base · 550 €</span><span class="fpe__carte-texte">20 h – 3 h</span></label><label class="fpe__carte"><input type="radio" name="formule" value="blacklight"><span class="fpe__carte-titre">BlackLight · 700 €</span><span class="fpe__carte-texte">20 h – 5 h</span></label><label class="fpe__carte"><input type="radio" name="formule" value="unlimited"><span class="fpe__carte-titre">Unlimited · 1 250 €</span><span class="fpe__carte-texte">20 h – fin de soirée</span></label>
+              <label class="fpe__carte"><input type="radio" name="formule" value="nsp"><span class="fpe__carte-titre">Je ne sais pas encore</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Vos coordonnées">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Comment vous joindre ?</h3></legend>
+            <div class="fpe__champ"><label for="c-nom">Nom</label><input id="c-nom" name="nom" autocomplete="name" required></div>
+            <div class="fpe__champ"><label for="c-tel">Téléphone (obligatoire pour confirmer)</label><input id="c-tel" name="tel" type="tel" autocomplete="tel" required></div>
+            <div class="fpe__champ"><label for="c-email">E-mail</label><input id="c-email" name="email" type="email" autocomplete="email"></div>
+            <div class="fpe__champ"><label for="c-message">Ce que vous aimeriez (styles, moments clés)</label><textarea id="c-message" name="message" rows="3"></textarea></div>
+            <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande.</p>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
+            <legend class="fpe__legende"><h3 class="fpe__titre">Tout est juste ?</h3></legend>
+            <div class="fpe__recap"></div>
+          </fieldset>
+          <div class="fpe__nav"><button type="button" class="bouton bouton--contour" data-precedent>Retour</button><button type="button" class="bouton" data-suivant>Continuer</button><button type="submit" class="bouton" data-grille="retour" data-effet="date-laser">Envoyer la demande</button></div>
+        </form>
+        <div class="fpe__fin" hidden>
+          <div class="devis-mur" aria-hidden="true"><svg class="date-ecrit" viewBox="0 0 600 200"><text x="300" y="120" text-anchor="middle" class="date-texte"></text></svg><span class="date-tampon">Reçu<small>Réponse sous 48 h</small></span></div>
+          <h3>Demande reçue</h3><p>Demande simulée : rien n&#39;a été envoyé. Sur le vrai site, Ludo vous répond sous 48 h.</p><p data-resume></p>
+          <button type="button" class="bouton bouton--contour" data-recommencer>Nouvelle demande</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="reseaux conteneur" id="reseaux">
+  <h2 data-anime="lignes">Suivre Ludo</h2>
+  <ul class="reseaux-liste" data-anime="cascade">
+    <li><a href="https://www.facebook.com/DJLUDOREMIX" target="_blank" rel="noopener">Facebook<span>/DJLUDOREMIX</span></a></li>
+    <li><a href="https://www.instagram.com/djludoremix" target="_blank" rel="noopener">Instagram<span>@djludoremix</span></a></li>
+    <li><a href="https://www.tiktok.com/@djludoremix" target="_blank" rel="noopener">TikTok<span>@djludoremix</span></a></li>
+    <li><a href="https://dj-ludo-remix.myspreadshop.fr/" target="_blank" rel="noopener">Boutique<span>t-shirts DJ Ludo Remix</span></a></li>
+  </ul>
+  <figure class="media reseaux-photo" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/salle-laser-1-800.webp" srcset="/assets/images/salle-laser-1-480.webp 480w, /assets/images/salle-laser-1-640.webp 640w, /assets/images/salle-laser-1-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="Lasers vert et rose au-dessus de la piste d&#39;une salle des fêtes" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo">DJ Ludo <b>Remix</b></p>
+      <p>Basé à Pont-Saint-Esprit (Gard)<br>Gard · Vaucluse · Drôme · Ardèche · Lozère</p>
+      <p><a class="pied-tel" href="tel:+33761596117">07 61 59 61 17</a></p>
+      <img class="pied-logo-image" src="/assets/images/logo-480.webp" alt="Logo actuel de DJ Ludo Remix" width="480" height="93" loading="lazy">
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/soirees" data-libelle="Soirées">Soirées</a></li><li><a href="/formules" data-libelle="Formules">Formules</a></li><li><a href="/ludo" data-libelle="Ludo">Ludo</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre Ludo</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/DJLUDOREMIX" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/djludoremix" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@djludoremix" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a href="https://dj-ludo-remix.myspreadshop.fr/" target="_blank" rel="noopener">La boutique de t-shirts</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter &nbsp;·&nbsp; Politique de confidentialité · à compléter</p>
+    <p>Photos de Ludo : Yann Elissalde, Christophe Restivo et archives DJ Ludo Remix. Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33761596117">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Devis sous 48 h</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+VERDICT : REFAIRE
+
+Quatrième regard sur l'accueil de DJ Ludo Remix (direction « Plein feux »), 13 novembre 2026, sur les films refaits après le regard 3 (« la lumière, ce sont ses photos »).
+
+Sources : mosaïques ordinateur et téléphone, planche, `vides.json` (8,6 écrans sur ordinateur, 9,1 sur téléphone, aucun écran presque vide), `premier-ecran.json` (ordinateur : 49 % bouge seul, 16 % réagit à la souris ; téléphone : 31 % bouge seul), images des deux films à 1 image/s, plus deux images à 2,5 s et 3,5 s pour le premier écran. J'ai aussi lu le relevé, l'intention, les planches et les photos sources (dj-ludo-remix-dj-6, -7, -2, galerie-41, -52, -56). Je tiens compte de la contrainte de l'analyse : seules dj-ludo-remix-dj-6, dj-ludo-remix-7 et dj-ludo-remix-2 ne sont pas marquées « faible » dans la séance de Yann Elissalde. Les photos -3, -4, -6 (et -5, et dj-ludo-remix) ne peuvent pas passer en plein écran.
+
+Repères dans la mosaïque ordinateur (4 images par ligne) : l'accueil va de ligne 1, image 1 (intro) à ligne 6, image 2 (pied de page). Ligne 6, images 3 et 4 reviennent en haut, puis la ligne 7 passe sur la page Soirées : ces images ne sont pas jugées. La scène d'ouverture occupe ligne 1, image 3 à ligne 3, image 1. Elle n'est plus collée : la démonstration des faders se joue pendant que le visiteur est sur le premier écran. Dans la mosaïque téléphone (8 images par ligne), l'accueil va de ligne 1, image 1 à ligne 3, image 2.
+
+## La liste du regard précédent
+
+1. **Le voile, les filtres et le cône dessinés → ses vraies photos en pleine lumière, révélées à la main : à moitié fait.**
+   - Fait : le voile gris, le grain, les filtres vert et braise et le cône à arêtes ont disparu. dj-ludo-remix-7 s'affiche à peu près à son exposition d'origine. J'ai comparé un recadrage de la photo source avec l'image du film à 11 s : visage et mur ont la même valeur. Il reste un dégradé sombre à gauche, sous le titre, et il est justifié. La signature « Yann Elissalde » est sortie du cadre. Ludo est reconnaissable : casque, lunettes, blouson à chevrons rouges, mains sur la platine (ligne 1, image 4 ; ligne 2, image 1).
+   - Pas fait, et c'est un nouveau défaut grave : le disque mélange deux photos prises de deux points de vue différents. dj-6 et -7 ne sont pas cadrées pareil : Ludo n'a ni la même taille, ni la même pose, ni la même place. Agrandir dj-6 et lui superposer -7 dans un disque doux centré sur le visage donne une double exposition. On voit deux paires de lunettes, deux casques, deux V rouges et des bras en double (ligne 1, image 3 ; images du film à 2,5 s et 3,5 s ; téléphone, ligne 1, images 2 et 3). C'est la première image que le visiteur voit après l'ouverture en iris, pendant environ deux secondes, donc au cœur des cinq premières secondes.
+   - Pas fait : la réponse à la souris reste partielle, 16 % de l'écran (11 % au regard 3), alors que « tout l'écran » était demandé. Le disque de couleur ne se voit qu'au bord droit, sur le mur (bleu ou violet à la place du rouge, ligne 2, image 4). Ce n'est pas la lumière qu'on promène sur Ludo.
+   - Pas vu : l'état UV (dj-ludo-remix-2) n'apparaît pas dans le film.
+2. **Le pavé de la console → cinq faders seuls sur la photo, qui changent vraiment la scène : à moitié fait.**
+   - Fait : plus de pavé ni de bord. Les faders et le prix sont posés sur un dégradé, et on voit ses mains et le flight-case. La démonstration automatique pousse les lyres, le laser, le DISCO et la fin de soirée. Le prix suit : 1er prix 400 €, De base 550 €, Unlimited 1 250 € (ligne 1, image 3 à ligne 2, image 4). Les balayages ILDA s'ouvrent à droite. Dans « Cinq formules », « Montez le fader… » est devenu « Touchez une formule pour la régler au pupitre ».
+   - Pas fait : le DISCO fait entrer galerie-56 en fondu à droite. On voit alors un fantôme translucide : la danseuse en orange et des nappes blanches flottent sur le mur de pierre, à côté de Ludo, à une autre échelle (ligne 2, images 2 et 3). Ça ne ressemble pas à une salle qui s'allume. On croit à une tache ou à une erreur de calque.
+   - Pas fait : pendant que le prix compte, des montants qui n'existent pas s'affichent (« 510 € » sur ordinateur, « 540 € » sur téléphone).
+3. **La carte en plein jour et la carte floue → trois cartes de nuit, alignées : à moitié fait.**
+   - Fait : « Entreprises » prend galerie-52 (lasers dans une salle des fêtes). Les trois cartes ont la même taille et sont sur la même ligne, toutes de nuit (ligne 4, image 3).
+   - Pas fait : « Fêtes de village » (galerie-41) n'est pas recadrée au-dessus du texte incrusté. Le gros « Dj Ludo Remix » orange en relief occupe tout le bas de la carte (ligne 4, images 3 et 4). En plus, la photo montre une scène vide : personne devant, et Ludo invisible.
+4. **Les lasers sur les textes → des textes dégagés : fait.** Sur ordinateur, la frise est passée sous les boutons, à gauche, en blanc cassé, et les lasers restent dans la moitié droite sans toucher de texte (ligne 2, images 1 à 4). Sur téléphone, les lasers s'arrêtent au-dessus de « Glissez pour bouger la lumière » (téléphone, ligne 1, images 4 et 5). Ils barrent encore les lunettes de Ludo.
+5. **Les deux boutons rouges du premier écran → un seul appel : fait.** « Demander ce devis », lié au prix, est le seul bouton rouge de la scène, et « Demander un devis » est un lien discret. Le formulaire et la photo au crépuscule sont à la même hauteur, sans vide noir (ligne 6, image 1).
+
+Trois points sont à moitié faits et coûtent chacun un point : le point 1 au critère 2, le point 2 au critère 9 et le point 3 au critère 3.
+
+## Les neuf critères
+
+| # | Critère | Note | Pourquoi |
+|---|---|---|---|
+| 1 | Fidélité au vrai lieu et au métier | 4 | Tout ce qui est écrit est vrai : les cinq formules et leurs prix, De base 550 € avec son matériel exact, les citations du livre d'or, les Wedding Awards 2023 et Zankyou, et les 50 km autour de Pont-Saint-Esprit (ligne 2, image 1 ; ligne 4, image 1 ; ligne 5, images 2 et 3). Ludo est reconnaissable à ses platines, devant son mur de pierre, sous ses vraies LED. Il manque un point : le fantôme de galerie-56 colle une salle des fêtes sur le mur de la séance photo, une scène qui n'a jamais existé. Et « Fêtes de village » montre une scène vide. |
+| 2 | Effet signature, cinq premières secondes | 2 | L'échelle est bonne : la scène fait tout l'écran, bouge seule (49 %), et les faders changent vraiment la scène. Mais les deux secondes qui suivent l'iris montrent un Ludo en double exposition (ligne 1, image 3). Le disque ne réagit que sur 16 % de l'écran, et seulement sur le mur de droite. Il vaut 3, moins un point pour le point 1 à moitié fait. |
+| 3 | Images | 2 | Hors des moments de mélange, la photo -7 est enfin belle : nette, bien exposée, sans voile (ligne 2, image 1). Mais la plus grande image du site passe deux fois par une superposition ratée : le double Ludo (ligne 1, image 3) et la danseuse fantôme sur le mur (ligne 2, images 2 et 3). Le bord droit tourne aussi au blanc cyan brûlé quand la colonne bleue de dj-6 apparaît (ligne 2, image 4). La carte « Fêtes de village » garde le texte incrusté. Il vaut 3, moins un point pour le point 3 à moitié fait. |
+| 4 | Composition et finition | 4 | Un seul langage du haut en bas : fond noir, néon, Big Shoulders, plus de cartes à bordure ni de pavé. Les cartes sont alignées et le formulaire est tenu (ligne 4, image 3 ; ligne 6, image 1). Il y a deux encarts flottants au plus dans l'ouverture (« Promenez la lumière » et le bloc prix). Restent des défauts : le « E » de « SOIRÉE » touche le casque de Ludo (ligne 1, image 4), et la moitié droite du livre d'or est vide (ligne 5, image 1). |
+| 5 | Rythme, sans vides | 4 | 8,6 écrans sur ordinateur, 9,1 sur téléphone, aucun écran presque vide (`vides.json`). La scène ne colle plus pendant deux écrans. Il manque un point pour deux passages maigres : la moitié droite vide du livre d'or, et la carte de la zone, très noire (ligne 5, images 1 et 4). |
+| 6 | Typographie et lisibilité | 4 | Les titres tiennent, les prix en néon fin se lisent, et les citations du livre d'or sont lisibles d'emblée (ligne 5, image 2). Plus aucun laser ne passe sur un texte. Il manque un point : le surtitre de l'ouverture, les années de la frise (« MARS 2011 », en bleu-violet) et les signatures du livre d'or sont à la limite des 13 px. Le titre bute sur le casque, et les prix intermédiaires (« 510 € ») clignotent pendant le comptage. |
+| 7 | Niveau par rapport à la vitrine | 3 | L'idée est la sienne : une photo réelle, un pupitre, des prix réels. Ça ne ressemble ni au vinyle d'edwin ni au portail de games42. Mais leurs objets sont nets d'un bout à l'autre. Ici, l'objet se dédouble dans les deux premières secondes et se tache au DISCO. On reste au niveau de la vitrine, pas au-dessus. |
+| 8 | Envie d'agir | 4 | Le prix réel et « Demander ce devis » sont dans le premier écran, avec le numéro, « Devis sous 48 h » dans le menu et la barre Appeler / Devis fixe sur téléphone. Le formulaire est court et en français. Il manque un point : le bouton rouge est tout en bas de l'écran, sous les faders, et sur téléphone il n'est pas dans le premier écran (seule la barre fixe le remplace). |
+| 9 | Jeu | 3 | Les faders sont maintenant un vrai jeu, en grand : la photo change, les lasers s'ouvrent, le prix suit, et le film le montre. La lumière à la souris reste petite (16 %) et le reste de l'accueil ne se joue pas : « Touchez une formule » et le tracé au laser ne sont pas des jeux. Il vaut 4, moins un point pour le point 2 à moitié fait (le DISCO fantôme). |
+
+**Moyenne : 3,33 / 5** (4 + 2 + 2 + 4 + 4 + 4 + 3 + 4 + 3 = 30 / 9). Deux critères valent 2 et la moyenne est sous 3,5 : on refait l'accueil.
+
+**Quatrième regard sous 3,5.** Le progrès est réel : le regard 3 demandait d'enlever tout ce qui était dessiné, et c'est fait. L'échelle plein écran est la bonne, il ne faut pas y toucher. Le problème est maintenant une seule idée de rendu : **fondre l'une dans l'autre des photos qui ne se superposent pas**. dj-6, -7 et galerie-56 ont trois cadrages différents. Les mélanger dans un disque doux ou en fondu fait toujours une double exposition. Aucune retouche du disque n'y changera rien. Il faut une autre idée : **une seule photo à l'écran à la fois**. On passe d'une photo à l'autre par une coupe franche au stroboscope, jamais par un fondu. La lumière qu'on promène, c'est une douche de poursuite sur cette même photo. C'est déjà le « voile » prévu dans l'intention (« douche de poursuite »), et c'est une vraie lumière de scène.
+
+## Ce qui doit changer
+
+1. **(Reprend le point 1, à moitié fait) Le disque qui mélange dj-6 et -7 → une seule photo à la fois, et une douche de poursuite sur cette photo.**
+   - Supprimez tout mélange de deux photos au même endroit (disque, fondu, fondu enchaîné).
+   - La scène part sur dj-ludo-remix-7 seule, cadrée pour que son visage tombe vers 55 % de la largeur, à droite du titre.
+   - La lumière qu'on promène : un cercle doux d'au moins un tiers de la hauteur d'écran. Dedans, la même photo -7 à son exposition d'origine. Autour, la même photo baissée à 35-40 %. Le cercle balaie seul au départ, du visage aux mains, puis suit la souris ou le doigt sur tout l'écran (viser plus de 50 % de réponse).
+   - Les changements de lumière (lyres, UV) passent d'une photo entière à une autre, par exemple de -7 à dj-6 (violet et bleu) ou à dj-ludo-remix-2 (debout, LED bleues). Le passage se fait par une coupe franche : un flash blanc de 2 à 3 images, comme un stroboscope, puis la nouvelle photo nette. On ne voit jamais deux Ludo.
+2. **(Reprend le point 2, à moitié fait) Le DISCO fantôme et les faux prix → une vraie lumière DISCO et des prix qui sautent d'une formule à l'autre.**
+   - Retirez galerie-56 de la scène : 960 px compressée, elle ne tient ni en grand ni en calque.
+   - DISCO allume ce que fait vraiment son éclairage DISCO, d'après la page Matériels et les points visibles sur galerie-56 : des dizaines de petits points de couleur nets, vert, rose et violet, qui tournent sur le mur de pierre et sur Ludo, avec un léger filé de mouvement. Le fader UV fait la coupe vers dj-6 (violet).
+   - Le prix passe directement d'un prix réel à l'autre (400, 500, 550, 700, 1 250 €), avec un clignement de néon, sans compter par 510 ou 540 €.
+   - Le film doit montrer l'UV, comme les autres faders.
+3. **(Reprend le point 3, à moitié fait) Le « Dj Ludo Remix » incrusté de « Fêtes de village » → la scène sans texte, à la même ligne.**
+   - Passez les trois cartes au format paysage 4:3 ou 3:2.
+   - Cadrez galerie-41 sur le haut de l'image (auvent rayé, lyres violettes, points DISCO) et coupez les 20 % du bas, là où le texte est incrusté.
+   - Si la scène vide paraît trop morne à cette taille, prenez une des fêtes votives (galerie 74 à 86, barnum rayé rouge et blanc) avec du monde devant, sans texte incrusté.
+4. **Le titre qui bute sur le casque et les petits textes → une ouverture qui respire.**
+   - Décalez Ludo vers la droite (point 1), pour laisser au moins 40 px entre « SOIRÉE » et son casque.
+   - Le surtitre, les années de la frise et les signatures du livre d'or passent à 14 px au moins, et les années en blanc cassé plutôt qu'en bleu-violet.
+   - Sur téléphone, écartez les lasers du visage : bord droit seulement, au-dessus des lunettes.
+   - Remontez « Demander ce devis » à côté du prix, au-dessus des faders, pour qu'il soit dans le premier écran du téléphone.
+5. **Un deuxième moment de jeu dans le vide du livre d'or → les lasers écrivent sous la main du visiteur.** La moitié droite de « 286 messages, un show laser » est vide (ligne 5, image 1). Faites-en le show laser que Marc et Sophie citent. Le visiteur tient appuyé, ou promène le pointeur, et deux balayages ILDA vert et rose (ses lasers « capables d'écrire et de dessiner ») suivent sa main. Quand il lâche, ils écrivent la citation qu'il survole en grand sur le mur noir. On a envie de recommencer avec chaque citation.
+
+## Ce qui est réussi
+
+1. La photo de Yann Elissalde à son exposition d'origine, bord à bord, sans voile ni filtre, avec le vrai prix et le vrai matériel dans le premier écran. Quand une seule photo est à l'écran, c'est la plus belle ouverture des quatre regards (ligne 2, image 1).
+2. Les faders qui changent vraiment la scène, avec la démonstration automatique : lyres, lasers ILDA, prix qui suit. C'est enfin un pupitre qu'on a envie de pousser.
+3. Le langage unifié du reste de l'accueil : « Cinq formules, cinq vrais prix » en néon fin, les trois cartes de nuit alignées, les citations au laser lisibles, et le formulaire tenu à côté de la photo au crépuscule (casquette « Le Clan »).

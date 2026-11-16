@@ -1,0 +1,17 @@
+[
+  { "cle": "premier-prix", "nom": "1er prix", "prix": 400, "debut": "20 h", "fin": "1 h", "finH": 25, "heureSup": 100,
+    "materiel": ["4 jeux de lumière LED", "1 laser", "Brouillard", "2 enceintes 715A"],
+    "pour": "Le plus petit prix, jusqu'à 1 h", "niveau": [4, 0, 1, 0, 0, 0] },
+  { "cle": "association", "nom": "Association", "prix": 500, "debut": "20 h", "fin": "2 h", "finH": 26, "heureSup": 100,
+    "materiel": ["2 jeux de lumière LED", "1 laser", "Brouillard", "2 enceintes", "Platines Pioneer"],
+    "pour": "Réservée aux associations, jusqu'à 2 h", "niveau": [2, 0, 1, 0, 0, 1], "association": true },
+  { "cle": "de-base", "nom": "De base", "prix": 550, "debut": "20 h", "fin": "3 h", "finH": 27, "heureSup": 100,
+    "materiel": ["2 lyres LED", "1 laser", "Brouillard", "2 enceintes 715A"],
+    "pour": "Deux lyres LED, jusqu'à 3 h", "niveau": [0, 2, 1, 0, 0, 0] },
+  { "cle": "blacklight", "nom": "BlackLight", "prix": 700, "debut": "20 h", "fin": "5 h", "finH": 29, "heureSup": 100,
+    "materiel": ["2 lyres LED", "1 laser", "Brouillard", "1 projecteur UV", "2 enceintes 715A"],
+    "pour": "Avec la lumière UV, jusqu'à 5 h", "niveau": [0, 2, 1, 1, 0, 0] },
+  { "cle": "unlimited", "nom": "Unlimited", "prix": 1250, "debut": "20 h", "fin": "fin de soirée", "finH": 32, "heureSup": null,
+    "materiel": ["2 lyres LED", "2 lasers ILDA 1,5 W", "Brouillard", "Éclairage DISCO", "2 enceintes 715A", "Platines Pioneer"],
+    "pour": "Deux lasers ILDA, sans heure de fin", "niveau": [0, 2, 2, 0, 1, 1] }
+]

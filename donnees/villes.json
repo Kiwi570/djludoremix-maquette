@@ -1,0 +1,101 @@
+[
+ {
+  "nom": "Pont-Saint-Esprit",
+  "lat": 44.2565,
+  "lon": 4.6486,
+  "base": true,
+  "cote": "d",
+  "secondaire": false
+ },
+ {
+  "nom": "Bagnols-sur-Cèze",
+  "lat": 44.1623,
+  "lon": 4.6197,
+  "cote": "g",
+  "secondaire": true
+ },
+ {
+  "nom": "Lapalud",
+  "lat": 44.3053,
+  "lon": 4.6886,
+  "cote": "cache",
+  "secondaire": true
+ },
+ {
+  "nom": "Bollène",
+  "lat": 44.2809,
+  "lon": 4.7488,
+  "cote": "cache",
+  "secondaire": false
+ },
+ {
+  "nom": "Orange",
+  "lat": 44.1381,
+  "lon": 4.8075,
+  "cote": "d",
+  "secondaire": true
+ },
+ {
+  "nom": "Uzès",
+  "lat": 44.0125,
+  "lon": 4.4197,
+  "cote": "g",
+  "secondaire": false
+ },
+ {
+  "nom": "Rochefort-du-Gard",
+  "lat": 43.976,
+  "lon": 4.69,
+  "cote": "g",
+  "secondaire": true
+ },
+ {
+  "nom": "Avignon",
+  "lat": 43.9493,
+  "lon": 4.8055,
+  "cote": "d",
+  "secondaire": false
+ },
+ {
+  "nom": "Montélimar",
+  "lat": 44.5581,
+  "lon": 4.7509,
+  "cote": "d",
+  "secondaire": false
+ },
+ {
+  "nom": "Aubenas",
+  "lat": 44.62,
+  "lon": 4.39,
+  "cote": "d",
+  "secondaire": false
+ },
+ {
+  "nom": "Alès",
+  "lat": 44.125,
+  "lon": 4.081,
+  "cote": "d",
+  "secondaire": false
+ },
+ {
+  "nom": "Nîmes",
+  "lat": 43.8367,
+  "lon": 4.3601,
+  "cote": "d",
+  "secondaire": false
+ },
+ {
+  "nom": "Carpentras",
+  "lat": 44.0556,
+  "lon": 5.048,
+  "cote": "d",
+  "secondaire": true
+ },
+ {
+  "nom": "Vallon-Pont-d'Arc",
+  "lat": 44.407,
+  "lon": 4.394,
+  "cote": "g",
+  "secondaire": true
+ }
+]

@@ -1,0 +1,624 @@
+{
+ "mission": "devis",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.1,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7530,
+   "titres": [
+    "h1 VOTRE SOIRÉE EN PLEIN FEUX"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Demander un devis",
+    "07 61 59 61 17",
+    "Demander ce devis →"
+   ],
+   "prixVus": [
+    "400 €"
+   ],
+   "telephonesVus": [
+    "07 61 59 61 17"
+   ],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €",
+    "100 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer Demander un devis",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.5,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2727,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUELLE SOIRÉE PRÉPAREZ-VOUS ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "cliquer Anniversaire",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7.7,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2727,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUELLE SOIRÉE PRÉPAREZ-VOUS ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "cliquer Continuer",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 9.8,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2813,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUAND ET OÙ ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "remplir Date=19/06/2027",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 9.8,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2813,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUAND ET OÙ ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 5,
+   "geste": "remplir Commune=Uzès",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 9.9,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2813,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUAND ET OÙ ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "remplir invités=80",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 9.9,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2813,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUAND ET OÙ ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 7,
+   "geste": "cliquer Continuer",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 12,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2727,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUELLE FORMULE VOUS TENTE ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "1 250 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 8,
+   "geste": "cliquer De base",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 14.2,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 2727,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 QUELLE FORMULE VOUS TENTE ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "1 250 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "400 €",
+    "500 €",
+    "550 €",
+    "700 €",
+    "250 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 9,
+   "geste": "cliquer Continuer",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 16.3,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 3028,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 COMMENT VOUS JOINDRE ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 10,
+   "geste": "remplir ^Nom$=Martine Durand",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 16.3,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 3028,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 COMMENT VOUS JOINDRE ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 11,
+   "geste": "remplir Téléphone=06 12 34 56 78",
+   "resultat": "ok",
+   "gestes": 11,
+   "secondes": 16.3,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 3028,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 COMMENT VOUS JOINDRE ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 12,
+   "geste": "remplir aimeriez=18 ans de ma fille, salle des fêtes, son et lumière jusqu'à 3 h",
+   "resultat": "ok",
+   "gestes": 12,
+   "secondes": 16.4,
+   "adresse": "/contact#devis",
+   "y": 823,
+   "hauteurPage": 3028,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 COMMENT VOUS JOINDRE ?"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Retour",
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 13,
+   "geste": "cliquer Continuer",
+   "resultat": "ok",
+   "gestes": 13,
+   "secondes": 18.5,
+   "adresse": "/contact#devis",
+   "y": 864,
+   "hauteurPage": 3085,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 TOUT EST JUSTE ?"
+   ],
+   "actions": [
+    "Modifier : Votre soirée",
+    "Modifier : Date et lieu",
+    "Modifier : Formule",
+    "Modifier : Vos coordonnées"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [
+    "06 12 34 56 78"
+   ],
+   "prixDansLaPage": [
+    "550 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17",
+    "06 12 34 56 78"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 14,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 13,
+   "secondes": 18.5,
+   "adresse": "/contact#devis",
+   "y": 864,
+   "hauteurPage": 3085,
+   "titres": [
+    "h2 DEMANDE DE DEVIS",
+    "h3 TOUT EST JUSTE ?"
+   ],
+   "actions": [
+    "Modifier : Votre soirée",
+    "Modifier : Date et lieu",
+    "Modifier : Formule",
+    "Modifier : Vos coordonnées"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [
+    "06 12 34 56 78"
+   ],
+   "prixDansLaPage": [
+    "550 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17",
+    "06 12 34 56 78"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-14.png"
+  },
+  {
+   "k": 15,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 14,
+   "secondes": 19.2,
+   "adresse": "/contact#devis",
+   "y": 1629,
+   "hauteurPage": 3085,
+   "titres": [
+    "h2 SUIVRE LUDO"
+   ],
+   "actions": [
+    "Retour",
+    "Envoyer la demande",
+    "FACEBOOK /DJLUDOREMIX",
+    "INSTAGRAM @djludoremix",
+    "TIKTOK @djludoremix",
+    "BOUTIQUE t-shirts DJ Ludo Remix"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 12 34 56 78"
+   ],
+   "prixDansLaPage": [
+    "550 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17",
+    "06 12 34 56 78"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 16,
+   "geste": "cliquer Envoyer",
+   "resultat": "ok",
+   "gestes": 15,
+   "secondes": 21.4,
+   "adresse": "/contact#devis",
+   "y": 1234,
+   "hauteurPage": 2777,
+   "titres": [
+    "h3 DEMANDE REÇUE",
+    "h2 SUIVRE LUDO"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Nouvelle demande",
+    "FACEBOOK /DJLUDOREMIX",
+    "INSTAGRAM @djludoremix",
+    "TIKTOK @djludoremix",
+    "BOUTIQUE t-shirts DJ Ludo Remix"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "550 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 17,
+   "geste": "attendre 1500",
+   "resultat": "ok",
+   "gestes": 15,
+   "secondes": 22.9,
+   "adresse": "/contact#devis",
+   "y": 1234,
+   "hauteurPage": 2777,
+   "titres": [
+    "h3 DEMANDE REÇUE",
+    "h2 SUIVRE LUDO"
+   ],
+   "actions": [
+    "DJ LUDO REMIX",
+    "Soirées",
+    "Formules",
+    "Ludo",
+    "Contact",
+    "Devis sous 48 h",
+    "Nouvelle demande",
+    "FACEBOOK /DJLUDOREMIX",
+    "INSTAGRAM @djludoremix",
+    "TIKTOK @djludoremix",
+    "BOUTIQUE t-shirts DJ Ludo Remix"
+   ],
+   "prixVus": [
+    "550 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "550 €"
+   ],
+   "telephones": [
+    "07 61 59 61 17"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-17.png"
+  }
+ ]
+}
